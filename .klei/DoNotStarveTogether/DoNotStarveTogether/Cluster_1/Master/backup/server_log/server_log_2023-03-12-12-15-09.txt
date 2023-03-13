@@ -1,0 +1,92 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 542788
+[00:00:00]: Current time: Sun Mar 12 12:14:28 2023
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 8d50551a0767
+[00:00:00]: Release(Kernel) Version: 5.15.0-1028-aws
+[00:00:00]: Kernel Build Timestamp: #32-Ubuntu SMP Mon Jan 9 12:28:07 UTC 2023
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 542788 LINUX
+[00:00:00]: Build Date: 8680
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -only_update_server_mods 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4138949440)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.57
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (4077910848)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: [Workshop] Item query page 0, size: 11, total size: 11
+[00:00:02]: [Workshop] Item query queued IDs: 569043634 407977022 478005098 666155465 347079953 2032685784 458940297 463740026 1383795736 551324730 438293817
+[00:00:02]: [Workshop] Item query sent
+[00:00:02]: [Workshop] ItemQuery got this many results: 11, matching: 11
+[00:00:02]: [Workshop] ModQuery got 11 results
+[00:00:02]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:02]: [Workshop] ModQuery queued to download IDs: 347079953 2032685784 458940297 463740026 1383795736 551324730 438293817
+[00:00:02]: [Workshop] ModQuery already have IDs: {1.6.8.1,569043634} {5.9.6,407977022} {0.0.4,478005098} {0.58,666155465}
+[00:00:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:02]: [Workshop] ItemQuery downloading 7 pending mods marked to download
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 347079953
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 2032685784
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 458940297
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 463740026
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 1383795736
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 551324730
+[00:00:02]: [Workshop] DownloadPublishedFile [0] 438293817
+[00:00:05]: [Workshop] OnDownloadPublishedFile [37] 347079953
+[00:00:05]: [Workshop] ODPF failed entirely: 37
+[00:00:06]: [Workshop] OnDownloadPublishedFile [37] 2032685784
+[00:00:06]: [Workshop] ODPF failed entirely: 37
+[00:00:07]: [Workshop] OnDownloadPublishedFile [37] 458940297
+[00:00:07]: [Workshop] ODPF failed entirely: 37
+[00:00:09]: [Workshop] OnDownloadPublishedFile [1] 463740026
+[00:00:09]: [Workshop] OnDownloadPublishedFile [37] 1383795736
+[00:00:09]: [Workshop] ODPF failed entirely: 37
+[00:00:13]: [Workshop] OnDownloadPublishedFile [37] 551324730
+[00:00:13]: [Workshop] ODPF failed entirely: 37
+[00:00:17]: [Workshop] OnDownloadPublishedFile [37] 438293817
+[00:00:17]: [Workshop] ODPF failed entirely: 37
+[00:00:40]: FinishDownloadingServerMods Complete!

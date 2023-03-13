@@ -1,0 +1,7 @@
+[00:01:05]: [Join Announcement] demons.jostle
+[00:02:36]: [Join Announcement] Trexa
+[00:05:46]: [Announcement] You feel an evil presence watching you...
+[00:05:56]: [Announcement] The Eye of Terror turns its gaze toward Trexa
+[00:06:26]: [Join Announcement] medicc.c
+[00:15:13]: [Death Announcement] Trexa was killed by Treeguard. He became a spooky ghost!
+[00:15:34]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.

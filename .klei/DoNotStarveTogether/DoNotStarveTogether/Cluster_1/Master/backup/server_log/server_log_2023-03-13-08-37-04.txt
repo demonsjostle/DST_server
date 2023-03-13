@@ -1,0 +1,2093 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 542788
+[00:00:00]: Current time: Sun Mar 12 13:14:07 2023
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 9ce218a58074
+[00:00:00]: Release(Kernel) Version: 5.15.0-1028-aws
+[00:00:00]: Kernel Build Timestamp: #32-Ubuntu SMP Mon Jan 9 12:28:07 UTC 2023
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 542788 LINUX
+[00:00:00]: Build Date: 8680
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4138695488)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.54
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (4079995712)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-569043634	
+[00:00:01]: modoverrides.lua enabling workshop-463740026	
+[00:00:01]: modoverrides.lua enabling workshop-666155465	
+[00:00:01]: modoverrides.lua enabling workshop-1383795736	
+[00:00:01]: modoverrides.lua enabling workshop-407977022	
+[00:00:01]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:01]: modoverrides.lua enabling workshop-478005098	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1383795736_CLIENT	
+[00:00:01]: Loading mod: workshop-1383795736 (Daisy) Version:1.0.2	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-463740026_CLIENT	
+[00:00:01]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-666155465_CLIENT	
+[00:00:01]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-407977022_CLIENT	
+[00:00:01]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-478005098_CLIENT	
+[00:00:01]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-569043634_CLIENT	
+[00:00:01]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
+[00:00:01]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
+[00:00:01]: Overriding mod workshop-569043634's option campfire with value Enabled	
+[00:00:01]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option reviver with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option coldfire with value Enabled	
+[00:00:01]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option firepit with value Enabled	
+[00:00:01]: Overriding mod workshop-569043634's option usetags with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
+[00:00:01]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
+[00:00:01]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
+[00:00:01]: Overriding mod workshop-463740026's option ownership with value false	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:01]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:01]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:01]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:01]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1383795736	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:01]: Overriding mod workshop-407977022's option stovester_config with value true	
+[00:00:01]: Overriding mod workshop-407977022's option force_stovester with value false	
+[00:00:01]: Overriding mod workshop-407977022's option dubster_config with value true	
+[00:00:01]: Overriding mod workshop-407977022's option force_daddy with value false	
+[00:00:01]: Overriding mod workshop-407977022's option chilltime with value 0.5	
+[00:00:01]: Overriding mod workshop-407977022's option force_afester with value false	
+[00:00:01]: Overriding mod workshop-407977022's option bluester_config with value true	
+[00:00:01]: Overriding mod workshop-407977022's option force_dubster with value false	
+[00:00:01]: Overriding mod workshop-407977022's option cavester_config with value true	
+[00:00:01]: Overriding mod workshop-407977022's option daddy_config with value true	
+[00:00:01]: Overriding mod workshop-407977022's option force_bluester with value false	
+[00:00:01]: Overriding mod workshop-407977022's option afester_config with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:01]: ShowMe version:	0.58	
+[00:00:01]: show_food_units	-1	-1	-1	
+[00:00:01]: show_uses	-1	-1	-1	
+[00:00:01]: Detected language for ShowMe: 	auto		
+[00:00:01]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1383795736 (Daisy)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1383795736 (Daisy)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1383795736 (Daisy)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:01]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
+[00:00:01]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "showmeshint"
+[00:00:02]: Registering Server mod namespace "showme"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: ConsoleScreenSettings could not load consolescreen	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisy	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
+[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:03]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:03]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:03]: 	Load FE	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4034382656)
+[00:00:04]: FilesExistAsyncThread started (21477 files)...
+[00:00:04]: 	Load FE: done	
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 42640 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: ... FilesExistAsyncThread complete
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:04]: Received (KU_k49iQnDI) from TokenPurpose
+[00:00:04]: Starting Dedicated Server Game	
+[00:00:04]: Network tick rate: U=15(2), D=0
+[00:00:04]: About to start a server with the following settings:
+[00:00:04]:   Dedicated: true
+[00:00:04]:   Online: true
+[00:00:04]:   Passworded: true
+[00:00:04]:   ServerPort: 10999
+[00:00:04]:   SteamAuthPort: 8766
+[00:00:04]:   SteamMasterServerPort: 12346
+[00:00:04]:   ClanID: false
+[00:00:04]:   ClanOnly: false
+[00:00:04]:   ClanAdmin: false
+[00:00:04]:   LanOnly: false
+[00:00:04]:   FriendsOnly: false
+[00:00:04]:   EnableAutosaver: true
+[00:00:04]:   EncodeUserPath: true
+[00:00:04]:   PVP: false
+[00:00:04]:   MaxPlayers: 64
+[00:00:04]:   GameMode: endless
+[00:00:04]:   OverridenDNS: 
+[00:00:04]:   PauseWhenEmpty: true
+[00:00:04]:   IdleTimeout: 1800s
+[00:00:04]:   VoteEnabled: true
+[00:00:04]:   InternetBroadcasting: true
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:04]: Online Server Started on port: 10999
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: Not applying level data overrides.	
+[00:00:04]: Found a worldgen override file with these contents:	
+[00:00:04]: 	K: 	override_enabled	 V: 	true	
+[00:00:04]: 	K: 	overrides	 V: 	table: 0xf9c4820	
+[00:00:04]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:04]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:04]: 		K: 	portalresurection	 V: 	always	
+[00:00:04]: 		K: 	resettime	 V: 	none	
+[00:00:04]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:04]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:04]:   sanity-checking worldgenoverride.lua...	
+[00:00:04]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:04]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:04]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:04]: Overwriting savedata with override file.	
+[00:00:04]: Collecting garbage...
+[00:00:04]: lua_gc took 0.06 seconds
+[00:00:04]: ~ShardLuaProxy()
+[00:00:04]: ~cEventLeaderboardProxy()
+[00:00:04]: ~ItemServerLuaProxy()
+[00:00:04]: ~InventoryLuaProxy()
+[00:00:04]: ~NetworkLuaProxy()
+[00:00:04]: ~SimLuaProxy()
+[00:00:04]: lua_close took 0.07 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x32
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]:   taskgrouplist:	default	Together	
+[00:00:05]:   taskgrouplist:	classic	Classic	
+[00:00:05]:   taskgrouplist:	cave_default	Underground	
+[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:05]: Running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-569043634	
+[00:00:05]: modoverrides.lua enabling workshop-463740026	
+[00:00:05]: modoverrides.lua enabling workshop-666155465	
+[00:00:05]: modoverrides.lua enabling workshop-1383795736	
+[00:00:05]: modoverrides.lua enabling workshop-407977022	
+[00:00:05]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:05]: modoverrides.lua enabling workshop-478005098	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
+[00:00:05]: Loading mod: workshop-1383795736 (Daisy) Version:1.0.2	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:05]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:05]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:05]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:05]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:05]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
+[00:00:05]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
+[00:00:05]: Overriding mod workshop-569043634's option campfire with value Enabled	
+[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option reviver with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option coldfire with value Enabled	
+[00:00:05]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option firepit with value Enabled	
+[00:00:05]: Overriding mod workshop-569043634's option usetags with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
+[00:00:05]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
+[00:00:05]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
+[00:00:05]: Overriding mod workshop-463740026's option ownership with value false	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:05]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:05]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:05]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:05]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-1383795736	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:05]: Overriding mod workshop-407977022's option stovester_config with value true	
+[00:00:05]: Overriding mod workshop-407977022's option force_stovester with value false	
+[00:00:05]: Overriding mod workshop-407977022's option dubster_config with value true	
+[00:00:05]: Overriding mod workshop-407977022's option force_daddy with value false	
+[00:00:05]: Overriding mod workshop-407977022's option chilltime with value 0.5	
+[00:00:05]: Overriding mod workshop-407977022's option force_afester with value false	
+[00:00:05]: Overriding mod workshop-407977022's option bluester_config with value true	
+[00:00:05]: Overriding mod workshop-407977022's option force_dubster with value false	
+[00:00:05]: Overriding mod workshop-407977022's option cavester_config with value true	
+[00:00:05]: Overriding mod workshop-407977022's option daddy_config with value true	
+[00:00:05]: Overriding mod workshop-407977022's option force_bluester with value false	
+[00:00:05]: Overriding mod workshop-407977022's option afester_config with value true	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:05]: ShowMe version:	0.58	
+[00:00:05]: show_food_units	-1	-1	-1	
+[00:00:05]: show_uses	-1	-1	-1	
+[00:00:05]: Detected language for ShowMe: 	auto		
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1383795736 (Daisy)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1383795736 (Daisy)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1383795736 (Daisy)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "showmeshint"
+[00:00:05]: Registering Server mod namespace "showme"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: ConsoleScreenSettings could not load consolescreen	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Loading world: session/019D2AD0C91A19CC/0000000019	
+[00:00:05]: Save file is at version 5.13	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:05]: 	Unload FE	
+[00:00:05]: 	Unload FE done	
+[00:00:06]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:06]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	    daisy	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
+[00:00:06]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:07]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:07]: 	LOAD BE	
+[00:00:14]: 	LOAD BE: done	
+[00:00:14]: Begin Session: 019D2AD0C91A19CC
+[00:00:14]: saving to server_temp/server_save	
+[00:00:14]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-1383795736/images/map_icons/daisy.xml )
+[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-407977022/minimap/afester.xml )
+[00:00:14]: Loading 20 new character(s)	
+[00:00:14]: Total 20 character(s) loaded	
+[00:00:15]: Loading Nav Grid	
+[00:00:15]: World generated on build 542788 with save version: 5.13, using seed: 1678618316	
+[00:00:15]: setting 	summerlength	15	
+[00:00:15]: setting 	cavemoonphase	threequarter	
+[00:00:15]: setting 	iscavefullmoon	false	
+[00:00:15]: setting 	isnightmaredawn	false	
+[00:00:15]: setting 	elapseddaysinseason	7	
+[00:00:15]: setting 	isfullmoon	false	
+[00:00:15]: setting 	moisture	829.35980224609	
+[00:00:15]: setting 	cavephase	dusk	
+[00:00:15]: setting 	iscavewaxingmoon	true	
+[00:00:15]: setting 	isnightmarewild	false	
+[00:00:15]: setting 	nightmaretimeinphase	0	
+[00:00:15]: setting 	precipitationrate	0	
+[00:00:15]: setting 	iswet	false	
+[00:00:15]: setting 	isnewmoon	false	
+[00:00:15]: setting 	precipitation	none	
+[00:00:15]: setting 	israining	false	
+[00:00:15]: setting 	isnightmarewarn	false	
+[00:00:15]: setting 	iswinter	false	
+[00:00:15]: setting 	season	autumn	
+[00:00:15]: setting 	remainingdaysinseason	13	
+[00:00:15]: setting 	winterlength	15	
+[00:00:15]: setting 	iscaveday	false	
+[00:00:15]: setting 	moistureceil	5566.6489257812	
+[00:00:15]: setting 	isday	false	
+[00:00:15]: setting 	springlength	20	
+[00:00:15]: setting 	wetness	0	
+[00:00:15]: setting 	iscavedusk	true	
+[00:00:15]: setting 	isalterawake	false	
+[00:00:15]: setting 	isnightmarecalm	false	
+[00:00:15]: setting 	isnight	false	
+[00:00:15]: setting 	isdusk	true	
+[00:00:15]: setting 	isspring	false	
+[00:00:15]: setting 	isautumn	true	
+[00:00:15]: setting 	issnowing	false	
+[00:00:15]: setting 	iswaxingmoon	true	
+[00:00:15]: setting 	phase	dusk	
+[00:00:15]: setting 	snowlevel	0	
+[00:00:15]: setting 	issnowcovered	false	
+[00:00:15]: setting 	autumnlength	20	
+[00:00:15]: setting 	pop	0.0788007343341	
+[00:00:15]: setting 	nightmaretime	0	
+[00:00:15]: setting 	seasonprogress	0.675	
+[00:00:15]: setting 	moonphase	threequarter	
+[00:00:15]: setting 	nightmarephase	none	
+[00:00:15]: setting 	cycles	7	
+[00:00:15]: setting 	timeinphase	0.6756532880995	
+[00:00:15]: setting 	iscavenight	false	
+[00:00:15]: setting 	iscavenewmoon	false	
+[00:00:15]: setting 	issummer	false	
+[00:00:15]: setting 	temperature	21.012821521685	
+[00:00:15]: setting 	time	0.75336998303731	
+[00:00:15]: OVERRIDE: setting	resettime	to	none	
+[00:00:15]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:15]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:15]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:16]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[00:00:19]: Reconstructing topology	
+[00:00:19]: 	...Sorting points	
+[00:00:19]: 	...Sorting edges	
+[00:00:19]: 	...Connecting nodes	
+[00:00:19]: 	...Validating connections	
+[00:00:19]: 	...Housekeeping	
+[00:00:19]: 	...Done!	
+[00:00:19]: 1 uploads added to server. From server_temp
+[00:00:19]: About to start a shard with these settings:
+[00:00:19]:   ShardName: [SHDMASTER]
+[00:00:19]:   ShardID: 1
+[00:00:19]:   ShardRole: MASTER
+[00:00:19]:   MasterHost: (null)
+[00:00:19]:   MasterBind: 127.0.0.1
+[00:00:19]:   MasterPort: 10998
+[00:00:19]: [Shard] Starting master server
+[00:00:19]: [Shard] Shard server started on port: 10998
+[00:00:19]: Telling Client our new session identifier: 019D2AD0C91A19CC
+[00:00:19]: Check for write access: TRUE
+[00:00:19]: Check for read access: TRUE
+[00:00:19]: Available disk space for save files: 42640 MB
+[00:00:19]: ModIndex: Load sequence finished successfully.	
+[00:00:19]: Reset() returning
+[00:00:20]: Validating portal[9] <-> 3362536613[9] (inactive)	
+[00:00:20]: Validating portal[4] <-> 3362536613[4] (inactive)	
+[00:00:20]: Validating portal[3] <-> 3362536613[3] (inactive)	
+[00:00:20]: Validating portal[1] <-> 3362536613[1] (inactive)	
+[00:00:20]: Validating portal[5] <-> 3362536613[5] (inactive)	
+[00:00:20]: Validating portal[8] <-> 3362536613[8] (inactive)	
+[00:00:20]: Validating portal[7] <-> 3362536613[7] (inactive)	
+[00:00:20]: Validating portal[6] <-> 3362536613[6] (inactive)	
+[00:00:20]: Validating portal[2] <-> 3362536613[2] (inactive)	
+[00:00:20]: Server registered via geo DNS in ap-southeast-1
+[00:00:20]: Sim paused
+[00:00:21]: [Shard] Secondary shard Caves(3362536613) connected: [LAN] 127.0.0.1
+[00:00:22]: [Shard] Secondary Caves(3362536613) ready!
+[00:00:22]: World 3362536613 is now connected	
+[00:00:22]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:00:22]: Validating portal[9] <-> 3362536613[9] (disabled)	
+[00:00:22]: Validating portal[4] <-> 3362536613[4] (disabled)	
+[00:00:22]: Validating portal[3] <-> 3362536613[3] (disabled)	
+[00:00:22]: Validating portal[1] <-> 3362536613[1] (disabled)	
+[00:00:22]: Validating portal[5] <-> 3362536613[5] (disabled)	
+[00:00:22]: Validating portal[8] <-> 3362536613[8] (disabled)	
+[00:00:22]: Validating portal[7] <-> 3362536613[7] (disabled)	
+[00:00:22]: Validating portal[6] <-> 3362536613[6] (disabled)	
+[00:00:22]: Validating portal[2] <-> 3362536613[2] (disabled)	
+[00:00:22]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:00:22]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:00:34]: New incoming connection 223.205.176.15|64524 <4106499191633142749>
+[00:00:34]: Client connected from 223.205.176.15|64524 <4106499191633142749>
+[00:00:34]: ValidateGameSessionToken GUID<4106499191633142749>
+[00:00:34]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[00:00:34]: [Steam] Authenticated host '76561198252722114'
+[00:00:35]: There is no active event to validate against.
+[00:00:35]: [Shard] Read save location file for (KU_k49iQnDI)
+[00:00:47]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000015
+[00:00:59]: New incoming connection 118.174.170.228|64839 <2903517462604280237>
+[00:00:59]: Client connected from 118.174.170.228|64839 <2903517462604280237>
+[00:00:59]: ValidateGameSessionToken GUID<2903517462604280237>
+[00:01:00]: Client authenticated: (KU_wwUugW71) Trexa
+[00:01:00]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
+[00:01:00]: [Steam] Authenticated client '76561198146349502'
+[00:01:01]: There is no active event to validate against.
+[00:01:01]: [Shard] Read save location file for (KU_wwUugW71)
+[00:01:11]: Spawn request: waxwell from demons.jostle
+[00:01:11]: Skin request: () () () () ()
+[00:01:11]: Spawning player at: [Fixed] (-310.00, 0.00, 122.00)	
+[00:01:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000020
+[00:01:11]: Sim unpaused
+[00:01:28]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000016
+[00:01:28]: Spawning player at: [Load] (-382.17, 0.00, 126.67)	
+[00:01:50]: New incoming connection 171.97.47.14|62489 <1926432573694563303>
+[00:01:50]: Client connected from 171.97.47.14|62489 <1926432573694563303>
+[00:01:50]: ValidateGameSessionToken GUID<1926432573694563303>
+[00:01:50]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[00:01:50]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[00:01:51]: [Steam] Authenticated client '76561198111006597'
+[00:01:52]: There is no active event to validate against.
+[00:01:52]: [Shard] Read save location file for (KU_kH-fQy3p)
+[00:02:15]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000016
+[00:02:15]: Spawning player at: [Load] (-401.61, 0.00, 305.87)	
+[00:03:10]: Available disk space for save files: 42640 MB
+[00:03:10]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000020
+[00:03:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000020
+[00:03:10]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000020
+[00:03:11]: Serializing world: session/019D2AD0C91A19CC/0000000020
+[00:05:14]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_despawn("medicc.c")) @(-408.66, 109.16)
+[00:05:14]: Deleting user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000021
+[00:05:15]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000021
+[00:05:34]: Spawn request: daisy from medicc.c
+[00:05:34]: Skin request: () (body_silk_eveningrobe_pink_ewecus) () () ()
+[00:05:34]: Spawning player at: [Fixed] (-310.00, 0.00, 122.00)	
+[00:05:34]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000021
+[00:11:10]: Available disk space for save files: 42637 MB
+[00:11:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000021
+[00:11:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000021
+[00:11:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000021
+[00:11:11]: Serializing world: session/019D2AD0C91A19CC/0000000021
+[00:11:57]: Failed to assign item skin ids due to ownership check failure.
+[00:19:11]: Available disk space for save files: 42633 MB
+[00:19:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000022
+[00:19:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000022
+[00:19:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000022
+[00:19:11]: Serializing world: session/019D2AD0C91A19CC/0000000022
+[00:21:07]: Failed to assign item skin ids due to ownership check failure.
+[00:22:44]: Failed to assign item skin ids due to ownership check failure.
+[00:22:47]: Failed to assign item skin ids due to ownership check failure.
+[00:27:11]: Available disk space for save files: 42629 MB
+[00:27:12]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000023
+[00:27:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000023
+[00:27:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000023
+[00:27:12]: Serializing world: session/019D2AD0C91A19CC/0000000023
+[00:27:42]: Failed to assign item skin ids due to ownership check failure.
+[00:27:44]: Failed to assign item skin ids due to ownership check failure.
+[00:27:47]: Failed to assign item skin ids due to ownership check failure.
+[00:27:52]: Failed to assign item skin ids due to ownership check failure.
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_k49iQnDI) from TokenPurpose
+[00:35:12]: Available disk space for save files: 42626 MB
+[00:35:12]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000024
+[00:35:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000024
+[00:35:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000024
+[00:35:12]: Serializing world: session/019D2AD0C91A19CC/0000000024
+[00:43:12]: Available disk space for save files: 42622 MB
+[00:43:12]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000025
+[00:43:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000025
+[00:43:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000025
+[00:43:13]: Serializing world: session/019D2AD0C91A19CC/0000000025
+[00:43:25]: Failed to assign item skin ids due to ownership check failure.
+[00:43:28]: Failed to assign item skin ids due to ownership check failure.
+[00:43:30]: Failed to assign item skin ids due to ownership check failure.
+[00:43:31]: Failed to assign item skin ids due to ownership check failure.
+[00:51:13]: Available disk space for save files: 42619 MB
+[00:51:13]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000026
+[00:51:13]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000026
+[00:51:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000026
+[00:51:13]: Serializing world: session/019D2AD0C91A19CC/0000000026
+[00:53:39]: Failed to assign item skin ids due to ownership check failure.
+[00:53:39]: Failed to assign item skin ids due to ownership check failure.
+[00:53:42]: Failed to assign item skin ids due to ownership check failure.
+[00:54:24]: Failed to assign item skin ids due to ownership check failure.
+[00:56:16]: Failed to assign item skin ids due to ownership check failure.
+[00:56:19]: Failed to assign item skin ids due to ownership check failure.
+[00:58:06]: [Steam] SendUserDisconnect for '76561198252722114'
+[00:58:06]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[00:58:06]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000027
+[00:59:13]: Available disk space for save files: 42615 MB
+[00:59:13]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000027
+[00:59:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000027
+[00:59:14]: Serializing world: session/019D2AD0C91A19CC/0000000027
+[01:00:04]: [200] Account Communication Success (6)
+[01:00:04]: Received (KU_k49iQnDI) from TokenPurpose
+[01:00:10]: New incoming connection 223.205.176.15|52141 <3567996652188652261>
+[01:00:10]: Client connected from 223.205.176.15|52141 <3567996652188652261>
+[01:00:10]: ValidateGameSessionToken GUID<3567996652188652261>
+[01:00:11]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[01:00:11]: [Steam] Authenticated host '76561198252722114'
+[01:00:12]: There is no active event to validate against.
+[01:00:12]: [Shard] Read save location file for (KU_k49iQnDI)
+[01:00:24]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000027
+[01:00:24]: Spawning player at: [Load] (-393.18, 0.00, 99.27)	
+[01:01:26]: [Steam] SendUserDisconnect for '76561198252722114'
+[01:01:26]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[01:01:27]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000028
+[01:07:14]: Available disk space for save files: 42611 MB
+[01:07:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000028
+[01:07:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000028
+[01:07:14]: Serializing world: session/019D2AD0C91A19CC/0000000028
+[01:11:23]: Could not find anim [death] in bank [ghost]
+[01:11:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000029
+[01:12:20]: Could not find anim [idle_loop] in bank [ghost]
+[01:12:23]: Could not find anim [transform] in bank [wilson]
+[01:12:24]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000029
+[01:14:56]: New incoming connection 223.205.176.15|51999 <6319412851014679934>
+[01:14:56]: Client connected from 223.205.176.15|51999 <6319412851014679934>
+[01:14:56]: ValidateGameSessionToken GUID<6319412851014679934>
+[01:14:57]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[01:14:57]: [Steam] Authenticated host '76561198252722114'
+[01:14:58]: There is no active event to validate against.
+[01:14:58]: [Shard] Read save location file for (KU_k49iQnDI)
+[01:15:10]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000028
+[01:15:10]: Spawning player at: [Load] (-400.08, 0.00, 106.00)	
+[01:15:14]: Available disk space for save files: 42608 MB
+[01:15:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000029
+[01:15:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000029
+[01:15:14]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000029
+[01:15:15]: Serializing world: session/019D2AD0C91A19CC/0000000029
+[01:16:36]: Failed to assign item skin ids due to ownership check failure.
+[01:16:44]: Failed to assign item skin ids due to ownership check failure.
+[01:23:15]: Available disk space for save files: 42604 MB
+[01:23:15]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000030
+[01:23:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000030
+[01:23:15]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000030
+[01:23:15]: Serializing world: session/019D2AD0C91A19CC/0000000030
+[01:23:19]: Validating portal[9] <-> 3362536613[9] (active)	
+[01:23:23]: Activating portal[9] to 3362536613	
+[01:23:24]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:23:24]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
+[01:23:24]: [Shard] Begin migration #1 for (KU_kH-fQy3p)
+[01:23:24]: [Shard] #1 [SHDMASTER](1) -> Caves(3362536613)
+[01:23:24]: [Shard] #1 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:23:24]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[01:23:24]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:23:24]: [Steam] SendUserDisconnect for '76561198111006597'
+[01:23:24]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[01:23:36]: [Shard] Completed migration #1 for player (KU_kH-fQy3p)
+[01:26:04]: [Steam] SendUserDisconnect for '76561198252722114'
+[01:26:04]: Connection lost to 223.205.176.15|51999 <6319412851014679934>
+[01:26:04]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[01:26:04]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[01:26:59]: New incoming connection 223.205.176.15|59495 <8653507919000649042>
+[01:26:59]: Client connected from 223.205.176.15|59495 <8653507919000649042>
+[01:26:59]: ValidateGameSessionToken GUID<8653507919000649042>
+[01:27:00]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[01:27:00]: [Steam] Authenticated host '76561198252722114'
+[01:27:01]: There is no active event to validate against.
+[01:27:01]: [Shard] Read save location file for (KU_k49iQnDI)
+[01:27:12]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[01:27:12]: Spawning player at: [Load] (-393.01, 0.00, 101.72)	
+[01:27:27]: [Shard] Begin migration #2 for (KU_kH-fQy3p)
+[01:27:27]: [Shard] #2 Caves(3362536613) -> [SHDMASTER](1)
+[01:27:27]: [Shard] #2 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:27:27]: [Shard] Received migration #2 data for (KU_kH-fQy3p)
+[01:27:27]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[01:27:28]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
+[01:27:29]: [Steam] SendUserDisconnect for '76561198252722114'
+[01:27:29]: Connection lost to 223.205.176.15|59495 <8653507919000649042>
+[01:27:29]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[01:27:30]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[01:27:32]: New incoming connection 171.97.47.14|51628 <2104947558443570689>
+[01:27:32]: Client connected from 171.97.47.14|51628 <2104947558443570689>
+[01:27:32]: ValidateGameSessionToken GUID<2104947558443570689>
+[01:27:32]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[01:27:32]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[01:27:33]: [Steam] Authenticated client '76561198111006597'
+[01:27:33]: [Shard] Completed incoming migration #2 for (KU_kH-fQy3p)
+[01:27:33]: [Shard] Completed migration #2 for player (KU_kH-fQy3p)
+[01:27:52]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:27:52]: Player will spawn close to portal #9	
+[01:27:52]: Spawning player at: [Load] (-564.77, 0.00, 245.54)	
+[01:28:56]: [Steam] SendUserDisconnect for '76561198111006597'
+[01:28:56]: Connection lost to 171.97.47.14|51628 <2104947558443570689>
+[01:28:56]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[01:28:56]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:29:18]: [Steam] SendUserDisconnect for '76561198146349502'
+[01:29:18]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
+[01:29:19]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000031
+[01:29:19]: Sim paused
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU_k49iQnDI) from TokenPurpose
+[01:30:35]: New incoming connection 223.205.176.15|62894 <1583426967834126737>
+[01:30:35]: Client connected from 223.205.176.15|62894 <1583426967834126737>
+[01:30:35]: ValidateGameSessionToken GUID<1583426967834126737>
+[01:30:36]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[01:30:36]: [Steam] Authenticated host '76561198252722114'
+[01:30:37]: There is no active event to validate against.
+[01:30:37]: [Shard] Read save location file for (KU_k49iQnDI)
+[01:30:49]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[01:30:49]: Spawning player at: [Load] (-393.01, 0.00, 101.72)	
+[01:30:49]: Sim unpaused
+[01:30:53]: New incoming connection 171.97.47.14|53501 <3572894629578102183>
+[01:30:53]: Client connected from 171.97.47.14|53501 <3572894629578102183>
+[01:30:53]: ValidateGameSessionToken GUID<3572894629578102183>
+[01:30:53]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[01:30:53]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[01:30:53]: [Steam] Authenticated client '76561198111006597'
+[01:30:55]: There is no active event to validate against.
+[01:30:55]: [Shard] Read save location file for (KU_kH-fQy3p)
+[01:31:30]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:31:30]: Spawning player at: [Load] (-382.39, 0.00, 148.03)	
+[01:31:58]: New incoming connection 118.174.170.228|60260 <7948703078253332615>
+[01:31:58]: Client connected from 118.174.170.228|60260 <7948703078253332615>
+[01:31:58]: ValidateGameSessionToken GUID<7948703078253332615>
+[01:31:58]: Client authenticated: (KU_wwUugW71) Trexa
+[01:31:58]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
+[01:31:59]: [Steam] Authenticated client '76561198146349502'
+[01:32:00]: There is no active event to validate against.
+[01:32:00]: [Shard] Read save location file for (KU_wwUugW71)
+[01:32:25]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000031
+[01:32:25]: Spawning player at: [Load] (-402.80, -0.00, 99.85)	
+[01:32:45]: Available disk space for save files: 42601 MB
+[01:32:45]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[01:32:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[01:32:45]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000031
+[01:32:46]: Serializing world: session/019D2AD0C91A19CC/0000000031
+[01:40:46]: Available disk space for save files: 42597 MB
+[01:40:46]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000032
+[01:40:46]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000032
+[01:40:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000032
+[01:40:46]: Serializing world: session/019D2AD0C91A19CC/0000000032
+[01:44:11]: Could not find anim [death] in bank [ghost]
+[01:44:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000033
+[01:44:19]: Could not find anim [death] in bank [ghost]
+[01:44:19]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:45:01]: Could not find anim [idle_loop] in bank [ghost]
+[01:45:04]: Could not find anim [transform] in bank [wilson]
+[01:45:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:45:58]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-213.70, 106.17)
+[01:46:04]: Could not find anim [idle_loop] in bank [ghost]
+[01:46:07]: Could not find anim [transform] in bank [wilson]
+[01:46:08]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000033
+[01:46:57]: Could not find anim [death] in bank [ghost]
+[01:46:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:47:08]: Could not find anim [idle_loop] in bank [ghost]
+[01:47:10]: Could not find anim [transform] in bank [wilson]
+[01:47:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:47:35]: Could not find anim [death] in bank [ghost]
+[01:47:35]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:47:40]: Could not find anim [idle_loop] in bank [ghost]
+[01:47:43]: Could not find anim [transform] in bank [wilson]
+[01:47:44]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:47:59]: Could not find anim [death] in bank [ghost]
+[01:47:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:48:07]: Could not find anim [idle_loop] in bank [ghost]
+[01:48:10]: Could not find anim [transform] in bank [wilson]
+[01:48:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:48:46]: Available disk space for save files: 42593 MB
+[01:48:46]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000033
+[01:48:46]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000033
+[01:48:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[01:48:47]: Serializing world: session/019D2AD0C91A19CC/0000000033
+[01:48:50]: Could not find anim [death] in bank [ghost]
+[01:48:50]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:48:58]: Could not find anim [idle_loop] in bank [ghost]
+[01:49:01]: Could not find anim [transform] in bank [wilson]
+[01:49:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:49:49]: Could not find anim [death] in bank [ghost]
+[01:49:49]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:49:55]: Validating portal[4] <-> 3362536613[4] (active)	
+[01:49:57]: Could not find anim [idle_loop] in bank [ghost]
+[01:50:00]: Could not find anim [transform] in bank [wilson]
+[01:50:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:50:46]: Could not find anim [death] in bank [ghost]
+[01:50:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:50:58]: Could not find anim [idle_loop] in bank [ghost]
+[01:51:00]: Could not find anim [transform] in bank [wilson]
+[01:51:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:51:24]: Could not find anim [death] in bank [ghost]
+[01:51:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:51:58]: Failed to assign item skin ids due to ownership check failure.
+[01:51:59]: Could not find anim [idle_loop] in bank [ghost]
+[01:52:01]: Failed to assign item skin ids due to ownership check failure.
+[01:52:02]: Could not find anim [transform] in bank [wilson]
+[01:52:04]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:52:04]: Failed to assign item skin ids due to ownership check failure.
+[01:53:03]: Failed to assign item skin ids due to ownership check failure.
+[01:53:06]: Failed to assign item skin ids due to ownership check failure.
+[01:53:34]: Could not find anim [death] in bank [ghost]
+[01:53:34]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:53:38]: Could not find anim [idle_loop] in bank [ghost]
+[01:53:41]: Could not find anim [transform] in bank [wilson]
+[01:53:43]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:53:51]: Could not find anim [death] in bank [ghost]
+[01:53:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:53:56]: Could not find anim [idle_loop] in bank [ghost]
+[01:53:59]: Could not find anim [transform] in bank [wilson]
+[01:54:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:54:30]: Could not find anim [death] in bank [ghost]
+[01:54:30]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:54:38]: Could not find anim [idle_loop] in bank [ghost]
+[01:54:41]: Could not find anim [transform] in bank [wilson]
+[01:54:42]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:55:09]: Could not find anim [death] in bank [ghost]
+[01:55:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:55:24]: Could not find anim [idle_loop] in bank [ghost]
+[01:55:27]: Could not find anim [transform] in bank [wilson]
+[01:55:28]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:56:01]: Could not find anim [death] in bank [ghost]
+[01:56:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:56:15]: Could not find anim [idle_loop] in bank [ghost]
+[01:56:18]: Could not find anim [transform] in bank [wilson]
+[01:56:19]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:56:47]: Available disk space for save files: 42590 MB
+[01:56:47]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000034
+[01:56:47]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000034
+[01:56:47]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[01:56:47]: Serializing world: session/019D2AD0C91A19CC/0000000034
+[01:57:36]: Could not find anim [death] in bank [ghost]
+[01:57:36]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[01:57:40]: Could not find anim [idle_loop] in bank [ghost]
+[01:57:42]: Could not find anim [transform] in bank [wilson]
+[01:57:44]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[01:58:39]: Could not find anim [death] in bank [ghost]
+[01:58:39]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[01:58:48]: Could not find anim [idle_loop] in bank [ghost]
+[01:58:51]: Could not find anim [transform] in bank [wilson]
+[01:58:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[01:59:51]: Could not find anim [death] in bank [ghost]
+[01:59:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:00:04]: Could not find anim [idle_loop] in bank [ghost]
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU_k49iQnDI) from TokenPurpose
+[02:00:07]: Could not find anim [transform] in bank [wilson]
+[02:00:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:00:20]: Failed to assign item skin ids due to ownership check failure.
+[02:00:23]: Failed to assign item skin ids due to ownership check failure.
+[02:00:25]: Failed to assign item skin ids due to ownership check failure.
+[02:00:28]: Failed to assign item skin ids due to ownership check failure.
+[02:01:05]: Failed to assign item skin ids due to ownership check failure.
+[02:01:06]: Failed to assign item skin ids due to ownership check failure.
+[02:01:09]: Failed to assign item skin ids due to ownership check failure.
+[02:01:41]: Could not find anim [death] in bank [ghost]
+[02:01:41]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:01:47]: Could not find anim [idle_loop] in bank [ghost]
+[02:01:50]: Could not find anim [transform] in bank [wilson]
+[02:01:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:02:07]: Could not find anim [death] in bank [ghost]
+[02:02:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000035
+[02:02:15]: Could not find anim [idle_loop] in bank [ghost]
+[02:02:18]: Could not find anim [transform] in bank [wilson]
+[02:02:19]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000035
+[02:02:29]: Failed to assign item skin ids due to ownership check failure.
+[02:02:33]: Failed to assign item skin ids due to ownership check failure.
+[02:02:35]: Failed to assign item skin ids due to ownership check failure.
+[02:03:10]: Could not find anim [death] in bank [ghost]
+[02:03:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:03:13]: Could not find anim [idle_loop] in bank [ghost]
+[02:03:15]: Could not find anim [transform] in bank [wilson]
+[02:03:17]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:03:19]: Could not find anim [death] in bank [ghost]
+[02:03:19]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:03:21]: Could not find anim [idle_loop] in bank [ghost]
+[02:03:23]: Could not find anim [transform] in bank [wilson]
+[02:03:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:04:17]: Failed to assign item skin ids due to ownership check failure.
+[02:04:18]: Failed to assign item skin ids due to ownership check failure.
+[02:04:47]: Available disk space for save files: 42586 MB
+[02:04:47]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000035
+[02:04:47]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000035
+[02:04:47]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[02:04:48]: Serializing world: session/019D2AD0C91A19CC/0000000035
+[02:04:50]: Failed to assign item skin ids due to ownership check failure.
+[02:05:01]: Failed to assign item skin ids due to ownership check failure.
+[02:05:02]: Failed to assign item skin ids due to ownership check failure.
+[02:05:04]: Failed to assign item skin ids due to ownership check failure.
+[02:05:07]: Failed to assign item skin ids due to ownership check failure.
+[02:05:49]: Could not find anim [death] in bank [ghost]
+[02:05:49]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000036
+[02:05:56]: Could not find anim [idle_loop] in bank [ghost]
+[02:05:58]: Could not find anim [transform] in bank [wilson]
+[02:06:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000036
+[02:07:22]: Rate limiting RPCs from	135005 - daisy	KU_kH-fQy3p	last one being ID	41	
+[02:07:23]: Rate limiting RPCs from	135005 - daisy	KU_kH-fQy3p	last one being ID	41	
+[02:12:48]: Available disk space for save files: 42582 MB
+[02:12:48]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000036
+[02:12:48]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000036
+[02:12:48]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000036
+[02:12:48]: Serializing world: session/019D2AD0C91A19CC/0000000036
+[02:19:08]: [Steam] SendUserDisconnect for '76561198252722114'
+[02:19:08]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[02:19:09]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000037
+[02:20:48]: Available disk space for save files: 42578 MB
+[02:20:48]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000037
+[02:20:48]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000037
+[02:20:49]: Serializing world: session/019D2AD0C91A19CC/0000000037
+[02:28:48]: Available disk space for save files: 42575 MB
+[02:28:49]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000038
+[02:28:49]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000038
+[02:28:49]: Serializing world: session/019D2AD0C91A19CC/0000000038
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU_k49iQnDI) from TokenPurpose
+[02:36:49]: Available disk space for save files: 42571 MB
+[02:36:49]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000039
+[02:36:49]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000039
+[02:36:49]: Serializing world: session/019D2AD0C91A19CC/0000000039
+[02:44:49]: Available disk space for save files: 42567 MB
+[02:44:50]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000040
+[02:44:50]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000040
+[02:44:50]: Serializing world: session/019D2AD0C91A19CC/0000000040
+[02:52:50]: Available disk space for save files: 42564 MB
+[02:52:50]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000041
+[02:52:50]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000041
+[02:52:50]: Serializing world: session/019D2AD0C91A19CC/0000000041
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU_k49iQnDI) from TokenPurpose
+[03:00:50]: Available disk space for save files: 42560 MB
+[03:00:51]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000042
+[03:00:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000042
+[03:00:51]: Serializing world: session/019D2AD0C91A19CC/0000000042
+[03:04:30]: Could not find anim [death] in bank [ghost]
+[03:04:30]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:04:42]: Could not find anim [idle_loop] in bank [ghost]
+[03:04:45]: Could not find anim [transform] in bank [wilson]
+[03:04:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:04:55]: Could not find anim [death] in bank [ghost]
+[03:04:55]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000043
+[03:05:02]: Could not find anim [idle_loop] in bank [ghost]
+[03:05:04]: Could not find anim [transform] in bank [wilson]
+[03:05:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000043
+[03:05:23]: Could not find anim [death] in bank [ghost]
+[03:05:23]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:05:29]: Could not find anim [idle_loop] in bank [ghost]
+[03:05:32]: Could not find anim [transform] in bank [wilson]
+[03:05:33]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:05:52]: Could not find anim [death] in bank [ghost]
+[03:05:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:05:54]: Could not find anim [idle_loop] in bank [ghost]
+[03:05:57]: Could not find anim [transform] in bank [wilson]
+[03:05:58]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:08:51]: Available disk space for save files: 42556 MB
+[03:08:51]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000043
+[03:08:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[03:08:51]: Serializing world: session/019D2AD0C91A19CC/0000000043
+[03:11:56]: Could not find anim [death] in bank [ghost]
+[03:11:56]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000044
+[03:12:01]: Could not find anim [idle_loop] in bank [ghost]
+[03:12:04]: Could not find anim [transform] in bank [wilson]
+[03:12:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000044
+[03:15:20]: Could not find anim [death] in bank [ghost]
+[03:15:20]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000044
+[03:15:22]: Could not find anim [idle_loop] in bank [ghost]
+[03:15:25]: Could not find anim [transform] in bank [wilson]
+[03:15:26]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000044
+[03:16:51]: Available disk space for save files: 42553 MB
+[03:16:52]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000044
+[03:16:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000044
+[03:16:52]: Serializing world: session/019D2AD0C91A19CC/0000000044
+[03:24:52]: Available disk space for save files: 42549 MB
+[03:24:52]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000045
+[03:24:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000045
+[03:24:52]: Serializing world: session/019D2AD0C91A19CC/0000000045
+[03:26:21]: Could not find anim [death] in bank [ghost]
+[03:26:21]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000046
+[03:26:25]: Could not find anim [idle_loop] in bank [ghost]
+[03:26:28]: Could not find anim [transform] in bank [wilson]
+[03:26:29]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000046
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU_k49iQnDI) from TokenPurpose
+[03:32:52]: Available disk space for save files: 42545 MB
+[03:32:52]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000046
+[03:32:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000046
+[03:32:53]: Serializing world: session/019D2AD0C91A19CC/0000000046
+[03:40:08]: Activating portal[9] to 3362536613	
+[03:40:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000047
+[03:40:08]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
+[03:40:08]: [Shard] Begin migration #3 for (KU_kH-fQy3p)
+[03:40:08]: [Shard] #3 [SHDMASTER](1) -> Caves(3362536613)
+[03:40:08]: [Shard] #3 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000047
+[03:40:08]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[03:40:08]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[03:40:08]: [Steam] SendUserDisconnect for '76561198111006597'
+[03:40:08]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[03:40:13]: [Shard] Completed migration #3 for player (KU_kH-fQy3p)
+[03:40:53]: Available disk space for save files: 42542 MB
+[03:40:53]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000047
+[03:40:53]: Serializing world: session/019D2AD0C91A19CC/0000000047
+[03:44:16]: [Shard] Begin migration #4 for (KU_kH-fQy3p)
+[03:44:16]: [Shard] #4 Caves(3362536613) -> [SHDMASTER](1)
+[03:44:16]: [Shard] #4 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000048
+[03:44:16]: [Shard] Received migration #4 data for (KU_kH-fQy3p)
+[03:44:16]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[03:44:16]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
+[03:44:19]: New incoming connection 171.97.47.14|56587 <779444536690432243>
+[03:44:19]: Client connected from 171.97.47.14|56587 <779444536690432243>
+[03:44:19]: ValidateGameSessionToken GUID<779444536690432243>
+[03:44:20]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[03:44:20]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[03:44:20]: [Steam] Authenticated client '76561198111006597'
+[03:44:20]: [Shard] Completed incoming migration #4 for (KU_kH-fQy3p)
+[03:44:20]: [Shard] Completed migration #4 for player (KU_kH-fQy3p)
+[03:44:32]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000048
+[03:44:32]: Player will spawn close to portal #9	
+[03:44:32]: Spawning player at: [Load] (-565.01, 0.00, 245.22)	
+[03:46:46]: Could not find anim [death] in bank [ghost]
+[03:46:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000048
+[03:46:48]: Could not find anim [idle_loop] in bank [ghost]
+[03:46:51]: Could not find anim [transform] in bank [wilson]
+[03:46:52]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000048
+[03:47:10]: Could not find anim [spawn] in bank [squiderp]
+[03:47:10]: Could not find anim [spawn] in bank [squiderp]
+[03:47:11]: Could not find anim [spawn] in bank [squiderp]
+[03:48:09]: TELEPORT OUT TERRORBEAK	
+[03:48:10]: EXCHANGE TERROR BEAK	
+[03:48:53]: Available disk space for save files: 42534 MB
+[03:48:53]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000048
+[03:48:53]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000048
+[03:48:54]: Serializing world: session/019D2AD0C91A19CC/0000000048
+[03:50:24]: Could not find anim [death] in bank [ghost]
+[03:50:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[03:50:38]: Could not find anim [idle_loop] in bank [ghost]
+[03:50:41]: Could not find anim [transform] in bank [wilson]
+[03:50:42]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[03:52:00]: Could not find anim [death] in bank [ghost]
+[03:52:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[03:52:12]: Could not find anim [idle_loop] in bank [ghost]
+[03:52:15]: Could not find anim [transform] in bank [wilson]
+[03:52:16]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[03:53:06]: TELEPORT OUT TERRORBEAK	
+[03:53:06]: TELEPORT OUT TERRORBEAK	
+[03:53:06]: EXCHANGE TERROR BEAK	
+[03:53:06]: EXCHANGE TERROR BEAK	
+[03:53:14]: Could not find anim [death] in bank [ghost]
+[03:53:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000049
+[03:53:16]: Could not find anim [idle_loop] in bank [ghost]
+[03:53:19]: Could not find anim [transform] in bank [wilson]
+[03:53:20]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000049
+[03:54:59]: [Steam] SendUserDisconnect for '76561198146349502'
+[03:54:59]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
+[03:54:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[03:56:54]: Available disk space for save files: 42534 MB
+[03:56:54]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000049
+[03:56:54]: Serializing world: session/019D2AD0C91A19CC/0000000049
+[04:00:02]: Could not find anim [death] in bank [ghost]
+[04:00:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU_k49iQnDI) from TokenPurpose
+[04:00:28]: Could not find anim [idle_loop] in bank [ghost]
+[04:00:31]: Could not find anim [transform] in bank [wilson]
+[04:00:32]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[04:00:35]: Could not find anim [death] in bank [ghost]
+[04:00:35]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[04:00:37]: Could not find anim [idle_loop] in bank [ghost]
+[04:00:39]: Could not find anim [transform] in bank [wilson]
+[04:00:41]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[04:03:06]: New incoming connection 118.174.170.228|62664 <1106031483383125379>
+[04:03:06]: Client connected from 118.174.170.228|62664 <1106031483383125379>
+[04:03:06]: ValidateGameSessionToken GUID<1106031483383125379>
+[04:03:07]: Client authenticated: (KU_wwUugW71) Trexa
+[04:03:07]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
+[04:03:07]: [Steam] Authenticated client '76561198146349502'
+[04:03:08]: There is no active event to validate against.
+[04:03:08]: [Shard] Read save location file for (KU_wwUugW71)
+[04:03:36]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[04:03:36]: Spawning player at: [Load] (-227.86, 0.00, -452.02)	
+[04:04:54]: Available disk space for save files: 42531 MB
+[04:04:54]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[04:04:54]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000050
+[04:04:54]: Serializing world: session/019D2AD0C91A19CC/0000000050
+[04:05:20]: [Steam] SendUserDisconnect for '76561198146349502'
+[04:05:20]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
+[04:05:21]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:08:00]: New incoming connection 118.174.170.228|61988 <1118645471894750209>
+[04:08:00]: Client connected from 118.174.170.228|61988 <1118645471894750209>
+[04:08:00]: ValidateGameSessionToken GUID<1118645471894750209>
+[04:08:00]: Client authenticated: (KU_wwUugW71) Trexa
+[04:08:00]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
+[04:08:01]: [Steam] Authenticated client '76561198146349502'
+[04:08:02]: There is no active event to validate against.
+[04:08:02]: [Shard] Read save location file for (KU_wwUugW71)
+[04:08:25]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:08:25]: Spawning player at: [Load] (-265.82, 0.00, -455.44)	
+[04:09:43]: Could not find anim [death] in bank [ghost]
+[04:09:43]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000051
+[04:10:01]: Could not find anim [idle_loop] in bank [ghost]
+[04:10:04]: Could not find anim [transform] in bank [wilson]
+[04:10:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000051
+[04:10:32]: Could not find anim [death] in bank [ghost]
+[04:10:32]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:10:35]: Could not find anim [idle_loop] in bank [ghost]
+[04:10:38]: Could not find anim [transform] in bank [wilson]
+[04:10:40]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:11:00]: Could not find anim [death] in bank [ghost]
+[04:11:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:11:03]: Could not find anim [idle_loop] in bank [ghost]
+[04:11:06]: Could not find anim [transform] in bank [wilson]
+[04:11:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:11:20]: Could not find anim [death] in bank [ghost]
+[04:11:20]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:11:25]: Could not find anim [idle_loop] in bank [ghost]
+[04:11:28]: Could not find anim [transform] in bank [wilson]
+[04:11:29]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:12:54]: Available disk space for save files: 42527 MB
+[04:12:55]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000051
+[04:12:55]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[04:12:55]: Serializing world: session/019D2AD0C91A19CC/0000000051
+[04:14:47]: Could not find anim [death] in bank [ghost]
+[04:14:47]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[04:15:15]: Could not find anim [idle_loop] in bank [ghost]
+[04:15:18]: Could not find anim [transform] in bank [wilson]
+[04:15:20]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[04:19:47]: Could not find anim [death] in bank [ghost]
+[04:19:47]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[04:19:50]: Could not find anim [idle_loop] in bank [ghost]
+[04:19:53]: Could not find anim [transform] in bank [wilson]
+[04:19:54]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[04:20:06]: Could not find anim [death] in bank [ghost]
+[04:20:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000052
+[04:20:09]: Could not find anim [idle_loop] in bank [ghost]
+[04:20:12]: Could not find anim [transform] in bank [wilson]
+[04:20:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000052
+[04:20:55]: Available disk space for save files: 42523 MB
+[04:20:55]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000052
+[04:20:55]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[04:20:55]: Serializing world: session/019D2AD0C91A19CC/0000000052
+[04:28:55]: Available disk space for save files: 42520 MB
+[04:28:56]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000053
+[04:28:56]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000053
+[04:28:56]: Serializing world: session/019D2AD0C91A19CC/0000000053
+[04:30:04]: [200] Account Communication Success (6)
+[04:30:04]: Received (KU_k49iQnDI) from TokenPurpose
+[04:36:56]: Available disk space for save files: 42516 MB
+[04:36:56]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000054
+[04:36:56]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000054
+[04:36:56]: Serializing world: session/019D2AD0C91A19CC/0000000054
+[04:44:56]: Available disk space for save files: 42512 MB
+[04:44:56]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000055
+[04:44:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000055
+[04:44:57]: Serializing world: session/019D2AD0C91A19CC/0000000055
+[04:52:57]: Available disk space for save files: 42340 MB
+[04:52:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000056
+[04:52:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000056
+[04:52:57]: Serializing world: session/019D2AD0C91A19CC/0000000056
+[04:55:04]: Could not find anim [death] in bank [ghost]
+[04:55:04]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000057
+[04:55:07]: Could not find anim [idle_loop] in bank [ghost]
+[04:55:10]: Could not find anim [transform] in bank [wilson]
+[04:55:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000057
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[05:00:57]: Available disk space for save files: 42336 MB
+[05:00:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000057
+[05:00:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000057
+[05:00:58]: Serializing world: session/019D2AD0C91A19CC/0000000057
+[05:01:38]: Could not find anim [death] in bank [ghost]
+[05:01:38]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000058
+[05:01:40]: Could not find anim [idle_loop] in bank [ghost]
+[05:01:43]: Could not find anim [transform] in bank [wilson]
+[05:01:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000058
+[05:08:58]: Available disk space for save files: 42332 MB
+[05:08:58]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000058
+[05:08:58]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000058
+[05:08:58]: Serializing world: session/019D2AD0C91A19CC/0000000058
+[05:16:58]: Available disk space for save files: 42329 MB
+[05:16:58]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000059
+[05:16:58]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000059
+[05:16:59]: Serializing world: session/019D2AD0C91A19CC/0000000059
+[05:21:12]: Could not find anim [death] in bank [ghost]
+[05:21:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000060
+[05:23:19]: Could not find anim [idle_loop] in bank [ghost]
+[05:23:22]: Could not find anim [transform] in bank [wilson]
+[05:23:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000060
+[05:24:59]: Available disk space for save files: 42325 MB
+[05:24:59]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000060
+[05:24:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000060
+[05:24:59]: Serializing world: session/019D2AD0C91A19CC/0000000060
+[05:28:03]: Could not find anim [death] in bank [ghost]
+[05:28:03]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:28:06]: Could not find anim [idle_loop] in bank [ghost]
+[05:28:09]: Could not find anim [transform] in bank [wilson]
+[05:28:10]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:28:19]: Could not find anim [death] in bank [ghost]
+[05:28:19]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:28:22]: Could not find anim [idle_loop] in bank [ghost]
+[05:28:25]: Could not find anim [transform] in bank [wilson]
+[05:28:27]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:28:38]: Could not find anim [death] in bank [ghost]
+[05:28:38]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:28:41]: Could not find anim [idle_loop] in bank [ghost]
+[05:28:44]: Could not find anim [transform] in bank [wilson]
+[05:28:45]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:29:33]: Could not find anim [death] in bank [ghost]
+[05:29:33]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:29:41]: Could not find anim [idle_loop] in bank [ghost]
+[05:29:44]: Could not find anim [transform] in bank [wilson]
+[05:29:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:29:47]: Could not find anim [death] in bank [ghost]
+[05:29:47]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:29:49]: Could not find anim [idle_loop] in bank [ghost]
+[05:29:52]: Could not find anim [transform] in bank [wilson]
+[05:29:53]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[05:30:23]: Could not find anim [death] in bank [ghost]
+[05:30:23]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:30:29]: Could not find anim [idle_loop] in bank [ghost]
+[05:30:32]: Could not find anim [transform] in bank [wilson]
+[05:30:33]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:30:48]: Could not find anim [death] in bank [ghost]
+[05:30:48]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:30:54]: Could not find anim [idle_loop] in bank [ghost]
+[05:30:57]: Could not find anim [transform] in bank [wilson]
+[05:30:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:31:11]: Could not find anim [death] in bank [ghost]
+[05:31:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:31:43]: Could not find anim [idle_loop] in bank [ghost]
+[05:31:46]: Could not find anim [transform] in bank [wilson]
+[05:31:47]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:31:48]: Could not find anim [death] in bank [ghost]
+[05:31:48]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:31:52]: Could not find anim [idle_loop] in bank [ghost]
+[05:31:55]: Could not find anim [transform] in bank [wilson]
+[05:31:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:32:59]: Available disk space for save files: 42253 MB
+[05:32:59]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[05:32:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[05:32:59]: Serializing world: session/019D2AD0C91A19CC/0000000061
+[05:33:10]: Could not find anim [death] in bank [ghost]
+[05:33:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000062
+[05:33:12]: Could not find anim [idle_loop] in bank [ghost]
+[05:33:15]: Could not find anim [transform] in bank [wilson]
+[05:33:17]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000062
+[05:40:59]: Available disk space for save files: 42249 MB
+[05:41:00]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000062
+[05:41:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000062
+[05:41:00]: Serializing world: session/019D2AD0C91A19CC/0000000062
+[05:43:45]: Activating portal[9] to 3362536613	
+[05:43:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000063
+[05:43:45]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
+[05:43:45]: [Shard] Begin migration #5 for (KU_kH-fQy3p)
+[05:43:45]: [Shard] #5 [SHDMASTER](1) -> Caves(3362536613)
+[05:43:45]: [Shard] #5 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000063
+[05:43:45]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[05:43:45]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[05:43:45]: [Steam] SendUserDisconnect for '76561198111006597'
+[05:43:45]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[05:43:50]: [Shard] Completed migration #5 for player (KU_kH-fQy3p)
+[05:49:00]: Available disk space for save files: 42246 MB
+[05:49:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000063
+[05:49:00]: Serializing world: session/019D2AD0C91A19CC/0000000063
+[05:50:00]: [Shard] Begin migration #6 for (KU_kH-fQy3p)
+[05:50:00]: [Shard] #6 Caves(3362536613) -> [SHDMASTER](1)
+[05:50:00]: [Shard] #6 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000064
+[05:50:00]: [Shard] Received migration #6 data for (KU_kH-fQy3p)
+[05:50:00]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[05:50:00]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
+[05:50:03]: New incoming connection 171.97.47.14|52255 <4766540447726000713>
+[05:50:03]: Client connected from 171.97.47.14|52255 <4766540447726000713>
+[05:50:03]: ValidateGameSessionToken GUID<4766540447726000713>
+[05:50:04]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[05:50:04]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[05:50:04]: [Steam] Authenticated client '76561198111006597'
+[05:50:04]: [Shard] Completed incoming migration #6 for (KU_kH-fQy3p)
+[05:50:04]: [Shard] Completed migration #6 for player (KU_kH-fQy3p)
+[05:50:19]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000064
+[05:50:19]: Player will spawn close to portal #9	
+[05:50:19]: Spawning player at: [Load] (-562.58, 0.00, 245.51)	
+[05:57:00]: Available disk space for save files: 42238 MB
+[05:57:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000064
+[05:57:01]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000064
+[05:57:01]: Serializing world: session/019D2AD0C91A19CC/0000000064
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[06:01:41]: Could not find anim [death] in bank [ghost]
+[06:01:41]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000065
+[06:01:52]: Could not find anim [idle_loop] in bank [ghost]
+[06:01:55]: Could not find anim [transform] in bank [wilson]
+[06:01:57]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000065
+[06:05:01]: Available disk space for save files: 42238 MB
+[06:05:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000065
+[06:05:01]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000065
+[06:05:01]: Serializing world: session/019D2AD0C91A19CC/0000000065
+[06:08:12]: Could not find anim [death] in bank [ghost]
+[06:08:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000066
+[06:08:21]: Could not find anim [idle_loop] in bank [ghost]
+[06:08:23]: Could not find anim [transform] in bank [wilson]
+[06:08:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000066
+[06:13:01]: Available disk space for save files: 42235 MB
+[06:13:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000066
+[06:13:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000066
+[06:13:02]: Serializing world: session/019D2AD0C91A19CC/0000000066
+[06:16:51]: Could not find anim [death] in bank [ghost]
+[06:16:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000067
+[06:17:10]: Could not find anim [idle_loop] in bank [ghost]
+[06:17:13]: Could not find anim [transform] in bank [wilson]
+[06:17:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000067
+[06:21:02]: Available disk space for save files: 42231 MB
+[06:21:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000067
+[06:21:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000067
+[06:21:02]: Serializing world: session/019D2AD0C91A19CC/0000000067
+[06:29:02]: Available disk space for save files: 42227 MB
+[06:29:03]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000068
+[06:29:03]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000068
+[06:29:03]: Serializing world: session/019D2AD0C91A19CC/0000000068
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[06:37:03]: Available disk space for save files: 42223 MB
+[06:37:03]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000069
+[06:37:03]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000069
+[06:37:03]: Serializing world: session/019D2AD0C91A19CC/0000000069
+[06:45:03]: Available disk space for save files: 42220 MB
+[06:45:03]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000070
+[06:45:03]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000070
+[06:45:04]: Serializing world: session/019D2AD0C91A19CC/0000000070
+[06:52:49]: Could not find anim [spawn] in bank [squiderp]
+[06:52:50]: Could not find anim [spawn] in bank [squiderp]
+[06:53:04]: Available disk space for save files: 42216 MB
+[06:53:04]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000071
+[06:53:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000071
+[06:53:04]: Serializing world: session/019D2AD0C91A19CC/0000000071
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[07:01:04]: Available disk space for save files: 42212 MB
+[07:01:04]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000072
+[07:01:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000072
+[07:01:05]: Serializing world: session/019D2AD0C91A19CC/0000000072
+[07:08:53]: Could not find anim [spawn] in bank [squiderp]
+[07:08:53]: Could not find anim [spawn] in bank [squiderp]
+[07:08:53]: Could not find anim [spawn] in bank [squiderp]
+[07:08:54]: Could not find anim [spawn] in bank [squiderp]
+[07:08:54]: Could not find anim [spawn] in bank [squiderp]
+[07:09:05]: Available disk space for save files: 42208 MB
+[07:09:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000073
+[07:09:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000073
+[07:09:05]: Serializing world: session/019D2AD0C91A19CC/0000000073
+[07:17:05]: Available disk space for save files: 42205 MB
+[07:17:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000074
+[07:17:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000074
+[07:17:06]: Serializing world: session/019D2AD0C91A19CC/0000000074
+[07:17:27]: Could not find anim [death] in bank [ghost]
+[07:17:27]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[07:17:57]: Could not find anim [idle_loop] in bank [ghost]
+[07:18:00]: Could not find anim [transform] in bank [wilson]
+[07:18:01]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[07:24:02]: Could not find anim [death] in bank [ghost]
+[07:24:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[07:24:53]: Could not find anim [idle_loop] in bank [ghost]
+[07:24:56]: Could not find anim [transform] in bank [wilson]
+[07:24:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[07:25:06]: Available disk space for save files: 42201 MB
+[07:25:06]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000075
+[07:25:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[07:25:06]: Serializing world: session/019D2AD0C91A19CC/0000000075
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[07:33:06]: Available disk space for save files: 42197 MB
+[07:33:06]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000076
+[07:33:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000076
+[07:33:07]: Serializing world: session/019D2AD0C91A19CC/0000000076
+[07:41:07]: Available disk space for save files: 42193 MB
+[07:41:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000077
+[07:41:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000077
+[07:41:07]: Serializing world: session/019D2AD0C91A19CC/0000000077
+[07:49:07]: Available disk space for save files: 42190 MB
+[07:49:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000078
+[07:49:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000078
+[07:49:08]: Serializing world: session/019D2AD0C91A19CC/0000000078
+[07:57:08]: Available disk space for save files: 42186 MB
+[07:57:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000079
+[07:57:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000079
+[07:57:08]: Serializing world: session/019D2AD0C91A19CC/0000000079
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[08:05:08]: Available disk space for save files: 42182 MB
+[08:05:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000080
+[08:05:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000080
+[08:05:09]: Serializing world: session/019D2AD0C91A19CC/0000000080
+[08:06:45]: Could not find anim [death] in bank [ghost]
+[08:06:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:07:19]: Could not find anim [idle_loop] in bank [ghost]
+[08:07:22]: Could not find anim [transform] in bank [wilson]
+[08:07:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:08:35]: Could not find anim [death] in bank [ghost]
+[08:08:35]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:09:04]: Could not find anim [idle_loop] in bank [ghost]
+[08:09:07]: Could not find anim [transform] in bank [wilson]
+[08:09:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:10:06]: Could not find anim [death] in bank [ghost]
+[08:10:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:10:34]: Could not find anim [idle_loop] in bank [ghost]
+[08:10:37]: Could not find anim [transform] in bank [wilson]
+[08:10:38]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:13:09]: Available disk space for save files: 42178 MB
+[08:13:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000081
+[08:13:09]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[08:13:09]: Serializing world: session/019D2AD0C91A19CC/0000000081
+[08:13:23]: Could not find anim [death] in bank [ghost]
+[08:13:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:13:30]: Could not find anim [idle_loop] in bank [ghost]
+[08:13:33]: Could not find anim [transform] in bank [wilson]
+[08:13:35]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:13:39]: Could not find anim [death] in bank [ghost]
+[08:13:39]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[08:13:56]: Could not find anim [idle_loop] in bank [ghost]
+[08:13:59]: Could not find anim [transform] in bank [wilson]
+[08:14:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[08:14:05]: Could not find anim [death] in bank [ghost]
+[08:14:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:14:10]: Could not find anim [idle_loop] in bank [ghost]
+[08:14:13]: Could not find anim [transform] in bank [wilson]
+[08:14:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:14:16]: Could not find anim [death] in bank [ghost]
+[08:14:16]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:14:19]: Could not find anim [idle_loop] in bank [ghost]
+[08:14:22]: Could not find anim [transform] in bank [wilson]
+[08:14:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:14:25]: Could not find anim [death] in bank [ghost]
+[08:14:25]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:14:27]: Could not find anim [idle_loop] in bank [ghost]
+[08:14:30]: Could not find anim [transform] in bank [wilson]
+[08:14:31]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:15:07]: Could not find anim [death] in bank [ghost]
+[08:15:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:15:41]: Could not find anim [idle_loop] in bank [ghost]
+[08:15:44]: Could not find anim [transform] in bank [wilson]
+[08:15:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:16:45]: Could not find anim [death] in bank [ghost]
+[08:16:45]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:16:50]: Could not find anim [idle_loop] in bank [ghost]
+[08:16:53]: Could not find anim [transform] in bank [wilson]
+[08:16:54]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:18:25]: Could not find anim [death] in bank [ghost]
+[08:18:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[08:18:32]: Could not find anim [idle_loop] in bank [ghost]
+[08:18:35]: Could not find anim [transform] in bank [wilson]
+[08:18:37]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[08:21:09]: Available disk space for save files: 42174 MB
+[08:21:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[08:21:09]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[08:21:10]: Serializing world: session/019D2AD0C91A19CC/0000000082
+[08:21:15]: Could not find anim [spawn] in bank [squiderp]
+[08:21:15]: Could not find anim [spawn] in bank [squiderp]
+[08:28:13]: Could not find anim [death] in bank [ghost]
+[08:28:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000083
+[08:28:15]: Could not find anim [idle_loop] in bank [ghost]
+[08:28:18]: Could not find anim [transform] in bank [wilson]
+[08:28:19]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000083
+[08:29:10]: Available disk space for save files: 42171 MB
+[08:29:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000083
+[08:29:10]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000083
+[08:29:10]: Serializing world: session/019D2AD0C91A19CC/0000000083
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[08:36:47]: Activating portal[9] to 3362536613	
+[08:36:48]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000084
+[08:36:48]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
+[08:36:48]: [Shard] Begin migration #7 for (KU_kH-fQy3p)
+[08:36:48]: [Shard] #7 [SHDMASTER](1) -> Caves(3362536613)
+[08:36:48]: [Shard] #7 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000084
+[08:36:48]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[08:36:48]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[08:36:48]: [Steam] SendUserDisconnect for '76561198111006597'
+[08:36:48]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[08:36:53]: [Shard] Completed migration #7 for player (KU_kH-fQy3p)
+[08:37:10]: Available disk space for save files: 42167 MB
+[08:37:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000084
+[08:37:11]: Serializing world: session/019D2AD0C91A19CC/0000000084
+[08:43:18]: [Shard] Begin migration #8 for (KU_kH-fQy3p)
+[08:43:18]: [Shard] #8 Caves(3362536613) -> [SHDMASTER](1)
+[08:43:18]: [Shard] #8 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000085
+[08:43:18]: [Shard] Received migration #8 data for (KU_kH-fQy3p)
+[08:43:18]: [Shard] Writing save location file for (KU_kH-fQy3p)
+[08:43:18]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
+[08:43:21]: New incoming connection 171.97.47.14|50167 <4044887145760015308>
+[08:43:21]: Client connected from 171.97.47.14|50167 <4044887145760015308>
+[08:43:21]: ValidateGameSessionToken GUID<4044887145760015308>
+[08:43:22]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[08:43:22]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[08:43:22]: [Steam] Authenticated client '76561198111006597'
+[08:43:22]: [Shard] Completed incoming migration #8 for (KU_kH-fQy3p)
+[08:43:22]: [Shard] Completed migration #8 for player (KU_kH-fQy3p)
+[08:43:33]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000085
+[08:43:33]: Player will spawn close to portal #9	
+[08:43:33]: Spawning player at: [Load] (-565.01, 0.00, 243.78)	
+[08:45:11]: Available disk space for save files: 42163 MB
+[08:45:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000085
+[08:45:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000085
+[08:45:11]: Serializing world: session/019D2AD0C91A19CC/0000000085
+[08:45:55]: TELEPORT OUT TERRORBEAK	
+[08:45:55]: EXCHANGE TERROR BEAK	
+[08:46:24]: Could not find anim [death] in bank [ghost]
+[08:46:24]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000086
+[08:46:30]: Could not find anim [idle_loop] in bank [ghost]
+[08:46:33]: Could not find anim [transform] in bank [wilson]
+[08:46:34]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000086
+[08:53:11]: Available disk space for save files: 42159 MB
+[08:53:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000086
+[08:53:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000086
+[08:53:12]: Serializing world: session/019D2AD0C91A19CC/0000000086
+[09:00:05]: [200] Account Communication Success (6)
+[09:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[09:01:12]: Available disk space for save files: 42155 MB
+[09:01:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000087
+[09:01:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000087
+[09:01:12]: Serializing world: session/019D2AD0C91A19CC/0000000087
+[09:05:43]: Could not find anim [death] in bank [ghost]
+[09:05:43]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000088
+[09:05:51]: Could not find anim [death] in bank [ghost]
+[09:05:51]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000088
+[09:05:52]: Could not find anim [idle_loop] in bank [ghost]
+[09:05:53]: Could not find anim [idle_loop] in bank [ghost]
+[09:05:55]: Could not find anim [transform] in bank [wilson]
+[09:05:56]: Could not find anim [transform] in bank [wilson]
+[09:05:56]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000088
+[09:05:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000088
+[09:09:12]: Available disk space for save files: 42152 MB
+[09:09:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000088
+[09:09:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000088
+[09:09:12]: Serializing world: session/019D2AD0C91A19CC/0000000088
+[09:10:32]: Could not find anim [death] in bank [ghost]
+[09:10:32]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:10:37]: Could not find anim [idle_loop] in bank [ghost]
+[09:10:40]: Could not find anim [transform] in bank [wilson]
+[09:10:41]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:10:59]: Could not find anim [death] in bank [ghost]
+[09:10:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:11:08]: Could not find anim [idle_loop] in bank [ghost]
+[09:11:11]: Could not find anim [transform] in bank [wilson]
+[09:11:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:12:06]: Could not find anim [death] in bank [ghost]
+[09:12:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:12:18]: Could not find anim [idle_loop] in bank [ghost]
+[09:12:21]: Could not find anim [transform] in bank [wilson]
+[09:12:22]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:12:43]: Could not find anim [death] in bank [ghost]
+[09:12:43]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:12:48]: Could not find anim [death] in bank [ghost]
+[09:12:48]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:12:50]: Could not find anim [idle_loop] in bank [ghost]
+[09:12:53]: Could not find anim [idle_loop] in bank [ghost]
+[09:12:53]: Could not find anim [transform] in bank [wilson]
+[09:12:54]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:12:56]: Could not find anim [transform] in bank [wilson]
+[09:12:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:13:07]: Could not find anim [death] in bank [ghost]
+[09:13:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:13:07]: Could not find anim [death] in bank [ghost]
+[09:13:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:13:10]: Could not find anim [idle_loop] in bank [ghost]
+[09:13:11]: Could not find anim [idle_loop] in bank [ghost]
+[09:13:13]: Could not find anim [transform] in bank [wilson]
+[09:13:14]: Could not find anim [transform] in bank [wilson]
+[09:13:15]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:13:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:13:38]: Could not find anim [death] in bank [ghost]
+[09:13:38]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:13:42]: Could not find anim [idle_loop] in bank [ghost]
+[09:13:45]: Could not find anim [transform] in bank [wilson]
+[09:13:46]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:02]: Could not find anim [death] in bank [ghost]
+[09:14:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:05]: Could not find anim [idle_loop] in bank [ghost]
+[09:14:08]: Could not find anim [transform] in bank [wilson]
+[09:14:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:24]: Could not find anim [death] in bank [ghost]
+[09:14:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:27]: Could not find anim [idle_loop] in bank [ghost]
+[09:14:30]: Could not find anim [transform] in bank [wilson]
+[09:14:32]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:45]: Could not find anim [death] in bank [ghost]
+[09:14:45]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:14:49]: Could not find anim [idle_loop] in bank [ghost]
+[09:14:52]: Could not find anim [transform] in bank [wilson]
+[09:14:54]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:16:08]: Could not find anim [death] in bank [ghost]
+[09:16:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:16:14]: Could not find anim [idle_loop] in bank [ghost]
+[09:16:17]: Could not find anim [transform] in bank [wilson]
+[09:16:18]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:16:41]: Could not find anim [death] in bank [ghost]
+[09:16:41]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:16:51]: Could not find anim [idle_loop] in bank [ghost]
+[09:16:54]: Could not find anim [transform] in bank [wilson]
+[09:16:55]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:17:12]: Available disk space for save files: 42148 MB
+[09:17:13]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[09:17:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[09:17:13]: Serializing world: session/019D2AD0C91A19CC/0000000089
+[09:24:17]: Could not find anim [spawn] in bank [squiderp]
+[09:24:18]: Could not find anim [spawn] in bank [squiderp]
+[09:24:29]: Could not find anim [death] in bank [ghost]
+[09:24:29]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000090
+[09:24:32]: Could not find anim [idle_loop] in bank [ghost]
+[09:24:35]: Could not find anim [transform] in bank [wilson]
+[09:24:37]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000090
+[09:25:13]: Available disk space for save files: 42144 MB
+[09:25:13]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000090
+[09:25:13]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000090
+[09:25:13]: Serializing world: session/019D2AD0C91A19CC/0000000090
+[09:28:42]: Could not find anim [death] in bank [ghost]
+[09:28:42]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000091
+[09:28:47]: Could not find anim [idle_loop] in bank [ghost]
+[09:28:50]: Could not find anim [transform] in bank [wilson]
+[09:28:51]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000091
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[09:33:13]: Available disk space for save files: 42140 MB
+[09:33:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000091
+[09:33:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000091
+[09:33:14]: Serializing world: session/019D2AD0C91A19CC/0000000091
+[09:41:14]: Available disk space for save files: 42137 MB
+[09:41:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000092
+[09:41:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000092
+[09:41:14]: Serializing world: session/019D2AD0C91A19CC/0000000092
+[09:49:14]: Available disk space for save files: 42133 MB
+[09:49:15]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000093
+[09:49:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000093
+[09:49:15]: Serializing world: session/019D2AD0C91A19CC/0000000093
+[09:49:19]: Stale Component Reference: GUID 238321, scripts/entityscript.lua:1177
+[09:49:19]: Could not find anim [spawn] in bank [squiderp]
+[09:49:19]: Stale Component Reference: GUID 238321, scripts/entityscript.lua:1177
+[09:49:19]: Could not find anim [spawn] in bank [squiderp]
+[09:49:19]: Stale Component Reference: GUID 238321, scripts/entityscript.lua:1177
+[09:49:19]: Could not find anim [spawn] in bank [squiderp]
+[09:49:20]: Stale Component Reference: GUID 238321, scripts/entityscript.lua:1177
+[09:49:20]: Could not find anim [spawn] in bank [squiderp]
+[09:54:31]: [Steam] SendUserDisconnect for '76561198146349502'
+[09:54:31]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
+[09:54:31]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000094
+[09:57:15]: Available disk space for save files: 42129 MB
+[09:57:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000094
+[09:57:15]: Serializing world: session/019D2AD0C91A19CC/0000000094
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[10:01:38]: [Steam] SendUserDisconnect for '76561198111006597'
+[10:01:38]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[10:01:39]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000095
+[10:01:39]: Sim paused
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[11:58:15]: New incoming connection 223.205.176.15|58426 <8527339301877118500>
+[11:58:15]: Client connected from 223.205.176.15|58426 <8527339301877118500>
+[11:58:15]: ValidateGameSessionToken GUID<8527339301877118500>
+[11:58:16]: Client authenticated: (KU_k49iQnDI) demons.jostle
+[11:58:16]: [Steam] Authenticated host '76561198252722114'
+[11:58:17]: There is no active event to validate against.
+[11:58:17]: [Shard] Read save location file for (KU_k49iQnDI)
+[11:58:43]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000037
+[11:58:43]: Spawning player at: [Load] (-394.30, 0.00, 95.55)	
+[11:58:43]: Sim unpaused
+[11:58:46]: New time stamps for everyone at	1678669973	
+[11:58:46]: New time stamps for everyone at	1678669973	
+[11:59:47]: Server Autopaused	
+[11:59:48]: Server Unpaused	
+[11:59:48]: Server Autopaused	
+[11:59:51]: Server Unpaused	
+[11:59:52]: [Steam] SendUserDisconnect for '76561198252722114'
+[11:59:52]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
+[11:59:53]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000095
+[11:59:53]: Sim paused
+[12:00:05]: [200] Account Communication Success (6)
+[12:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[12:22:32]: New incoming connection 171.97.47.14|59602 <8653507869292805738>
+[12:22:32]: Client connected from 171.97.47.14|59602 <8653507869292805738>
+[12:22:32]: ValidateGameSessionToken GUID<8653507869292805738>
+[12:22:32]: Client authenticated: (KU_kH-fQy3p) medicc.c
+[12:22:32]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
+[12:22:33]: [Steam] Authenticated client '76561198111006597'
+[12:22:34]: There is no active event to validate against.
+[12:22:34]: [Shard] Read save location file for (KU_kH-fQy3p)
+[12:23:28]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000095
+[12:23:28]: Spawning player at: [Load] (-400.22, 0.00, 70.64)	
+[12:23:28]: Sim unpaused
+[12:23:30]: New time stamps for everyone at	1678671457	
+[12:25:58]: Available disk space for save files: 42125 MB
+[12:25:59]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000095
+[12:25:59]: Serializing world: session/019D2AD0C91A19CC/0000000095
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[12:33:59]: Available disk space for save files: 42121 MB
+[12:33:59]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000096
+[12:33:59]: Serializing world: session/019D2AD0C91A19CC/0000000096
+[12:34:25]: [Steam] SendUserDisconnect for '76561198111006597'
+[12:34:25]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
+[12:34:25]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000097
+[12:34:25]: Sim paused
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[13:30:05]: [200] Account Communication Success (6)
+[13:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[15:30:05]: [200] Account Communication Success (6)
+[15:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[16:00:05]: [200] Account Communication Success (6)
+[16:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[17:30:05]: [200] Account Communication Success (6)
+[17:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[18:00:05]: [200] Account Communication Success (6)
+[18:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[18:30:05]: [200] Account Communication Success (6)
+[18:30:05]: Received (KU_k49iQnDI) from TokenPurpose
+[19:00:05]: [200] Account Communication Success (6)
+[19:00:05]: Received (KU_k49iQnDI) from TokenPurpose
+[19:16:37]: Available disk space for save files: 41846 MB
+[19:16:37]: Serializing world: session/019D2AD0C91A19CC/0000000097
+[19:16:37]: Truncating to snapshot #97...
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000054
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000047
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000082
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000027
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000038
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000022
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000034
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000083
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000069
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000062
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000056
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000023
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000079
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000019
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000066
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000072
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000018
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000068
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000064
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000031
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000037
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000014
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000030
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000035
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000029
+[19:16:37]:  - session/019D2AD0C91A19CC/0000000025
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000039
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000015
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000085
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000036
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000073
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000077
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000078
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000053
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000055
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000032
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000087
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000020
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000052
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000081
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000041
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000080
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000091
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000024
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000044
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000075
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000071
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000048
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000050
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000067
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000076
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000042
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000074
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000043
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000063
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000026
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000016
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000060
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000033
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000051
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000045
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000065
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000021
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000028
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000070
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000061
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000088
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000017
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000040
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000090
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000089
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000046
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000084
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000086
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000058
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000049
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000059
+[19:16:38]:  - session/019D2AD0C91A19CC/0000000057
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000036
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000035
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000034
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000033
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000032
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000031
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000030
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000029
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000028
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000027
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000026
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000025
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000024
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000023
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000022
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000021
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000020
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000015
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000014
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000091
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000090
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000089
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000088
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000087
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000086
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000085
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000084
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000083
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000082
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000081
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000080
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000079
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000078
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000077
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000076
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000075
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000074
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000073
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000072
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000071
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000070
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000069
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000068
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000067
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000066
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000065
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000064
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000063
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000062
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000061
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000060
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000059
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000058
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000057
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000056
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000055
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000054
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000053
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000052
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000051
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000050
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000049
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000048
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000047
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000046
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000045
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000044
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000043
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000042
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000041
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000040
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000039
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000038
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000037
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000036
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000035
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000034
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000033
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000032
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000031
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000030
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000029
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000028
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000027
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000026
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000025
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000024
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000023
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000022
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000021
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000020
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000016
+[19:16:38]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000015
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000091
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000090
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000089
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000088
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000087
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000086
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000085
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000084
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000083
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000082
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000081
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000080
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000079
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000078
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000077
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000076
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000075
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000074
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000073
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000072
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000071
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000070
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000069
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000068
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000067
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000066
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000065
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000064
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000063
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000062
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000061
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000060
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000059
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000058
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000057
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000056
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000055
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000054
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000053
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000052
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000051
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000050
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000049
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000048
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000047
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000046
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000045
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000044
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000043
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000042
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000041
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000040
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000039
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000038
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000037
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000036
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000035
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000034
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000033
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000032
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000031
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000030
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000029
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000028
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000027
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000026
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000025
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000024
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000023
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000022
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000021
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000020
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000016
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000015
+[19:16:38]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000014
+[19:16:38]:    246 file(s) removed
+[19:16:38]:  > session/019D2AD0C91A19CC/A7LP3UKMNG7J/savelocation
+[19:16:38]:    1 file(s) updated
+[19:16:38]: Removing server from lobby
+[19:16:38]: [Shard] Stopping shard mode
+[19:16:38]: [Steam] SendUserDisconnect for ''
+[19:16:38]: Collecting garbage...
+[19:16:38]: lua_gc took 0.42 seconds
+[19:16:38]: ~ShardLuaProxy()
+[19:16:38]: ~cEventLeaderboardProxy()
+[19:16:38]: ~ItemServerLuaProxy()
+[19:16:38]: ~InventoryLuaProxy()
+[19:16:38]: ~NetworkLuaProxy()
+[19:16:38]: ~SimLuaProxy()
+[19:16:38]: Cancelling LuaQueryCallback handle [933]
+[19:16:38]: Cancelling LuaQueryCallback handle [934]
+[19:16:39]: lua_close took 0.61 seconds
+[19:16:39]: CurlRequestManager::ClientThread::Main() complete
+[19:16:39]: HttpClient2 discarded 1 callbacks.
+[19:16:39]: Shutting down

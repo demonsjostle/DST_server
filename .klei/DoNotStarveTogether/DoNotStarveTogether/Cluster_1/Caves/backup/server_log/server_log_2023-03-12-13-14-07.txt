@@ -1,0 +1,586 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 542788
+[00:00:00]: Current time: Sun Mar 12 13:03:35 2023
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: eff81d092fa1
+[00:00:00]: Release(Kernel) Version: 5.15.0-1028-aws
+[00:00:00]: Kernel Build Timestamp: #32-Ubuntu SMP Mon Jan 9 12:28:07 UTC 2023
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 542788 LINUX
+[00:00:00]: Build Date: 8680
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4138662720)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.25
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (4077910848)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:00]: SUCCESS: Loaded modoverrides.lua	
+[00:00:00]: modoverrides.lua enabling workshop-569043634	
+[00:00:00]: modoverrides.lua enabling workshop-463740026	
+[00:00:00]: modoverrides.lua enabling workshop-666155465	
+[00:00:00]: modoverrides.lua enabling workshop-407977022	
+[00:00:00]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:00]: modoverrides.lua enabling workshop-478005098	
+[00:00:00]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:00]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:00]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:00]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:00]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:00]: Could not load mod_config_data/modconfiguration_workshop-463740026_CLIENT	
+[00:00:00]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
+[00:00:00]: Could not load mod_config_data/modconfiguration_workshop-666155465_CLIENT	
+[00:00:00]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:00]: Could not load mod_config_data/modconfiguration_workshop-407977022_CLIENT	
+[00:00:00]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
+[00:00:00]: Could not load mod_config_data/modconfiguration_workshop-478005098_CLIENT	
+[00:00:00]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
+[00:00:00]: Could not load mod_config_data/modconfiguration_workshop-569043634_CLIENT	
+[00:00:00]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
+[00:00:00]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
+[00:00:00]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
+[00:00:00]: Overriding mod workshop-569043634's option campfire with value Enabled	
+[00:00:00]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option reviver with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option coldfire with value Enabled	
+[00:00:00]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option firepit with value Enabled	
+[00:00:00]: Overriding mod workshop-569043634's option usetags with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
+[00:00:00]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
+[00:00:00]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
+[00:00:00]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
+[00:00:00]: Overriding mod workshop-463740026's option ownership with value false	
+[00:00:00]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:00]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:00]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:00]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:00]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:00]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:00]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:00]: Overriding mod workshop-407977022's option stovester_config with value true	
+[00:00:00]: Overriding mod workshop-407977022's option force_stovester with value false	
+[00:00:00]: Overriding mod workshop-407977022's option dubster_config with value true	
+[00:00:00]: Overriding mod workshop-407977022's option force_daddy with value false	
+[00:00:00]: Overriding mod workshop-407977022's option chilltime with value 0.5	
+[00:00:00]: Overriding mod workshop-407977022's option force_afester with value false	
+[00:00:00]: Overriding mod workshop-407977022's option bluester_config with value true	
+[00:00:00]: Overriding mod workshop-407977022's option force_dubster with value false	
+[00:00:00]: Overriding mod workshop-407977022's option cavester_config with value true	
+[00:00:00]: Overriding mod workshop-407977022's option daddy_config with value true	
+[00:00:00]: Overriding mod workshop-407977022's option force_bluester with value false	
+[00:00:00]: Overriding mod workshop-407977022's option afester_config with value true	
+[00:00:00]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:00]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:00]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:00]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:00]: ShowMe version:	0.58	
+[00:00:00]: show_food_units	-1	-1	-1	
+[00:00:00]: show_uses	-1	-1	-1	
+[00:00:00]: Detected language for ShowMe: 	auto		
+[00:00:00]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:00]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:00]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:00]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:00]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:00]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:00]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
+[00:00:00]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
+[00:00:00]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
+[00:00:00]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
+[00:00:00]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:00]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: Registering Server mod namespace "showmeshint"
+[00:00:01]: Registering Server mod namespace "showme"
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: ServerPreferences could not load server_preferences	
+[00:00:01]: ConsoleScreenSettings could not load consolescreen	
+[00:00:01]: bloom_enabled	true	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:01]: Klump load on boot started.	
+[00:00:01]: Klump files loaded: 	0	
+[00:00:02]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:02]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:02]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:02]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:02]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:02]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:02]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:02]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:02]: 	Load FE	
+[00:00:03]: THREAD - started 'FilesExistAsyncThread' (4035259200)
+[00:00:03]: FilesExistAsyncThread started (21477 files)...
+[00:00:03]: 	Load FE: done	
+[00:00:03]: Check for write access: TRUE
+[00:00:03]: Check for read access: TRUE
+[00:00:03]: Available disk space for save files: 42648 MB
+[00:00:03]: ModIndex: Load sequence finished successfully.	
+[00:00:03]: Reset() returning
+[00:00:03]: ... FilesExistAsyncThread complete
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:03]: Received (KU_k49iQnDI) from TokenPurpose
+[00:00:03]: Starting Dedicated Server Game	
+[00:00:03]: Network tick rate: U=15(2), D=0
+[00:00:03]: About to start a server with the following settings:
+[00:00:03]:   Dedicated: true
+[00:00:03]:   Online: true
+[00:00:03]:   Passworded: true
+[00:00:03]:   ServerPort: 11000
+[00:00:03]:   SteamAuthPort: 8767
+[00:00:03]:   SteamMasterServerPort: 12347
+[00:00:03]:   ClanID: false
+[00:00:03]:   ClanOnly: false
+[00:00:03]:   ClanAdmin: false
+[00:00:03]:   LanOnly: false
+[00:00:03]:   FriendsOnly: false
+[00:00:03]:   EnableAutosaver: true
+[00:00:03]:   EncodeUserPath: true
+[00:00:03]:   PVP: false
+[00:00:03]:   MaxPlayers: 64
+[00:00:03]:   GameMode: endless
+[00:00:03]:   OverridenDNS: 
+[00:00:03]:   PauseWhenEmpty: true
+[00:00:03]:   IdleTimeout: 1800s
+[00:00:03]:   VoteEnabled: true
+[00:00:03]:   InternetBroadcasting: true
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:03]: Online Server Started on port: 11000
+[00:00:03]: SUCCESS: Loaded modoverrides.lua	
+[00:00:03]: Not applying level data overrides.	
+[00:00:03]: Found a worldgen override file with these contents:	
+[00:00:03]: 	K: 	override_enabled	 V: 	true	
+[00:00:03]: 	K: 	overrides	 V: 	table: 0x10b80180	
+[00:00:03]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:03]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:03]: 		K: 	portalresurection	 V: 	always	
+[00:00:03]: 		K: 	resettime	 V: 	none	
+[00:00:03]: 		K: 	start_location	 V: 	default	
+[00:00:03]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:03]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:03]:   sanity-checking worldgenoverride.lua...	
+[00:00:03]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:03]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:03]:   contained settings preset DST_CAVE, loading...	
+[00:00:03]: Overwriting savedata with override file.	
+[00:00:03]: Collecting garbage...
+[00:00:04]: lua_gc took 0.07 seconds
+[00:00:04]: ~ShardLuaProxy()
+[00:00:04]: ~cEventLeaderboardProxy()
+[00:00:04]: ~ItemServerLuaProxy()
+[00:00:04]: ~InventoryLuaProxy()
+[00:00:04]: ~NetworkLuaProxy()
+[00:00:04]: ~SimLuaProxy()
+[00:00:04]: lua_close took 0.06 seconds
+[00:00:04]: ReleaseAll
+[00:00:04]: ReleaseAll Finished
+[00:00:04]: cGame::StartPlaying
+[00:00:04]: AppVersion::GetArchitecture() x32
+[00:00:04]: LOADING LUA
+[00:00:04]: DoLuaFile scripts/main.lua
+[00:00:04]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]:   taskgrouplist:	default	Together	
+[00:00:04]:   taskgrouplist:	classic	Classic	
+[00:00:04]:   taskgrouplist:	cave_default	Underground	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:04]: Running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: modoverrides.lua enabling workshop-569043634	
+[00:00:04]: modoverrides.lua enabling workshop-463740026	
+[00:00:04]: modoverrides.lua enabling workshop-666155465	
+[00:00:04]: modoverrides.lua enabling workshop-407977022	
+[00:00:04]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:04]: modoverrides.lua enabling workshop-478005098	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:04]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:04]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:04]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:04]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:04]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
+[00:00:04]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
+[00:00:04]: Overriding mod workshop-569043634's option campfire with value Enabled	
+[00:00:04]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option reviver with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option coldfire with value Enabled	
+[00:00:04]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option firepit with value Enabled	
+[00:00:04]: Overriding mod workshop-569043634's option usetags with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
+[00:00:04]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
+[00:00:04]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
+[00:00:04]: Overriding mod workshop-463740026's option ownership with value false	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:04]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:04]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:04]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:04]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:04]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:04]: Overriding mod workshop-407977022's option stovester_config with value true	
+[00:00:04]: Overriding mod workshop-407977022's option force_stovester with value false	
+[00:00:04]: Overriding mod workshop-407977022's option dubster_config with value true	
+[00:00:04]: Overriding mod workshop-407977022's option force_daddy with value false	
+[00:00:04]: Overriding mod workshop-407977022's option chilltime with value 0.5	
+[00:00:04]: Overriding mod workshop-407977022's option force_afester with value false	
+[00:00:04]: Overriding mod workshop-407977022's option bluester_config with value true	
+[00:00:04]: Overriding mod workshop-407977022's option force_dubster with value false	
+[00:00:04]: Overriding mod workshop-407977022's option cavester_config with value true	
+[00:00:04]: Overriding mod workshop-407977022's option daddy_config with value true	
+[00:00:04]: Overriding mod workshop-407977022's option force_bluester with value false	
+[00:00:04]: Overriding mod workshop-407977022's option afester_config with value true	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:04]: ShowMe version:	0.58	
+[00:00:04]: show_food_units	-1	-1	-1	
+[00:00:04]: show_uses	-1	-1	-1	
+[00:00:04]: Detected language for ShowMe: 	auto		
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:04]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
+[00:00:04]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering Server mod namespace "showmeshint"
+[00:00:04]: Registering Server mod namespace "showme"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Loading world: session/14758F86C8A45F1F/0000000018	
+[00:00:04]: Save file is at version 5.13	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:04]: 	Unload FE	
+[00:00:04]: 	Unload FE done	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:05]: 	LOAD BE	
+[00:00:12]: 	LOAD BE: done	
+[00:00:12]: Begin Session: 14758F86C8A45F1F
+[00:00:12]: saving to server_temp/server_save	
+[00:00:13]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-407977022/minimap/afester.xml )
+[00:00:13]: Loading 19 new character(s)	
+[00:00:13]: Total 19 character(s) loaded	
+[00:00:17]: Loading Nav Grid	
+[00:00:17]: World generated on build 542788 with save version: 5.13, using seed: 1678618316	
+[00:00:17]: setting 	summerlength	15	
+[00:00:17]: setting 	cavemoonphase	threequarter	
+[00:00:17]: setting 	iscavefullmoon	false	
+[00:00:17]: setting 	isnightmaredawn	false	
+[00:00:17]: setting 	elapseddaysinseason	7	
+[00:00:17]: setting 	isfullmoon	false	
+[00:00:17]: setting 	moisture	730.5888671875	
+[00:00:17]: setting 	cavephase	dusk	
+[00:00:17]: setting 	iscavewaxingmoon	true	
+[00:00:17]: setting 	isnightmarewild	false	
+[00:00:17]: setting 	nightmaretimeinphase	0.25730121690303	
+[00:00:17]: setting 	precipitationrate	0	
+[00:00:17]: setting 	iswet	false	
+[00:00:17]: setting 	isnewmoon	false	
+[00:00:17]: setting 	precipitation	none	
+[00:00:17]: setting 	israining	false	
+[00:00:17]: setting 	isnightmarewarn	true	
+[00:00:17]: setting 	iswinter	false	
+[00:00:17]: setting 	season	autumn	
+[00:00:17]: setting 	remainingdaysinseason	13	
+[00:00:17]: setting 	winterlength	15	
+[00:00:17]: setting 	iscaveday	false	
+[00:00:17]: setting 	moistureceil	6490.1508789062	
+[00:00:17]: setting 	isday	false	
+[00:00:17]: setting 	springlength	20	
+[00:00:17]: setting 	wetness	0	
+[00:00:17]: setting 	iscavedusk	true	
+[00:00:17]: setting 	isalterawake	false	
+[00:00:17]: setting 	isnightmarecalm	false	
+[00:00:17]: setting 	isnight	true	
+[00:00:17]: setting 	isdusk	false	
+[00:00:17]: setting 	isspring	false	
+[00:00:17]: setting 	isautumn	true	
+[00:00:17]: setting 	issnowing	false	
+[00:00:17]: setting 	iswaxingmoon	true	
+[00:00:17]: setting 	phase	night	
+[00:00:17]: setting 	snowlevel	0	
+[00:00:17]: setting 	issnowcovered	false	
+[00:00:17]: setting 	autumnlength	20	
+[00:00:17]: setting 	pop	0.02788395992933	
+[00:00:17]: setting 	nightmaretime	383.15710952127	
+[00:00:17]: setting 	seasonprogress	0.675	
+[00:00:17]: setting 	moonphase	new	
+[00:00:17]: setting 	nightmarephase	warn	
+[00:00:17]: setting 	cycles	7	
+[00:00:17]: setting 	timeinphase	0.68083839416504	
+[00:00:17]: setting 	iscavenight	false	
+[00:00:17]: setting 	iscavenewmoon	false	
+[00:00:17]: setting 	issummer	false	
+[00:00:17]: setting 	temperature	11.507052358595	
+[00:00:17]: setting 	time	0.75531439781189	
+[00:00:17]: [Shard] Secondary shard is waiting for LUA...
+[00:00:17]: OVERRIDE: setting	resettime	to	none	
+[00:00:17]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:17]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:17]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:20]: SWITCHING 	false	
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:20]: 	...Housekeeping	
+[00:00:20]: 	...Done!	
+[00:00:20]: 1 uploads added to server. From server_temp
+[00:00:20]: About to start a shard with these settings:
+[00:00:20]:   ShardName: Caves
+[00:00:20]:   ShardID: 3362536613
+[00:00:20]:   ShardRole: SECONDARY
+[00:00:20]:   MasterHost: 127.0.0.1
+[00:00:20]:   MasterBind: (null)
+[00:00:20]:   MasterPort: 10998
+[00:00:20]: [Shard] Connecting to master...
+[00:00:20]: Telling Client our new session identifier: 14758F86C8A45F1F
+[00:00:20]: Check for write access: TRUE
+[00:00:20]: Check for read access: TRUE
+[00:00:20]: Available disk space for save files: 42648 MB
+[00:00:20]: ModIndex: Load sequence finished successfully.	
+[00:00:20]: Reset() returning
+[00:00:20]: [Shard] Sending secondary shard information to master...
+[00:00:20]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:20]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:20]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:20]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:20]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:20]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:20]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:20]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:20]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:20]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:20]: Received MasterInfoPacket row 222224e676bdcc13510757e92bfa7bc7 region ap-southeast-1
+[00:00:20]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:00:21]: [Shard] secondary shard is now ready!
+[00:00:21]: World 1 is now connected	
+[00:00:21]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:21]: Validating portal[9] <-> 1[9] (active)	
+[00:00:21]: Validating portal[2] <-> 1[2] (active)	
+[00:00:21]: Validating portal[4] <-> 1[4] (active)	
+[00:00:21]: Validating portal[8] <-> 1[8] (active)	
+[00:00:21]: Validating portal[1] <-> 1[1] (active)	
+[00:00:21]: Validating portal[6] <-> 1[6] (active)	
+[00:00:21]: Validating portal[7] <-> 1[7] (active)	
+[00:00:21]: Validating portal[3] <-> 1[3] (active)	
+[00:00:21]: Validating portal[10] <-> 1[10] (active)	
+[00:00:21]: Validating portal[5] <-> 1[5] (active)	
+[00:00:21]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:21]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:21]: component hauntable already exists on entity 103076 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:21]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:21]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:21]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:22]: [Shard] secondary shard LUA is now ready!
+[00:00:22]: Sim paused
+[00:01:19]: Available disk space for save files: 42648 MB
+[00:01:19]: Serializing world: session/14758F86C8A45F1F/0000000019
+[00:01:19]: Truncating to snapshot #19...
+[00:01:19]:  - session/14758F86C8A45F1F/0000000013
+[00:01:19]:    1 file(s) removed
+[00:01:19]: [Shard] Stopping shard mode
+[00:01:20]: [Steam] SendUserDisconnect for ''
+[00:01:20]: Collecting garbage...
+[00:01:20]: lua_gc took 0.23 seconds
+[00:01:20]: ~ShardLuaProxy()
+[00:01:20]: ~cEventLeaderboardProxy()
+[00:01:20]: ~ItemServerLuaProxy()
+[00:01:20]: ~InventoryLuaProxy()
+[00:01:20]: ~NetworkLuaProxy()
+[00:01:20]: ~SimLuaProxy()
+[00:01:20]: lua_close took 0.27 seconds
+[00:01:20]: CurlRequestManager::ClientThread::Main() complete
+[00:01:20]: HttpClient2 discarded 0 callbacks.
+[00:01:20]: Shutting down

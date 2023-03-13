@@ -1,0 +1,11 @@
+<Atlas>
+    <Texture filename="bluechester_eyebone.tex" />
+    <Elements>
+        <Element name="bluechester_eyebone_closed_shadow.tex" u1="0.656494140625" u2="0.687255859375" v1="0.81298828125" v2="0.87451171875" />
+        <Element name="bluechester_eyebone_closed.tex" u1="0.625244140625" u2="0.656005859375" v1="0.81298828125" v2="0.87451171875" />
+		<Element name="bluechester_eyebone_closed_snow.tex" u1="0.687744140625" u2="0.718505859375" v1="0.81298828125" v2="0.87451171875" />
+		<Element name="bluechester_eyebone_snow.tex" u1="0.750244140625" u2="0.781005859375" v1="0.81298828125" v2="0.87451171875" />
+		<Element name="bluechester_eyebone_shadow.tex" u1="0.718994140625" u2="0.749755859375" v1="0.81298828125" v2="0.87451171875" />
+		<Element name="bluechester_eyebone.tex" u1="0.593994140625" u2="0.624755859375" v1="0.81298828125" v2="0.87451171875" />
+    </Elements>
+</Atlas>

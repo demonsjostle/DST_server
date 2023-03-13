@@ -1,0 +1,58 @@
+5.7.1 - 3/6/2019
+Changed two chesters
+
+Stovester no longer glows in the dark, but instead he gives off a heating aura.
+Cavester gives a sanity aura now.
+
+January 1st 2019
+Release of Stovester (previously known as ovenster) A later patch will have his morphed form to be a walking cookpot. For now he is just a walking fire pit. 
+Next patch will be his official artwork. For now it's randomsters unused animations. I'm kind of liking the idea of using randomsters animation for new chester releases as they get tested.
+
+Patch notes as of December 2017
+Fixed a typo in the code of Partybone that would cause the game to crash when Dubster would evolve. 
+Also added a couple lines of code to cavester so he produced a small sanity aura when standing near him because he is so loveable.
+
+other second december patch was a quick fix for a mistake that happened due to my computer being reformatted.(Eyebone inventory files were missing)
+
+chenster bone inventory problem
+5.6.4
+eyebones stopped appearing in inventory slots for some odd reason. The code WAS there, not sure what happened. :\
+
+Lots of bugs
+5.6.0
+I pushed back the release of Ovenster, and focused on all of my bug issues for this update instead.
+This mod should NOW be compatible with the no container blocking mod.
+Removed randomster from the mod all together and shoved him in a new folder called the 'graveyard' in case I wish to revisit him as his own entity for any reason.
+rebalanced dubsters morphed drops. He still may drop a poop at random upon death unmorphed.
+
+uUdate
+5.5.1
+fixed code for update
+Added work kooky112 did on cavester.
+
+Merger
+5.4.1
+added the new anim for the partybone
+added SG for daddy and cavester
+set cavester to false as default 
+
+Force This
+5.4.0
+Finished work on force spawn options and updated version to match the live version
+added cavester layout
+
+daddy fix
+5.3.7
+fixed bigdaddy's container to work with the new config options
+
+Options Update
+5.3.6
+config options finished
+Thanks Muche
+
+Cavester Update
+5.3.5
+
+Reworked the config options
+changes console commands
+added cavester
