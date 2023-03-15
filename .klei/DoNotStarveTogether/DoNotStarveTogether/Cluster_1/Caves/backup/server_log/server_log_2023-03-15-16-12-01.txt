@@ -2343,17 +2343,3 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [06:59:24]: Truncating to snapshot #196...
 [06:59:24]:  - session/14758F86C8A45F1F/0000000190
 [06:59:24]:    1 file(s) removed
-[06:59:24]: [Shard] Stopping shard mode
-[06:59:24]: [Steam] SendUserDisconnect for ''
-[06:59:25]: Collecting garbage...
-[06:59:25]: lua_gc took 0.26 seconds
-[06:59:25]: ~ShardLuaProxy()
-[06:59:25]: ~cEventLeaderboardProxy()
-[06:59:25]: ~ItemServerLuaProxy()
-[06:59:25]: ~InventoryLuaProxy()
-[06:59:25]: ~NetworkLuaProxy()
-[06:59:25]: ~SimLuaProxy()
-[06:59:25]: lua_close took 0.34 seconds
-[06:59:25]: CurlRequestManager::ClientThread::Main() complete
-[06:59:25]: HttpClient2 discarded 0 callbacks.
-[06:59:26]: Shutting down

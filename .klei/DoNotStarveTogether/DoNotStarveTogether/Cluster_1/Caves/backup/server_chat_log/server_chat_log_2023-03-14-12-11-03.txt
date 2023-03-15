@@ -7,7 +7,7 @@
 [03:47:19]: [Death Announcement] Panelopy was killed by Terrorbeak. He became a spooky ghost!
 [03:47:38]: [Death Announcement] medicc.c was killed by Spider. She became a spooky ghost!
 [03:47:42]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
-[03:50:36]: [Resurrect Announcement] Panelopy was resurrected by Campfire
+[03:50:37]: [Resurrect Announcement] Panelopy was resurrected by Campfire
 Remaining burn time: 2:12.
 [03:59:42]: [Leave Announcement] demons.jostle
 [04:00:53]: [Join Announcement] demons.jostle
@@ -275,7 +275,7 @@ Remaining burn time: 1:22.
 [12:18:05]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit
 Remaining burn time: 1:10.
 [12:37:36]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
-[12:37:46]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[12:37:47]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
 [12:38:31]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
 [12:38:37]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
 [13:00:42]: [Death Announcement] Trexa was killed by Red Hound. He became a spooky ghost!
@@ -318,7 +318,7 @@ Remaining burn time: 0:24.
 [13:34:51]: [Death Announcement] Trexa was killed by Guard Pig. He became a spooky ghost!
 [13:34:54]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
 [13:35:07]: [Death Announcement] Trexa was killed by Guard Pig. He became a spooky ghost!
-[13:35:10]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[13:35:11]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
 [13:35:25]: [Death Announcement] Trexa was killed by Guard Pig. He became a spooky ghost!
 [13:35:31]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
 [13:35:46]: [Death Announcement] Trexa was killed by Guard Pig. He became a spooky ghost!
@@ -358,7 +358,7 @@ Remaining burn time: 0:24.
 [13:42:16]: [Death Announcement] medicc.c was killed by Terrorbeak. She became a spooky ghost!
 [13:42:22]: [Resurrect Announcement] medicc.c was resurrected by Campfire
 Remaining burn time: 0:36.
-[13:42:52]: [Death Announcement] medicc.c was killed by Deerclops. She became a spooky ghost!
+[13:42:53]: [Death Announcement] medicc.c was killed by Deerclops. She became a spooky ghost!
 [13:42:53]: [Death Announcement] Trexa was killed by Tallbird. He became a spooky ghost!
 [13:42:55]: [Resurrect Announcement] medicc.c was resurrected by Campfire
 Remaining burn time: 0:48.
@@ -370,7 +370,7 @@ Remaining burn time: 2:52.
 [13:43:21]: [Resurrect Announcement] medicc.c was resurrected by Campfire
 Remaining burn time: 2:37.
 [13:44:32]: [Death Announcement] medicc.c was killed by Terrorbeak. She became a spooky ghost!
-[13:44:35]: [Resurrect Announcement] medicc.c was resurrected by Campfire
+[13:44:36]: [Resurrect Announcement] medicc.c was resurrected by Campfire
 Remaining burn time: 2:53.
 [13:45:45]: [Death Announcement] medicc.c was killed by Terrorbeak. She became a spooky ghost!
 [13:45:47]: [Resurrect Announcement] medicc.c was resurrected by Campfire
@@ -408,28 +408,3 @@ Remaining burn time: 0:27.
 [20:18:05]: [Skin Announcement] demons.jostle body_wendy_formalp
 [20:30:28]: [Leave Announcement] demons.jostle
 [02:53:40]: [Join Announcement] demons.jostle
-[03:45:41]: [Death Announcement] demons.jostle was killed by Beefalo. He became a spooky ghost!
-[03:45:43]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
-Remaining burn time: 1:31.
-[03:45:55]: [Death Announcement] demons.jostle was killed by Beefalo. He became a spooky ghost!
-[03:46:02]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
-Remaining burn time: 1:12.
-[03:50:08]: [Leave Announcement] demons.jostle
-[05:14:32]: [Join Announcement] demons.jostle
-[05:15:10]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
-[05:15:12]: [Resurrect Announcement] demons.jostle was resurrected by Shenanigans.
-[05:15:25]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
-[05:15:30]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
-Remaining burn time: 2:57.
-[05:24:51]: [Death Announcement] demons.jostle was killed by Batilisk. He became a spooky ghost!
-[05:25:05]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
-Remaining burn time: 2:58.
-[05:25:10]: [Death Announcement] demons.jostle was killed by Batilisk. He became a spooky ghost!
-[05:25:12]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
-Remaining burn time: 2:51.
-[06:25:35]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
-[06:27:16]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
-[06:34:14]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
-[07:43:19]: [Leave Announcement] demons.jostle
-[06:58:24]: [Join Announcement] demons.jostle
-[06:58:44]: [Leave Announcement] demons.jostle
