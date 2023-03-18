@@ -1,0 +1,39 @@
+[00:00:59]: [Join Announcement] demons.jostle
+[00:02:28]: [Join Announcement] medicc.c
+[00:02:55]: [Say] (KU_k49iQnDI) demons.jostle: hi
+[00:03:02]: [Say] (KU_k49iQnDI) demons.jostle: hihihihihihi
+[00:04:56]: [Leave Announcement] medicc.c
+[00:05:28]: [Leave Announcement] demons.jostle
+[00:08:03]: [Join Announcement] demons.jostle
+[05:22:39]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
+[05:22:43]: [Resurrect Announcement] demons.jostle was resurrected by Shenanigans.
+[05:27:25]: [Join Announcement] medicc.c
+[05:28:09]: [Say] (KU_k49iQnDI) demons.jostle: hi
+[05:28:22]: [Say] (KU_kH-fQy3p) medicc.c: hihi
+[05:40:24]: [Say] (KU_k49iQnDI) demons.jostle: lack ?
+[05:55:40]: [Skin Announcement] demons.jostle hand_beltedgloves_brown_beaver
+[06:09:54]: [Skin Announcement] medicc.c feet_wx78_wrestler
+[06:13:33]: [Leave Announcement] demons.jostle
+[06:15:07]: [Join Announcement] demons.jostle
+[06:40:43]: [Leave Announcement] demons.jostle
+[06:49:53]: [Death Announcement] medicc.c was killed by Spider. She became a spooky ghost!
+[06:49:57]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[06:52:23]: [Join Announcement] Trexa
+[06:55:45]: [Death Announcement] Trexa was killed by Pig Man. He became a spooky ghost!
+[06:55:51]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[06:56:19]: [Death Announcement] Trexa was killed by Pig Man. He became a spooky ghost!
+[06:56:24]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[07:06:08]: [Join Announcement] demons.jostle
+[07:15:58]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[07:16:04]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[07:16:06]: [Death Announcement] Trexa was killed by Red Hound. He became a spooky ghost!
+[07:16:17]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[07:16:25]: [Death Announcement] Trexa was killed by Red Hound. He became a spooky ghost!
+[07:16:27]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[07:16:29]: [Death Announcement] medicc.c was killed by Spider. She became a spooky ghost!
+[07:16:32]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[07:16:40]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[07:16:42]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[07:17:40]: [Leave Announcement] demons.jostle
+[07:17:55]: [Leave Announcement] medicc.c
+[07:18:08]: [Leave Announcement] Trexa
