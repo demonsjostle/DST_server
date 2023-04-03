@@ -1,0 +1,48 @@
+[00:01:00]: [Join Announcement] demons.jostle
+[00:02:26]: [Join Announcement] medicc.c
+[00:06:42]: [Say] (KU_kH-fQy3p) medicc.c: i need stone
+[00:17:09]: [Skin Announcement] medicc.c hand_wurt_shadow
+[00:26:56]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
+[00:27:12]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:58.
+[00:30:02]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[00:30:32]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:48:53]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:51:23]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:52:07]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:52:29]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:53:12]: [Leave Announcement] demons.jostle
+[00:53:48]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:54:04]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:54:45]: [Death Announcement] medicc.c was killed by Moose. She became a spooky ghost!
+[00:55:02]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:55:52]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:55:56]: [Resurrect Announcement] medicc.c was resurrected by Campfire
+Remaining burn time: 1:55.
+[00:58:41]: [Death Announcement] medicc.c was killed by Moose. She became a spooky ghost!
+[01:00:09]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[01:43:14]: [Skin Announcement] medicc.c feet_waxwell_wizard
+[01:47:55]: [Leave Announcement] medicc.c
+[02:08:42]: [Join Announcement] medicc.c
+[02:42:59]: [Death Announcement] medicc.c was killed by Pig Man. She became a spooky ghost!
+[02:43:03]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[03:10:00]: [Leave Announcement] medicc.c
+[03:58:30]: [Join Announcement] medicc.c
+[04:02:27]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[04:02:34]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[04:03:30]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[04:03:36]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[04:07:01]: [Death Announcement] medicc.c was killed by Spider Warrior. She became a spooky ghost!
+[04:07:16]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[04:07:54]: [Death Announcement] medicc.c was killed by Darkness. She became a spooky ghost!
+[04:09:11]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[04:21:21]: [Join Announcement] demons.jostle
+[06:17:02]: [Say] (KU_kH-fQy3p) medicc.c: soooooo sleepy
+[06:26:32]: [Leave Announcement] medicc.c
+[06:29:16]: [Leave Announcement] demons.jostle
+[23:46:00]: [Join Announcement] medicc.c
+[23:50:50]: [Leave Announcement] medicc.c
+[05:22:00]: [Join Announcement] Trexa
+[05:22:42]: [Leave Announcement] Trexa
+[06:55:34]: [Join Announcement] demons.jostle
+[07:03:28]: [Join Announcement] medicc.c

@@ -1,0 +1,108 @@
+[00:01:49]: [Join Announcement] medicc.c
+[00:01:57]: [Join Announcement] demons.jostle
+[00:02:14]: [Join Announcement] Trexa
+[00:02:15]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[00:02:23]: [Death Announcement] Trexa was killed by Shenanigans. He became a spooky ghost!
+[00:02:32]: [Death Announcement] demons.jostle was killed by Red Hound. He became a spooky ghost!
+[00:02:38]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[00:02:42]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[00:02:46]: [Death Announcement] demons.jostle was killed by Red Hound. He became a spooky ghost!
+[00:02:49]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[00:02:52]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:03:06]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[00:03:09]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:03:13]: [Death Announcement] demons.jostle was killed by Red Hound. He became a spooky ghost!
+[00:03:17]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[00:03:47]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[00:03:50]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:05:10]: [Death Announcement] medicc.c was killed by Pig Man. She became a spooky ghost!
+[00:05:13]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[00:27:01]: [Skin Announcement] medicc.c legs_pants_basic_tan_cream
+[00:28:24]: [Death Announcement] Trexa was killed by Guard Pig. He became a spooky ghost!
+[00:28:38]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[00:41:18]: [Death Announcement] Trexa was killed by Darkness. He became a spooky ghost!
+[00:42:10]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[00:44:10]: [Death Announcement] Trexa was killed by Overheating. He became a spooky ghost!
+[00:44:22]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[00:46:36]: [Death Announcement] Trexa was killed by Overheating. He became a spooky ghost!
+[00:46:39]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[00:49:23]: [Skin Announcement] Trexa feet_woodie_ice
+[00:49:36]: [Skin Announcement] demons.jostle legs_wormwood_ice
+[01:18:22]: [Say] (KU_wwUugW71) Trexa: I'm starving
+[01:32:55]: [Leave Announcement] demons.jostle
+[01:34:04]: [Leave Announcement] medicc.c
+[01:36:48]: [Join Announcement] medicc.c
+[01:38:14]: [Skin Announcement] medicc.c body_polo_white_marble
+[01:52:42]: [Skin Announcement] Trexa hand_woodie_hockey
+[01:59:35]: [Death Announcement] medicc.c was killed by Bunnyman. She became a spooky ghost!
+[01:59:47]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[02:03:40]: [Death Announcement] medicc.c was killed by Depths Worm. She became a spooky ghost!
+[02:03:42]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[02:03:44]: [Join Announcement] demons.jostle
+[02:04:30]: [Death Announcement] demons.jostle was killed by Red Hound. He became a spooky ghost!
+[02:04:33]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:15.
+[02:22:35]: [Skin Announcement] demons.jostle webber_beard_magma
+[02:28:33]: [Leave Announcement] demons.jostle
+[02:29:14]: [Join Announcement] demons.jostle
+[02:29:42]: [Death Announcement] demons.jostle was killed by Beefalo. He became a spooky ghost!
+[02:29:46]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[02:32:13]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[02:32:22]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit
+Remaining burn time: 2:59.
+[02:34:03]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[02:34:12]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[02:34:46]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[02:34:57]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[02:35:19]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[02:35:28]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[02:35:33]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[02:35:33]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[02:35:42]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[02:35:42]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[02:35:46]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[02:35:53]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[02:36:12]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[02:36:19]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[02:48:23]: [Skin Announcement] medicc.c feet_sneakers_blue_catcoon
+[02:54:28]: [Death Announcement] demons.jostle was killed by Merm. He became a spooky ghost!
+[02:54:53]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:58.
+[03:09:20]: [Leave Announcement] medicc.c
+[03:11:58]: [Death Announcement] demons.jostle was killed by Tallbird. He became a spooky ghost!
+[03:12:19]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:55.
+[03:19:07]: [Skin Announcement] Trexa body_trimmed_blouse_green_celadon
+[03:20:47]: [Join Announcement] medicc.c
+[03:25:16]: [Leave Announcement] Trexa
+[03:35:14]: [Death Announcement] medicc.c was killed by Pig Man. She became a spooky ghost!
+[03:35:17]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[03:35:54]: [Join Announcement] Trexa
+[03:37:55]: [Death Announcement] medicc.c was killed by Hound. She became a spooky ghost!
+[03:37:59]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[03:58:41]: [Skin Announcement] medicc.c body_trimmed_blouse_pink_pearl
+[04:09:03]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
+[04:09:23]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:54.
+[04:25:13]: [Skin Announcement] Trexa feet_buckle_shoe_navy_phthalo
+[04:26:36]: [Death Announcement] medicc.c was killed by Pig Man. She became a spooky ghost!
+[04:26:39]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit
+Remaining burn time: 2:49.
+[04:29:09]: [Leave Announcement] demons.jostle
+[04:36:18]: [Join Announcement] demons.jostle
+[04:51:57]: [Say] (KU_kH-fQy3p) medicc.c: siesta
+[05:08:42]: [Death Announcement] Trexa was killed by Deerclops. He became a spooky ghost!
+[05:09:00]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[05:09:55]: [Death Announcement] demons.jostle was killed by Deerclops. He became a spooky ghost!
+[05:09:58]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[05:10:03]: [Death Announcement] medicc.c was killed by Freezing. She became a spooky ghost!
+[05:10:06]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[05:16:00]: [Leave Announcement] demons.jostle
+[05:16:34]: [Skin Announcement] medicc.c sanityrock_fantasy
+[05:26:04]: [Death Announcement] medicc.c was killed by MacTusk. She became a spooky ghost!
+[05:26:31]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[05:30:34]: [Leave Announcement] medicc.c
+[05:31:23]: [Join Announcement] medicc.c
+[05:51:09]: [Skin Announcement] Trexa hand_waxwell_nature
+[05:57:00]: [Leave Announcement] medicc.c
+[06:00:01]: [Leave Announcement] Trexa

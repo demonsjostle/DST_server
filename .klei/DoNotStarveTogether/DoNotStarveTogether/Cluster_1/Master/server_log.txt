@@ -1,53 +1,53 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 548021
-[00:00:00]: Current time: Fri Mar 17 13:38:26 2023
+[00:00:00]: Version: 548413
+[00:00:00]: Current time: Thu Mar 23 20:37:47 2023
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: df8f9953a5fa
-[00:00:00]: Release(Kernel) Version: 5.15.0-1028-aws
-[00:00:00]: Kernel Build Timestamp: #32-Ubuntu SMP Mon Jan 9 12:28:07 UTC 2023
+[00:00:00]: Host Name: 436c12764fa1
+[00:00:00]: Release(Kernel) Version: 5.15.0-1031-aws
+[00:00:00]: Kernel Build Timestamp: #35-Ubuntu SMP Fri Feb 10 02:07:18 UTC 2023
 [00:00:00]: Machine Arch: x86_64
-[00:00:00]: Don't Starve Together: 548021 LINUX
-[00:00:00]: Build Date: 8735
+[00:00:00]: Don't Starve Together: 548413 LINUX
+[00:00:00]: Build Date: 8742
 [00:00:00]: Mode: 32-bit
 [00:00:00]: Parsing command line
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: THREAD - started 'GAClient' (4138904384)
-[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
-[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
-[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
-[00:00:01]: Mounting file system databundles/images.zip successful.
-[00:00:01]: Mounting file system databundles/scripts.zip successful.
-[00:00:01]: [Steam] SteamGameServer_Init(10999, 12346)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:3.04
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: THREAD - started 'StreamInput' (4077902656)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
-[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
-[00:00:01]: AppVersion::GetArchitecture() x32
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: THREAD - started 'GAClient' (4138470208)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:3.52
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (4082088768)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]:   taskgrouplist:	default	Together	
 [00:00:01]:   taskgrouplist:	classic	Classic	
 [00:00:01]:   taskgrouplist:	cave_default	Underground	
@@ -244,2349 +244,730 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
 [00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
 [00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:02]: LOADING LUA SUCCESS
-[00:00:02]: Registering Server mod namespace "food item"
-[00:00:02]: Registering Server mod namespace "showme"
-[00:00:02]: Registering Server mod namespace "foodvalues - itemtooltips"
-[00:00:02]: Registering Server mod namespace "showmeshint"
-[00:00:02]: Registering Server mod namespace "workshop-378160973"
-[00:00:02]: PlayerDeaths could not load morgue	
-[00:00:02]: PlayerHistory could not load player_history	
-[00:00:02]: ServerPreferences could not load server_preferences	
-[00:00:02]: ConsoleScreenSettings could not load consolescreen	
-[00:00:02]: bloom_enabled	true	
-[00:00:02]: OnFilesLoaded()	
-[00:00:02]: OnUpdatePurchaseStateComplete	
-[00:00:02]: Klump load on boot started.	
-[00:00:02]: Klump files loaded: 	0	
-[00:00:03]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
-[00:00:03]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
-[00:00:03]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
-[00:00:03]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
-[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-551324730 (Realistic Placement)	Registering prefabs	
-[00:00:03]: Mod: workshop-551324730 (Realistic Placement)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
-[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-438293817 (Friendly Flingomatics)	Registering prefabs	
-[00:00:03]: Mod: workshop-438293817 (Friendly Flingomatics)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisy	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
-[00:00:03]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
-[00:00:03]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bluechester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    partychester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    partybone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    afester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    cavester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    glowbone	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    stovester	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	    ladle	
-[00:00:03]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
-[00:00:03]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
-[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
-[00:00:04]: 	Load FE	
-[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4036660032)
-[00:00:04]: FilesExistAsyncThread started (21671 files)...
-[00:00:04]: 	Load FE: done	
-[00:00:04]: Check for write access: TRUE
-[00:00:04]: Check for read access: TRUE
-[00:00:04]: Available disk space for save files: 13130 MB
-[00:00:04]: ModIndex: Load sequence finished successfully.	
-[00:00:04]: Reset() returning
-[00:00:04]: ... FilesExistAsyncThread complete
-[00:00:05]: [200] Account Communication Success (6)
-[00:00:05]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
-[00:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[00:00:05]: Starting Dedicated Server Game	
-[00:00:05]: Network tick rate: U=15(2), D=0
-[00:00:05]: About to start a server with the following settings:
-[00:00:05]:   Dedicated: true
-[00:00:05]:   Online: true
-[00:00:05]:   Passworded: true
-[00:00:05]:   ServerPort: 10999
-[00:00:05]:   SteamAuthPort: 8766
-[00:00:05]:   SteamMasterServerPort: 12346
-[00:00:05]:   ClanID: false
-[00:00:05]:   ClanOnly: false
-[00:00:05]:   ClanAdmin: false
-[00:00:05]:   LanOnly: false
-[00:00:05]:   FriendsOnly: false
-[00:00:05]:   EnableAutosaver: true
-[00:00:05]:   EncodeUserPath: true
-[00:00:05]:   PVP: false
-[00:00:05]:   MaxPlayers: 64
-[00:00:05]:   GameMode: endless
-[00:00:05]:   OverridenDNS: 
-[00:00:05]:   PauseWhenEmpty: true
-[00:00:05]:   IdleTimeout: 1800s
-[00:00:05]:   VoteEnabled: true
-[00:00:05]:   InternetBroadcasting: true
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-551324730	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-347079953	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-569043634	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-463740026	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-478005098	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-438293817	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-407977022	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-458940297	
-[00:00:05]: Online Server Started on port: 10999
-[00:00:05]: SUCCESS: Loaded modoverrides.lua	
-[00:00:05]: Not applying level data overrides.	
-[00:00:05]: Found a worldgen override file with these contents:	
-[00:00:05]: 	K: 	override_enabled	 V: 	true	
-[00:00:05]: 	K: 	overrides	 V: 	table: 0x10561f40	
-[00:00:05]: 		K: 	basicresource_regrowth	 V: 	always	
-[00:00:05]: 		K: 	ghostsanitydrain	 V: 	none	
-[00:00:05]: 		K: 	portalresurection	 V: 	always	
-[00:00:05]: 		K: 	resettime	 V: 	none	
-[00:00:05]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:05]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
-[00:00:05]:   sanity-checking worldgenoverride.lua...	
-[00:00:05]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
-[00:00:05]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
-[00:00:05]:   contained settings preset SURVIVAL_TOGETHER, loading...	
-[00:00:05]: Overwriting savedata with override file.	
-[00:00:05]: Collecting garbage...
-[00:00:05]: lua_gc took 0.06 seconds
-[00:00:05]: ~ShardLuaProxy()
-[00:00:05]: ~cEventLeaderboardProxy()
-[00:00:05]: ~ItemServerLuaProxy()
-[00:00:05]: ~InventoryLuaProxy()
-[00:00:05]: ~NetworkLuaProxy()
-[00:00:05]: ~SimLuaProxy()
-[00:00:05]: lua_close took 0.06 seconds
-[00:00:05]: ReleaseAll
-[00:00:05]: ReleaseAll Finished
-[00:00:05]: cGame::StartPlaying
-[00:00:05]: AppVersion::GetArchitecture() x32
-[00:00:05]: LOADING LUA
-[00:00:05]: DoLuaFile scripts/main.lua
-[00:00:05]: DoLuaFile loading buffer scripts/main.lua
-[00:00:05]:   taskgrouplist:	default	Together	
-[00:00:05]:   taskgrouplist:	classic	Classic	
-[00:00:05]:   taskgrouplist:	cave_default	Underground	
-[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:05]: Running main.lua
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering Server mod namespace "food item"
+[00:00:03]: Registering Server mod namespace "showme"
+[00:00:03]: Registering Server mod namespace "foodvalues - itemtooltips"
+[00:00:03]: Registering Server mod namespace "showmeshint"
+[00:00:03]: Registering Server mod namespace "workshop-378160973"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
+[00:00:04]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
+[00:00:04]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-551324730 (Realistic Placement)	Registering prefabs	
+[00:00:04]: Mod: workshop-551324730 (Realistic Placement)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-438293817 (Friendly Flingomatics)	Registering prefabs	
+[00:00:04]: Mod: workshop-438293817 (Friendly Flingomatics)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	    daisy	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
+[00:00:04]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:05]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 21242 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (4039506752)
+[00:00:06]: FilesExistAsyncThread started (21671 files)...
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:07]: Received (KU_k49iQnDI) from TokenPurpose
+[00:00:07]: Starting Dedicated Server Game	
+[00:00:07]: Network tick rate: U=15(2), D=0
+[00:00:07]: About to start a server with the following settings:
+[00:00:07]:   Dedicated: true
+[00:00:07]:   Online: true
+[00:00:07]:   Passworded: true
+[00:00:07]:   ServerPort: 10999
+[00:00:07]:   SteamAuthPort: 8766
+[00:00:07]:   SteamMasterServerPort: 12346
+[00:00:07]:   ClanID: false
+[00:00:07]:   ClanOnly: false
+[00:00:07]:   ClanAdmin: false
+[00:00:07]:   LanOnly: false
+[00:00:07]:   FriendsOnly: false
+[00:00:07]:   EnableAutosaver: true
+[00:00:07]:   EncodeUserPath: true
+[00:00:07]:   PVP: false
+[00:00:07]:   MaxPlayers: 64
+[00:00:07]:   GameMode: endless
+[00:00:07]:   OverridenDNS: 
+[00:00:07]:   PauseWhenEmpty: true
+[00:00:07]:   IdleTimeout: 1800s
+[00:00:07]:   VoteEnabled: true
+[00:00:07]:   InternetBroadcasting: true
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-551324730	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-438293817	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-458940297	
+[00:00:07]: Online Server Started on port: 10999
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Not applying level data overrides.	
+[00:00:07]: Found a worldgen override file with these contents:	
+[00:00:07]: 	K: 	override_enabled	 V: 	true	
+[00:00:07]: 	K: 	overrides	 V: 	table: 0x117a5790	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	resettime	 V: 	none	
+[00:00:07]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]:   sanity-checking worldgenoverride.lua...	
+[00:00:07]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:07]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:07]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:07]: Overwriting savedata with override file.	
+[00:00:07]: Collecting garbage...
+[00:00:07]: lua_gc took 0.07 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: FilesExistAsyncThread aborted.
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: lua_close took 0.09 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: AppVersion::GetArchitecture() x32
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:08]:   taskgrouplist:	default	Together	
+[00:00:08]:   taskgrouplist:	classic	Classic	
+[00:00:08]:   taskgrouplist:	cave_default	Underground	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:08]: Running main.lua
 	
-[00:00:05]: loaded modindex	
-[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:05]: SUCCESS: Loaded modoverrides.lua	
-[00:00:05]: modoverrides.lua enabling workshop-551324730	
-[00:00:05]: modoverrides.lua enabling workshop-347079953	
-[00:00:05]: modoverrides.lua enabling workshop-666155465	
-[00:00:05]: modoverrides.lua enabling workshop-569043634	
-[00:00:05]: modoverrides.lua enabling workshop-2032685784	
-[00:00:05]: modoverrides.lua enabling workshop-463740026	
-[00:00:05]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: modoverrides.lua enabling workshop-551324730	
+[00:00:08]: modoverrides.lua enabling workshop-347079953	
+[00:00:08]: modoverrides.lua enabling workshop-666155465	
+[00:00:08]: modoverrides.lua enabling workshop-569043634	
+[00:00:08]: modoverrides.lua enabling workshop-2032685784	
+[00:00:08]: modoverrides.lua enabling workshop-463740026	
+[00:00:08]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
 Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
-[00:00:05]: modoverrides.lua enabling workshop-478005098	
-[00:00:05]: modoverrides.lua enabling workshop-1383795736	
-[00:00:05]: modoverrides.lua enabling workshop-407977022	
-[00:00:05]: modoverrides.lua enabling workshop-378160973	
-[00:00:05]: modoverrides.lua enabling workshop-438293817	
-[00:00:05]: modoverrides.lua enabling workshop-458940297	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-551324730	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-438293817	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-551324730	
-[00:00:05]: Loading mod: workshop-551324730 (Realistic Placement) Version:1.2	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-458940297	
-[00:00:05]: Loading mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client)) Version:2.5	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
-[00:00:05]: Loading mod: workshop-2032685784 (Extra Equip Slots) Version:1.8.2	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-347079953	
-[00:00:05]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-438293817	
-[00:00:05]: Loading mod: workshop-438293817 (Friendly Flingomatics) Version:1.0	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
-[00:00:05]: Loading mod: workshop-1383795736 (Daisy) Version:1.0.2	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-463740026	
-[00:00:05]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
-[00:00:05]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-407977022	
-[00:00:05]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
-[00:00:05]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-478005098	
-[00:00:05]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
-[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-569043634	
-[00:00:05]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-551324730	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
-[00:00:05]: Overriding mod workshop-347079953's option DFV_Language with value EN	
-[00:00:05]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
-[00:00:05]: Overriding mod workshop-666155465's option chestR with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option food_style with value 0	
-[00:00:05]: Overriding mod workshop-666155465's option display_hp with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option show_uses with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option show_food_units with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option lang with value auto	
-[00:00:05]: Overriding mod workshop-666155465's option chestB with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option food_order with value 0	
-[00:00:05]: Overriding mod workshop-666155465's option chestG with value -1	
-[00:00:05]: Overriding mod workshop-666155465's option food_estimation with value -1	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
-[00:00:05]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
-[00:00:05]: Overriding mod workshop-569043634's option campfire with value Enabled	
-[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option reviver with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option coldfire with value Enabled	
-[00:00:05]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option firepit with value Enabled	
-[00:00:05]: Overriding mod workshop-569043634's option usetags with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
-[00:00:05]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
-[00:00:05]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-2032685784	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
-[00:00:05]: Overriding mod workshop-463740026's option ownership with value false	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-1383795736	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option  with value 1	
-[00:00:05]: Overriding mod workshop-407977022's option stovester_config with value true	
-[00:00:05]: Overriding mod workshop-407977022's option force_stovester with value false	
-[00:00:05]: Overriding mod workshop-407977022's option dubster_config with value true	
-[00:00:05]: Overriding mod workshop-407977022's option force_daddy with value false	
-[00:00:05]: Overriding mod workshop-407977022's option chilltime with value 0.5	
-[00:00:05]: Overriding mod workshop-407977022's option force_afester with value false	
-[00:00:05]: Overriding mod workshop-407977022's option bluester_config with value true	
-[00:00:05]: Overriding mod workshop-407977022's option force_dubster with value false	
-[00:00:05]: Overriding mod workshop-407977022's option cavester_config with value true	
-[00:00:05]: Overriding mod workshop-407977022's option daddy_config with value true	
-[00:00:05]: Overriding mod workshop-407977022's option force_bluester with value false	
-[00:00:05]: Overriding mod workshop-407977022's option afester_config with value true	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
-[00:00:05]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
-[00:00:05]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
-[00:00:05]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
-[00:00:05]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
-[00:00:05]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
-[00:00:05]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
-[00:00:05]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-438293817	
-[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-458940297	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_Language with value EN	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_PercentReplace with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowADefence with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowDamage with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowInsulation with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowUses with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_FueledSettings with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowTemperature with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_MinimalMode with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowACondition with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowFireTime with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ClientPrediction with value default	
-[00:00:05]: Overriding mod workshop-458940297's option DFV_ShowAType with value default	
-[00:00:05]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-2032685784 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modmain.lua	
-[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
-[00:00:05]: ShowMe version:	0.58	
-[00:00:05]: show_food_units	-1	-1	-1	
-[00:00:05]: show_uses	-1	-1	-1	
-[00:00:05]: Detected language for ShowMe: 	auto		
-[00:00:05]: Mod: workshop-551324730 (Realistic Placement)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-551324730 (Realistic Placement)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-551324730 (Realistic Placement)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-438293817 (Friendly Flingomatics)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-438293817 (Friendly Flingomatics)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-438293817 (Friendly Flingomatics)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-1383795736 (Daisy)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-1383795736 (Daisy)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-1383795736 (Daisy)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
-[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
-[00:00:05]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-551324730	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-438293817	
-[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
-[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
-[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:06]: LOADING LUA SUCCESS
-[00:00:06]: Registering Server mod namespace "food item"
-[00:00:06]: Registering Server mod namespace "showme"
-[00:00:06]: Registering Server mod namespace "foodvalues - itemtooltips"
-[00:00:06]: Registering Server mod namespace "showmeshint"
-[00:00:06]: Registering Server mod namespace "workshop-378160973"
-[00:00:06]: PlayerDeaths could not load morgue	
-[00:00:06]: PlayerHistory could not load player_history	
-[00:00:06]: ServerPreferences could not load server_preferences	
-[00:00:06]: ConsoleScreenSettings could not load consolescreen	
-[00:00:06]: bloom_enabled	true	
-[00:00:06]: OnFilesLoaded()	
-[00:00:06]: OnUpdatePurchaseStateComplete	
-[00:00:06]: Loading world: session/019D2AD0C91A19CC/0000000213	
-[00:00:06]: Save file is at version 5.141	
-[00:00:06]: Klump load on boot started.	
-[00:00:06]: Klump files loaded: 	0	
-[00:00:06]: 	Unload FE	
-[00:00:06]: 	Unload FE done	
-[00:00:07]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
-[00:00:07]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
-[00:00:07]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
-[00:00:07]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
-[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-551324730 (Realistic Placement)	Registering prefabs	
-[00:00:07]: Mod: workshop-551324730 (Realistic Placement)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
-[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-438293817 (Friendly Flingomatics)	Registering prefabs	
-[00:00:07]: Mod: workshop-438293817 (Friendly Flingomatics)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	    daisy	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
-[00:00:07]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
-[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bluechester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    partychester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    partybone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    afester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    cavester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    glowbone	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    stovester	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	    ladle	
-[00:00:07]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
-[00:00:07]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
-[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
-[00:00:07]: 	LOAD BE	
-[00:00:14]: 	LOAD BE: done	
-[00:00:14]: Begin Session: 019D2AD0C91A19CC
-[00:00:14]: saving to server_temp/server_save	
-[00:00:14]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-1383795736/images/map_icons/daisy.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-407977022/minimap/afester.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
-[00:00:14]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
-[00:00:14]: Loading 20 new character(s)	
-[00:00:14]: Total 20 character(s) loaded	
-[00:00:15]: Loading Nav Grid	
-[00:00:15]: World generated on build 542788 with save version: 5.13, using seed: 1678618316	
-[00:00:15]: setting 	summerlength	15	
-[00:00:15]: setting 	cavemoonphase	half	
-[00:00:15]: setting 	iscavefullmoon	false	
-[00:00:15]: setting 	isnightmaredawn	false	
-[00:00:15]: setting 	elapseddaysinseason	1	
-[00:00:15]: setting 	isfullmoon	false	
-[00:00:15]: setting 	moisture	1057.8215332031	
-[00:00:15]: setting 	cavephase	day	
-[00:00:15]: setting 	iscavewaxingmoon	false	
-[00:00:15]: setting 	isnightmarewild	false	
-[00:00:15]: setting 	nightmaretimeinphase	0	
-[00:00:15]: setting 	precipitationrate	0	
-[00:00:15]: setting 	iswet	true	
-[00:00:15]: setting 	isnewmoon	false	
-[00:00:15]: setting 	precipitation	none	
-[00:00:15]: setting 	israining	false	
-[00:00:15]: setting 	isnightmarewarn	false	
-[00:00:15]: setting 	iswinter	false	
-[00:00:15]: setting 	season	summer	
-[00:00:15]: setting 	remainingdaysinseason	14	
-[00:00:15]: setting 	winterlength	15	
-[00:00:15]: setting 	iscaveday	true	
-[00:00:15]: setting 	moistureceil	12216.62109375	
-[00:00:15]: setting 	isday	true	
-[00:00:15]: setting 	springlength	20	
-[00:00:15]: setting 	wetness	16.485521316528	
-[00:00:15]: setting 	iscavedusk	false	
-[00:00:15]: setting 	isalterawake	false	
-[00:00:15]: setting 	isnightmarecalm	false	
-[00:00:15]: setting 	isnight	false	
-[00:00:15]: setting 	isdusk	false	
-[00:00:15]: setting 	isspring	false	
-[00:00:15]: setting 	isautumn	false	
-[00:00:15]: setting 	issnowing	false	
-[00:00:15]: setting 	iswaxingmoon	false	
-[00:00:15]: setting 	phase	day	
-[00:00:15]: setting 	snowlevel	0	
-[00:00:15]: setting 	issnowcovered	false	
-[00:00:15]: setting 	autumnlength	20	
-[00:00:15]: setting 	pop	0.011639066523705	
-[00:00:15]: setting 	nightmaretime	0	
-[00:00:15]: setting 	seasonprogress	0.066666666666667	
-[00:00:15]: setting 	moonphase	half	
-[00:00:15]: setting 	nightmarephase	none	
-[00:00:15]: setting 	cycles	196	
-[00:00:15]: setting 	timeinphase	0.0037195276331019	
-[00:00:15]: setting 	iscavenight	false	
-[00:00:15]: setting 	iscavenewmoon	false	
-[00:00:15]: setting 	issummer	true	
-[00:00:15]: setting 	temperature	62.37076781061	
-[00:00:15]: setting 	time	0.0020922342936198	
-[00:00:15]: OVERRIDE: setting	resettime	to	none	
-[00:00:15]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:00:15]: OVERRIDE: setting	portalresurection	to	always	
-[00:00:15]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:00:18]: Could not find anim [FROMNUM] in bank [eyeofterror]
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:19]: Could not find anim build FROMNUM
-[00:00:22]: Reconstructing topology	
-[00:00:22]: 	...Sorting points	
-[00:00:22]: 	...Sorting edges	
-[00:00:22]: 	...Connecting nodes	
-[00:00:22]: 	...Validating connections	
-[00:00:22]: 	...Housekeeping	
-[00:00:22]: 	...Done!	
-[00:00:22]: Truncating to snapshot #213...
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000195
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000203
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000194
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000199
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000205
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000197
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000196
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000201
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000206
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000198
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000204
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000200
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000192
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000207
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000202
-[00:00:22]:  - session/019D2AD0C91A19CC/0000000193
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000207
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000206
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000205
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000204
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000203
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000202
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000201
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000200
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000199
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000198
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000196
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000195
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000194
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000193
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000192
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000207
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000206
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000205
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000204
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000203
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000202
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000201
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000200
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000198
-[00:00:22]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000180
-[00:00:22]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:00:22]:    44 file(s) removed
-[00:00:22]: Restoring user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000213	
-[00:00:22]: Restoring user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000213	
-[00:00:22]: Restoring user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000213	
-[00:00:22]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:00:22]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:00:22]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:00:22]: 1 uploads added to server. From server_temp
-[00:00:22]: About to start a shard with these settings:
-[00:00:22]:   ShardName: [SHDMASTER]
-[00:00:22]:   ShardID: 1
-[00:00:22]:   ShardRole: MASTER
-[00:00:22]:   MasterHost: (null)
-[00:00:22]:   MasterBind: 127.0.0.1
-[00:00:22]:   MasterPort: 10998
-[00:00:22]: [Shard] Starting master server
-[00:00:22]: [Shard] Shard server started on port: 10998
-[00:00:22]: Telling Client our new session identifier: 019D2AD0C91A19CC
-[00:00:22]: Check for write access: TRUE
-[00:00:22]: Check for read access: TRUE
-[00:00:22]: Available disk space for save files: 13192 MB
-[00:00:22]: ModIndex: Load sequence finished successfully.	
-[00:00:23]: Reset() returning
-[00:00:24]: Validating portal[4] <-> 3362536613[4] (inactive)	
-[00:00:24]: Validating portal[1] <-> 3362536613[1] (inactive)	
-[00:00:24]: Validating portal[7] <-> 3362536613[7] (inactive)	
-[00:00:24]: Validating portal[9] <-> 3362536613[9] (inactive)	
-[00:00:24]: Validating portal[5] <-> 3362536613[5] (inactive)	
-[00:00:24]: Validating portal[3] <-> 3362536613[3] (inactive)	
-[00:00:24]: Validating portal[6] <-> 3362536613[6] (inactive)	
-[00:00:24]: Validating portal[8] <-> 3362536613[8] (inactive)	
-[00:00:24]: Validating portal[2] <-> 3362536613[2] (inactive)	
-[00:00:24]: Server registered via geo DNS in ap-southeast-1
-[00:00:24]: Sim paused
-[00:00:27]: [Shard] Secondary shard Caves(3362536613) connected: [LAN] 127.0.0.1
-[00:00:27]: [Shard] Secondary Caves(3362536613) ready!
-[00:00:27]: World 3362536613 is now connected	
-[00:00:27]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
-[00:00:27]: Validating portal[4] <-> 3362536613[4] (active)	
-[00:00:27]: Validating portal[1] <-> 3362536613[1] (disabled)	
-[00:00:27]: Validating portal[7] <-> 3362536613[7] (disabled)	
-[00:00:27]: Validating portal[9] <-> 3362536613[9] (active)	
-[00:00:27]: Validating portal[5] <-> 3362536613[5] (disabled)	
-[00:00:27]: Validating portal[3] <-> 3362536613[3] (active)	
-[00:00:27]: Validating portal[6] <-> 3362536613[6] (disabled)	
-[00:00:27]: Validating portal[8] <-> 3362536613[8] (active)	
-[00:00:27]: Validating portal[2] <-> 3362536613[2] (disabled)	
-[00:00:27]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:00:27]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
-[00:01:33]: New incoming connection 1.47.19.13|26423 <3484204539861270649>
-[00:01:33]: Client connected from 1.47.19.13|26423 <3484204539861270649>
-[00:01:33]: ValidateGameSessionToken GUID<3484204539861270649>
-[00:01:34]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[00:01:34]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[00:01:34]: [Steam] Authenticated client '76561198111006597'
-[00:01:36]: There is no active event to validate against.
-[00:01:36]: [Shard] Read save location file for (KU_kH-fQy3p)
-[00:01:47]: New incoming connection 223.205.176.6|52939 <3187494975331972925>
-[00:01:47]: Client connected from 223.205.176.6|52939 <3187494975331972925>
-[00:01:47]: ValidateGameSessionToken GUID<3187494975331972925>
-[00:01:47]: Client authenticated: (KU_k49iQnDI) demons.jostle
-[00:01:48]: [Steam] Authenticated host '76561198252722114'
-[00:01:48]: There is no active event to validate against.
-[00:01:48]: [Shard] Read save location file for (KU_k49iQnDI)
-[00:01:58]: New incoming connection 182.52.45.164|51369 <5277939555028178278>
-[00:01:58]: Client connected from 182.52.45.164|51369 <5277939555028178278>
-[00:01:58]: ValidateGameSessionToken GUID<5277939555028178278>
-[00:01:58]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:01:58]: Spawning player at: [Load] (-377.37, -0.00, 64.36)	
-[00:01:58]: Sim unpaused
-[00:01:58]: Client authenticated: (KU_wwUugW71) Trexa
-[00:01:58]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
-[00:01:59]: [Steam] Authenticated client '76561198146349502'
-[00:01:59]: There is no active event to validate against.
-[00:01:59]: [Shard] Read save location file for (KU_wwUugW71)
-[00:02:02]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:02:02]: Spawning player at: [Load] (-390.30, 0.00, 101.74)	
-[00:02:16]: Could not find anim [death] in bank [ghost]
-[00:02:16]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:02:22]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:02:22]: Spawning player at: [Load] (-382.96, -0.00, 115.12)	
-[00:02:24]: Could not find anim [death] in bank [ghost]
-[00:02:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:02:33]: Could not find anim [death] in bank [ghost]
-[00:02:33]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:02:39]: Could not find anim [idle_loop] in bank [ghost]
-[00:02:41]: Could not find anim [transform] in bank [wilson]
-[00:02:43]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:02:43]: Could not find anim [idle_loop] in bank [ghost]
-[00:02:46]: Could not find anim [transform] in bank [wilson]
-[00:02:47]: Could not find anim [death] in bank [ghost]
-[00:02:47]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:02:47]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:02:50]: Could not find anim [idle_loop] in bank [ghost]
-[00:02:53]: Could not find anim [idle_loop] in bank [ghost]
-[00:02:53]: Could not find anim [transform] in bank [wilson]
-[00:02:54]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:02:56]: Could not find anim [transform] in bank [wilson]
-[00:02:57]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:03:07]: Could not find anim [death] in bank [ghost]
-[00:03:07]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:03:10]: Could not find anim [idle_loop] in bank [ghost]
-[00:03:12]: Could not find anim [transform] in bank [wilson]
-[00:03:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:03:14]: Could not find anim [death] in bank [ghost]
-[00:03:14]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:03:18]: Could not find anim [idle_loop] in bank [ghost]
-[00:03:21]: Could not find anim [transform] in bank [wilson]
-[00:03:22]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:03:48]: Could not find anim [death] in bank [ghost]
-[00:03:48]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:03:51]: Could not find anim [idle_loop] in bank [ghost]
-[00:03:54]: Could not find anim [transform] in bank [wilson]
-[00:03:55]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:05:11]: Could not find anim [death] in bank [ghost]
-[00:05:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:05:14]: Could not find anim [idle_loop] in bank [ghost]
-[00:05:17]: Could not find anim [transform] in bank [wilson]
-[00:05:19]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:05:28]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-399.71, 116.34)
-[00:05:28]: God mode: true	
-[00:06:05]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-416.49, 218.83)
-[00:06:05]: giving 	124355 - cutgrass	
-[00:06:05]: giving 	124357 - cutgrass	
-[00:06:05]: giving 	124359 - cutgrass	
-[00:06:05]: giving 	124361 - cutgrass	
-[00:06:05]: giving 	124363 - cutgrass	
-[00:06:05]: giving 	124365 - cutgrass	
-[00:06:05]: giving 	124367 - cutgrass	
-[00:06:05]: giving 	124369 - cutgrass	
-[00:06:05]: giving 	124371 - cutgrass	
-[00:06:05]: giving 	124373 - cutgrass	
-[00:06:05]: giving 	124375 - cutgrass	
-[00:06:05]: giving 	124377 - cutgrass	
-[00:06:05]: giving 	124379 - cutgrass	
-[00:06:05]: giving 	124381 - cutgrass	
-[00:06:05]: giving 	124383 - cutgrass	
-[00:06:05]: giving 	124385 - cutgrass	
-[00:06:05]: giving 	124387 - cutgrass	
-[00:06:05]: giving 	124389 - cutgrass	
-[00:06:05]: giving 	124391 - cutgrass	
-[00:06:05]: giving 	124393 - cutgrass	
-[00:06:05]: giving 	124395 - cutgrass	
-[00:06:05]: giving 	124397 - cutgrass	
-[00:06:05]: giving 	124399 - cutgrass	
-[00:06:05]: giving 	124401 - cutgrass	
-[00:06:05]: giving 	124403 - cutgrass	
-[00:06:05]: giving 	124405 - cutgrass	
-[00:06:05]: giving 	124407 - cutgrass	
-[00:06:05]: giving 	124409 - cutgrass	
-[00:06:05]: giving 	124411 - cutgrass	
-[00:06:05]: giving 	124413 - cutgrass	
-[00:08:16]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-432.67, 133.11)
-[00:09:03]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("beef_bell", 1)) @(-429.77, 141.82)
-[00:09:03]: giving 	125462 - beef_bell	
-[00:09:58]: Available disk space for save files: 13192 MB
-[00:09:58]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[00:09:58]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[00:09:58]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[00:09:59]: Serializing world: session/019D2AD0C91A19CC/0000000214
-[00:10:09]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-426.78, 135.98)
-[00:10:09]: giving 	125853 - cutgrass	
-[00:10:09]: giving 	125855 - cutgrass	
-[00:10:09]: giving 	125857 - cutgrass	
-[00:10:09]: giving 	125859 - cutgrass	
-[00:10:09]: giving 	125861 - cutgrass	
-[00:10:09]: giving 	125863 - cutgrass	
-[00:10:09]: giving 	125865 - cutgrass	
-[00:10:09]: giving 	125867 - cutgrass	
-[00:10:09]: giving 	125869 - cutgrass	
-[00:10:09]: giving 	125871 - cutgrass	
-[00:10:09]: giving 	125873 - cutgrass	
-[00:10:09]: giving 	125875 - cutgrass	
-[00:10:09]: giving 	125877 - cutgrass	
-[00:10:09]: giving 	125879 - cutgrass	
-[00:10:09]: giving 	125881 - cutgrass	
-[00:10:09]: giving 	125883 - cutgrass	
-[00:10:09]: giving 	125885 - cutgrass	
-[00:10:09]: giving 	125887 - cutgrass	
-[00:10:09]: giving 	125889 - cutgrass	
-[00:10:09]: giving 	125891 - cutgrass	
-[00:10:09]: giving 	125893 - cutgrass	
-[00:10:09]: giving 	125895 - cutgrass	
-[00:10:09]: giving 	125897 - cutgrass	
-[00:10:09]: giving 	125899 - cutgrass	
-[00:10:09]: giving 	125901 - cutgrass	
-[00:10:09]: giving 	125903 - cutgrass	
-[00:10:09]: giving 	125905 - cutgrass	
-[00:10:09]: giving 	125907 - cutgrass	
-[00:10:09]: giving 	125909 - cutgrass	
-[00:10:09]: giving 	125911 - cutgrass	
-[00:11:34]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-435.94, 123.78)
-[00:11:34]: giving 	126637 - cutgrass	
-[00:11:34]: giving 	126639 - cutgrass	
-[00:11:34]: giving 	126641 - cutgrass	
-[00:11:34]: giving 	126643 - cutgrass	
-[00:11:34]: giving 	126645 - cutgrass	
-[00:11:34]: giving 	126647 - cutgrass	
-[00:11:34]: giving 	126649 - cutgrass	
-[00:11:34]: giving 	126651 - cutgrass	
-[00:11:34]: giving 	126653 - cutgrass	
-[00:11:34]: giving 	126655 - cutgrass	
-[00:11:34]: giving 	126657 - cutgrass	
-[00:11:34]: giving 	126659 - cutgrass	
-[00:11:34]: giving 	126661 - cutgrass	
-[00:11:34]: giving 	126663 - cutgrass	
-[00:11:34]: giving 	126665 - cutgrass	
-[00:11:34]: giving 	126667 - cutgrass	
-[00:11:34]: giving 	126669 - cutgrass	
-[00:11:34]: giving 	126671 - cutgrass	
-[00:11:34]: giving 	126673 - cutgrass	
-[00:11:34]: giving 	126675 - cutgrass	
-[00:11:34]: giving 	126677 - cutgrass	
-[00:11:34]: giving 	126679 - cutgrass	
-[00:11:34]: giving 	126681 - cutgrass	
-[00:11:34]: giving 	126683 - cutgrass	
-[00:11:34]: giving 	126685 - cutgrass	
-[00:11:34]: giving 	126687 - cutgrass	
-[00:11:34]: giving 	126689 - cutgrass	
-[00:11:34]: giving 	126691 - cutgrass	
-[00:11:34]: giving 	126693 - cutgrass	
-[00:11:34]: giving 	126695 - cutgrass	
-[00:13:43]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("saddle_basic", 1)) @(-368.01, 99.96)
-[00:13:43]: giving 	127530 - saddle_basic	
-[00:14:07]: Could not find anim [dismount] in bank [wilson]
-[00:14:07]: Could not find anim [dismount] in bank [wilson]
-[00:14:48]: Could not find anim [buck] in bank [wilson]
-[00:14:48]: Could not find anim [buck] in bank [wilson]
-[00:15:20]: Could not find anim [dismount] in bank [wilson]
-[00:15:20]: Could not find anim [dismount] in bank [wilson]
-[00:15:48]: Could not find anim [dismount] in bank [wilson]
-[00:15:48]: Could not find anim [dismount] in bank [wilson]
-[00:16:10]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-372.53, 114.22)
-[00:16:23]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-368.77, 120.03)
-[00:16:23]: giving 	128296 - cutgrass	
-[00:16:23]: giving 	128298 - cutgrass	
-[00:16:23]: giving 	128300 - cutgrass	
-[00:16:23]: giving 	128302 - cutgrass	
-[00:16:23]: giving 	128304 - cutgrass	
-[00:16:23]: giving 	128306 - cutgrass	
-[00:16:23]: giving 	128308 - cutgrass	
-[00:16:23]: giving 	128310 - cutgrass	
-[00:16:23]: giving 	128312 - cutgrass	
-[00:16:23]: giving 	128314 - cutgrass	
-[00:16:23]: giving 	128316 - cutgrass	
-[00:16:23]: giving 	128318 - cutgrass	
-[00:16:23]: giving 	128320 - cutgrass	
-[00:16:23]: giving 	128322 - cutgrass	
-[00:16:23]: giving 	128324 - cutgrass	
-[00:16:23]: giving 	128326 - cutgrass	
-[00:16:23]: giving 	128328 - cutgrass	
-[00:16:23]: giving 	128330 - cutgrass	
-[00:16:23]: giving 	128332 - cutgrass	
-[00:16:23]: giving 	128334 - cutgrass	
-[00:16:23]: giving 	128336 - cutgrass	
-[00:16:23]: giving 	128338 - cutgrass	
-[00:16:23]: giving 	128340 - cutgrass	
-[00:16:23]: giving 	128342 - cutgrass	
-[00:16:23]: giving 	128344 - cutgrass	
-[00:16:23]: giving 	128346 - cutgrass	
-[00:16:23]: giving 	128348 - cutgrass	
-[00:16:23]: giving 	128350 - cutgrass	
-[00:16:23]: giving 	128352 - cutgrass	
-[00:16:23]: giving 	128354 - cutgrass	
-[00:16:54]: Could not find anim [spawn] in bank [squiderp]
-[00:16:55]: Stale Component Reference: GUID 128374, scripts/entityscript.lua:1177
-[00:16:55]: Could not find anim [spawn] in bank [squiderp]
-[00:16:55]: Stale Component Reference: GUID 128374, scripts/entityscript.lua:1177
-[00:16:55]: Could not find anim [spawn] in bank [squiderp]
-[00:16:56]: Stale Component Reference: GUID 128375, scripts/entityscript.lua:1177
-[00:16:56]: Could not find anim [spawn] in bank [squiderp]
-[00:17:55]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("nightsword",1)) @(-364.77, 115.42)
-[00:17:55]: giving 	128810 - nightsword	
-[00:17:59]: Available disk space for save files: 13188 MB
-[00:17:59]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000215
-[00:17:59]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000215
-[00:17:59]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000215
-[00:17:59]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[00:17:59]: Serializing world: session/019D2AD0C91A19CC/0000000215
-[00:19:02]: Could not find anim [dismount] in bank [wilson]
-[00:19:02]: Could not find anim [dismount] in bank [wilson]
-[00:19:41]: Could not find anim [buck] in bank [wilson]
-[00:20:12]: Could not find anim [dismount] in bank [wilson]
-[00:20:12]: Could not find anim [dismount] in bank [wilson]
-[00:20:52]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-292.33, -23.63)
-[00:20:52]: giving 	130655 - cutgrass	
-[00:20:52]: giving 	130657 - cutgrass	
-[00:20:52]: giving 	130659 - cutgrass	
-[00:20:52]: giving 	130661 - cutgrass	
-[00:20:52]: giving 	130663 - cutgrass	
-[00:20:52]: giving 	130665 - cutgrass	
-[00:20:52]: giving 	130667 - cutgrass	
-[00:20:52]: giving 	130669 - cutgrass	
-[00:20:52]: giving 	130671 - cutgrass	
-[00:20:52]: giving 	130673 - cutgrass	
-[00:20:52]: giving 	130675 - cutgrass	
-[00:20:52]: giving 	130677 - cutgrass	
-[00:20:52]: giving 	130679 - cutgrass	
-[00:20:52]: giving 	130681 - cutgrass	
-[00:20:52]: giving 	130683 - cutgrass	
-[00:20:52]: giving 	130685 - cutgrass	
-[00:20:52]: giving 	130687 - cutgrass	
-[00:20:52]: giving 	130689 - cutgrass	
-[00:20:52]: giving 	130691 - cutgrass	
-[00:20:52]: giving 	130693 - cutgrass	
-[00:20:52]: giving 	130695 - cutgrass	
-[00:20:52]: giving 	130697 - cutgrass	
-[00:20:52]: giving 	130699 - cutgrass	
-[00:20:52]: giving 	130701 - cutgrass	
-[00:20:52]: giving 	130703 - cutgrass	
-[00:20:52]: giving 	130705 - cutgrass	
-[00:20:52]: giving 	130707 - cutgrass	
-[00:20:52]: giving 	130709 - cutgrass	
-[00:20:52]: giving 	130711 - cutgrass	
-[00:20:52]: giving 	130713 - cutgrass	
-[00:23:21]: Could not find anim [dismount] in bank [wilson]
-[00:23:21]: Could not find anim [dismount] in bank [wilson]
-[00:25:59]: Available disk space for save files: 13184 MB
-[00:26:00]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000216
-[00:26:00]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000216
-[00:26:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000216
-[00:26:00]: Serializing world: session/019D2AD0C91A19CC/0000000216
-[00:26:27]: Could not find anim [dismount] in bank [wilson]
-[00:26:49]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-389.31, 132.34)
-[00:26:49]: giving 	132896 - cutgrass	
-[00:26:49]: giving 	132898 - cutgrass	
-[00:26:49]: giving 	132900 - cutgrass	
-[00:26:49]: giving 	132902 - cutgrass	
-[00:26:49]: giving 	132904 - cutgrass	
-[00:26:49]: giving 	132906 - cutgrass	
-[00:26:49]: giving 	132908 - cutgrass	
-[00:26:49]: giving 	132910 - cutgrass	
-[00:26:49]: giving 	132912 - cutgrass	
-[00:26:49]: giving 	132914 - cutgrass	
-[00:26:49]: giving 	132916 - cutgrass	
-[00:26:49]: giving 	132918 - cutgrass	
-[00:26:49]: giving 	132920 - cutgrass	
-[00:26:49]: giving 	132922 - cutgrass	
-[00:26:49]: giving 	132924 - cutgrass	
-[00:26:49]: giving 	132926 - cutgrass	
-[00:26:49]: giving 	132928 - cutgrass	
-[00:26:49]: giving 	132930 - cutgrass	
-[00:26:49]: giving 	132932 - cutgrass	
-[00:26:49]: giving 	132934 - cutgrass	
-[00:26:49]: giving 	132936 - cutgrass	
-[00:26:49]: giving 	132938 - cutgrass	
-[00:26:49]: giving 	132940 - cutgrass	
-[00:26:49]: giving 	132942 - cutgrass	
-[00:26:49]: giving 	132944 - cutgrass	
-[00:26:49]: giving 	132946 - cutgrass	
-[00:26:49]: giving 	132948 - cutgrass	
-[00:26:49]: giving 	132950 - cutgrass	
-[00:26:49]: giving 	132952 - cutgrass	
-[00:26:49]: giving 	132954 - cutgrass	
-[00:27:35]: Could not find anim [dismount] in bank [wilson]
-[00:27:35]: Could not find anim [dismount] in bank [wilson]
-[00:27:40]: Failed to assign item skin ids due to ownership check failure.
-[00:27:43]: Failed to assign item skin ids due to ownership check failure.
-[00:27:51]: Failed to assign item skin ids due to ownership check failure.
-[00:28:05]: Could not find anim [dismount] in bank [wilson]
-[00:28:05]: Could not find anim [dismount] in bank [wilson]
-[00:28:20]: Failed to assign item skin ids due to ownership check failure.
-[00:28:23]: Failed to assign item skin ids due to ownership check failure.
-[00:28:25]: Could not find anim [death] in bank [ghost]
-[00:28:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000217
-[00:28:39]: Could not find anim [idle_loop] in bank [ghost]
-[00:28:42]: Could not find anim [transform] in bank [wilson]
-[00:28:43]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000217
-[00:28:43]: Could not find anim [dismount] in bank [wilson]
-[00:28:43]: Could not find anim [dismount] in bank [wilson]
-[00:28:50]: Failed to assign item skin ids due to ownership check failure.
-[00:28:52]: Failed to assign item skin ids due to ownership check failure.
-[00:28:54]: Failed to assign item skin ids due to ownership check failure.
-[00:29:24]: Failed to assign item skin ids due to ownership check failure.
-[00:29:27]: Failed to assign item skin ids due to ownership check failure.
-[00:29:32]: Failed to assign item skin ids due to ownership check failure.
-[00:29:35]: Failed to assign item skin ids due to ownership check failure.
-[00:29:38]: Failed to assign item skin ids due to ownership check failure.
-[00:29:41]: Failed to assign item skin ids due to ownership check failure.
-[00:29:50]: Could not find anim [buck] in bank [wilson]
-[00:29:50]: Could not find anim [buck] in bank [wilson]
-[00:30:05]: [200] Account Communication Success (6)
-[00:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[00:30:09]: Could not find anim [dismount] in bank [wilson]
-[00:30:09]: Could not find anim [dismount] in bank [wilson]
-[00:30:32]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-476.69, 252.27)
-[00:30:32]: giving 	134474 - cutgrass	
-[00:30:32]: giving 	134476 - cutgrass	
-[00:30:32]: giving 	134478 - cutgrass	
-[00:30:32]: giving 	134480 - cutgrass	
-[00:30:32]: giving 	134482 - cutgrass	
-[00:30:32]: giving 	134484 - cutgrass	
-[00:30:32]: giving 	134486 - cutgrass	
-[00:30:32]: giving 	134488 - cutgrass	
-[00:30:32]: giving 	134490 - cutgrass	
-[00:30:32]: giving 	134492 - cutgrass	
-[00:30:32]: giving 	134494 - cutgrass	
-[00:30:32]: giving 	134496 - cutgrass	
-[00:30:32]: giving 	134498 - cutgrass	
-[00:30:32]: giving 	134500 - cutgrass	
-[00:30:32]: giving 	134502 - cutgrass	
-[00:30:32]: giving 	134504 - cutgrass	
-[00:30:32]: giving 	134506 - cutgrass	
-[00:30:32]: giving 	134508 - cutgrass	
-[00:30:32]: giving 	134510 - cutgrass	
-[00:30:32]: giving 	134512 - cutgrass	
-[00:30:32]: giving 	134514 - cutgrass	
-[00:30:32]: giving 	134516 - cutgrass	
-[00:30:32]: giving 	134518 - cutgrass	
-[00:30:32]: giving 	134520 - cutgrass	
-[00:30:32]: giving 	134522 - cutgrass	
-[00:30:32]: giving 	134524 - cutgrass	
-[00:30:32]: giving 	134526 - cutgrass	
-[00:30:32]: giving 	134528 - cutgrass	
-[00:30:32]: giving 	134530 - cutgrass	
-[00:30:32]: giving 	134532 - cutgrass	
-[00:32:05]: Could not find anim [spawn] in bank [squiderp]
-[00:32:05]: Could not find anim [spawn] in bank [squiderp]
-[00:32:06]: Could not find anim [spawn] in bank [squiderp]
-[00:34:00]: Available disk space for save files: 13180 MB
-[00:34:00]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000217
-[00:34:00]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000217
-[00:34:00]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000217
-[00:34:00]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[00:34:00]: Serializing world: session/019D2AD0C91A19CC/0000000217
-[00:34:24]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-436.37, 127.91)
-[00:34:24]: giving 	135824 - cutgrass	
-[00:34:24]: giving 	135826 - cutgrass	
-[00:34:24]: giving 	135828 - cutgrass	
-[00:34:24]: giving 	135830 - cutgrass	
-[00:34:24]: giving 	135832 - cutgrass	
-[00:34:24]: giving 	135834 - cutgrass	
-[00:34:24]: giving 	135836 - cutgrass	
-[00:34:24]: giving 	135838 - cutgrass	
-[00:34:24]: giving 	135840 - cutgrass	
-[00:34:24]: giving 	135842 - cutgrass	
-[00:34:24]: giving 	135844 - cutgrass	
-[00:34:24]: giving 	135846 - cutgrass	
-[00:34:24]: giving 	135848 - cutgrass	
-[00:34:24]: giving 	135850 - cutgrass	
-[00:34:24]: giving 	135852 - cutgrass	
-[00:34:24]: giving 	135854 - cutgrass	
-[00:34:24]: giving 	135856 - cutgrass	
-[00:34:24]: giving 	135858 - cutgrass	
-[00:34:24]: giving 	135860 - cutgrass	
-[00:34:24]: giving 	135862 - cutgrass	
-[00:34:24]: giving 	135864 - cutgrass	
-[00:34:24]: giving 	135866 - cutgrass	
-[00:34:24]: giving 	135868 - cutgrass	
-[00:34:24]: giving 	135870 - cutgrass	
-[00:34:24]: giving 	135872 - cutgrass	
-[00:34:24]: giving 	135874 - cutgrass	
-[00:34:24]: giving 	135876 - cutgrass	
-[00:34:24]: giving 	135878 - cutgrass	
-[00:34:24]: giving 	135880 - cutgrass	
-[00:34:24]: giving 	135882 - cutgrass	
-[00:35:20]: Could not find anim [dismount] in bank [wilson]
-[00:35:20]: Could not find anim [dismount] in bank [wilson]
-[00:37:06]: Failed to assign item skin ids due to ownership check failure.
-[00:37:08]: Failed to assign item skin ids due to ownership check failure.
-[00:37:26]: Could not find anim [dismount] in bank [wilson]
-[00:37:26]: Could not find anim [dismount] in bank [wilson]
-[00:38:22]: Could not find anim [dismount] in bank [wilson]
-[00:38:22]: Could not find anim [dismount] in bank [wilson]
-[00:39:28]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-384.94, 55.10)
-[00:39:28]: giving 	138974 - cutgrass	
-[00:39:28]: giving 	138976 - cutgrass	
-[00:39:28]: giving 	138978 - cutgrass	
-[00:39:28]: giving 	138980 - cutgrass	
-[00:39:28]: giving 	138982 - cutgrass	
-[00:39:28]: giving 	138984 - cutgrass	
-[00:39:28]: giving 	138986 - cutgrass	
-[00:39:28]: giving 	138988 - cutgrass	
-[00:39:28]: giving 	138990 - cutgrass	
-[00:39:28]: giving 	138992 - cutgrass	
-[00:39:28]: giving 	138994 - cutgrass	
-[00:39:28]: giving 	138996 - cutgrass	
-[00:39:28]: giving 	138998 - cutgrass	
-[00:39:28]: giving 	139000 - cutgrass	
-[00:39:28]: giving 	139002 - cutgrass	
-[00:39:28]: giving 	139004 - cutgrass	
-[00:39:28]: giving 	139006 - cutgrass	
-[00:39:28]: giving 	139008 - cutgrass	
-[00:39:28]: giving 	139010 - cutgrass	
-[00:39:28]: giving 	139012 - cutgrass	
-[00:39:28]: giving 	139014 - cutgrass	
-[00:39:28]: giving 	139016 - cutgrass	
-[00:39:28]: giving 	139018 - cutgrass	
-[00:39:28]: giving 	139020 - cutgrass	
-[00:39:28]: giving 	139022 - cutgrass	
-[00:39:28]: giving 	139024 - cutgrass	
-[00:39:29]: giving 	139026 - cutgrass	
-[00:39:29]: giving 	139028 - cutgrass	
-[00:39:29]: giving 	139030 - cutgrass	
-[00:39:29]: giving 	139032 - cutgrass	
-[00:40:23]: Could not find anim build FROMNUM
-[00:40:29]: Could not find anim build FROMNUM
-[00:41:19]: Could not find anim [death] in bank [ghost]
-[00:41:19]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000218
-[00:42:00]: Available disk space for save files: 13176 MB
-[00:42:01]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000218
-[00:42:01]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000218
-[00:42:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000218
-[00:42:01]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[00:42:01]: Serializing world: session/019D2AD0C91A19CC/0000000218
-[00:42:11]: Could not find anim [idle_loop] in bank [ghost]
-[00:42:14]: Could not find anim [transform] in bank [wilson]
-[00:42:15]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:44:02]: Could not find anim [dismount] in bank [wilson]
-[00:44:03]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-446.61, 202.50)
-[00:44:03]: giving 	140467 - cutgrass	
-[00:44:03]: giving 	140469 - cutgrass	
-[00:44:03]: giving 	140471 - cutgrass	
-[00:44:03]: giving 	140473 - cutgrass	
-[00:44:03]: giving 	140475 - cutgrass	
-[00:44:04]: giving 	140477 - cutgrass	
-[00:44:04]: giving 	140479 - cutgrass	
-[00:44:04]: giving 	140481 - cutgrass	
-[00:44:04]: giving 	140483 - cutgrass	
-[00:44:04]: giving 	140485 - cutgrass	
-[00:44:04]: giving 	140487 - cutgrass	
-[00:44:04]: giving 	140489 - cutgrass	
-[00:44:04]: giving 	140491 - cutgrass	
-[00:44:04]: giving 	140493 - cutgrass	
-[00:44:04]: giving 	140495 - cutgrass	
-[00:44:04]: giving 	140497 - cutgrass	
-[00:44:04]: giving 	140499 - cutgrass	
-[00:44:04]: giving 	140501 - cutgrass	
-[00:44:04]: giving 	140503 - cutgrass	
-[00:44:04]: giving 	140505 - cutgrass	
-[00:44:04]: giving 	140507 - cutgrass	
-[00:44:04]: giving 	140509 - cutgrass	
-[00:44:04]: giving 	140511 - cutgrass	
-[00:44:04]: giving 	140513 - cutgrass	
-[00:44:04]: giving 	140515 - cutgrass	
-[00:44:04]: giving 	140517 - cutgrass	
-[00:44:04]: giving 	140519 - cutgrass	
-[00:44:04]: giving 	140521 - cutgrass	
-[00:44:04]: giving 	140523 - cutgrass	
-[00:44:04]: giving 	140525 - cutgrass	
-[00:44:11]: Could not find anim [death] in bank [ghost]
-[00:44:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:44:23]: Could not find anim [idle_loop] in bank [ghost]
-[00:44:26]: Could not find anim [transform] in bank [wilson]
-[00:44:27]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:45:27]: Could not find anim [buck] in bank [wilson]
-[00:45:27]: Could not find anim [buck] in bank [wilson]
-[00:46:02]: Could not find anim [dismount] in bank [wilson]
-[00:46:02]: Could not find anim [dismount] in bank [wilson]
-[00:46:37]: Could not find anim [death] in bank [ghost]
-[00:46:37]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:46:40]: Could not find anim [idle_loop] in bank [ghost]
-[00:46:43]: Could not find anim [transform] in bank [wilson]
-[00:46:44]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:47:25]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("brush", 1)) @(-382.83, 70.18)
-[00:47:25]: giving 	142050 - brush	
-[00:48:52]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-381.88, 68.39)
-[00:48:52]: giving 	142788 - cutgrass	
-[00:48:52]: giving 	142790 - cutgrass	
-[00:48:52]: giving 	142792 - cutgrass	
-[00:48:52]: giving 	142794 - cutgrass	
-[00:48:52]: giving 	142796 - cutgrass	
-[00:48:52]: giving 	142798 - cutgrass	
-[00:48:52]: giving 	142800 - cutgrass	
-[00:48:52]: giving 	142802 - cutgrass	
-[00:48:52]: giving 	142804 - cutgrass	
-[00:48:52]: giving 	142806 - cutgrass	
-[00:48:52]: giving 	142808 - cutgrass	
-[00:48:52]: giving 	142810 - cutgrass	
-[00:48:52]: giving 	142812 - cutgrass	
-[00:48:52]: giving 	142814 - cutgrass	
-[00:48:52]: giving 	142816 - cutgrass	
-[00:48:52]: giving 	142818 - cutgrass	
-[00:48:52]: giving 	142820 - cutgrass	
-[00:48:52]: giving 	142822 - cutgrass	
-[00:48:52]: giving 	142824 - cutgrass	
-[00:48:52]: giving 	142826 - cutgrass	
-[00:48:52]: giving 	142828 - cutgrass	
-[00:48:52]: giving 	142830 - cutgrass	
-[00:48:52]: giving 	142832 - cutgrass	
-[00:48:52]: giving 	142834 - cutgrass	
-[00:48:52]: giving 	142836 - cutgrass	
-[00:48:52]: giving 	142838 - cutgrass	
-[00:48:52]: giving 	142840 - cutgrass	
-[00:48:52]: giving 	142842 - cutgrass	
-[00:48:52]: giving 	142844 - cutgrass	
-[00:48:52]: giving 	142846 - cutgrass	
-[00:49:15]: Activating portal[9] to 3362536613	
-[00:49:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000219
-[00:49:15]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
-[00:49:15]: [Shard] Begin migration #1 for (KU_kH-fQy3p)
-[00:49:15]: [Shard] #1 [SHDMASTER](1) -> Caves(3362536613)
-[00:49:15]: [Shard] #1 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000219
-[00:49:15]: [Shard] Writing save location file for (KU_kH-fQy3p)
-[00:49:15]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:49:16]: [Steam] SendUserDisconnect for '76561198111006597'
-[00:49:16]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[00:49:24]: [Shard] Completed migration #1 for player (KU_kH-fQy3p)
-[00:50:01]: Available disk space for save files: 13172 MB
-[00:50:01]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000219
-[00:50:01]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[00:50:01]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[00:50:02]: Serializing world: session/019D2AD0C91A19CC/0000000219
-[00:51:14]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-380.68, 69.28)
-[00:51:14]: giving 	143357 - cutgrass	
-[00:51:14]: giving 	143359 - cutgrass	
-[00:51:14]: giving 	143361 - cutgrass	
-[00:51:14]: giving 	143363 - cutgrass	
-[00:51:14]: giving 	143365 - cutgrass	
-[00:51:14]: giving 	143367 - cutgrass	
-[00:51:14]: giving 	143369 - cutgrass	
-[00:51:14]: giving 	143371 - cutgrass	
-[00:51:14]: giving 	143373 - cutgrass	
-[00:51:14]: giving 	143375 - cutgrass	
-[00:51:14]: giving 	143377 - cutgrass	
-[00:51:14]: giving 	143379 - cutgrass	
-[00:51:14]: giving 	143381 - cutgrass	
-[00:51:14]: giving 	143383 - cutgrass	
-[00:51:14]: giving 	143385 - cutgrass	
-[00:51:14]: giving 	143387 - cutgrass	
-[00:51:14]: giving 	143389 - cutgrass	
-[00:51:14]: giving 	143391 - cutgrass	
-[00:51:14]: giving 	143393 - cutgrass	
-[00:51:14]: giving 	143395 - cutgrass	
-[00:51:14]: giving 	143397 - cutgrass	
-[00:51:14]: giving 	143399 - cutgrass	
-[00:51:14]: giving 	143401 - cutgrass	
-[00:51:14]: giving 	143403 - cutgrass	
-[00:51:14]: giving 	143405 - cutgrass	
-[00:51:14]: giving 	143407 - cutgrass	
-[00:51:14]: giving 	143409 - cutgrass	
-[00:51:14]: giving 	143411 - cutgrass	
-[00:51:14]: giving 	143413 - cutgrass	
-[00:51:14]: giving 	143415 - cutgrass	
-[00:53:00]: [Shard] Begin migration #2 for (KU_kH-fQy3p)
-[00:53:00]: [Shard] #2 Caves(3362536613) -> [SHDMASTER](1)
-[00:53:00]: [Shard] #2 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000220
-[00:53:00]: [Shard] Received migration #2 data for (KU_kH-fQy3p)
-[00:53:00]: [Shard] Writing save location file for (KU_kH-fQy3p)
-[00:53:00]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
-[00:53:03]: New incoming connection 1.47.19.13|17783 <1431345590177051333>
-[00:53:03]: Client connected from 1.47.19.13|17783 <1431345590177051333>
-[00:53:03]: ValidateGameSessionToken GUID<1431345590177051333>
-[00:53:03]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[00:53:04]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[00:53:04]: [Steam] Authenticated client '76561198111006597'
-[00:53:04]: [Shard] Completed incoming migration #2 for (KU_kH-fQy3p)
-[00:53:04]: [Shard] Completed migration #2 for player (KU_kH-fQy3p)
-[00:53:15]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000220
-[00:53:15]: Player will spawn close to portal #9	
-[00:53:15]: Spawning player at: [Load] (-563.40, 0.00, 245.97)	
-[00:53:32]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("coldfirepit")) @(-274.82, -34.80)
-[00:53:41]: Failed to assign item skin ids due to ownership check failure.
-[00:53:42]: Failed to assign item skin ids due to ownership check failure.
-[00:53:44]: Failed to assign item skin ids due to ownership check failure.
-[00:53:51]: Could not find anim [buck] in bank [wilson]
-[00:53:51]: Could not find anim [buck] in bank [wilson]
-[00:54:12]: Failed to assign item skin ids due to ownership check failure.
-[00:54:17]: Failed to assign item skin ids due to ownership check failure.
-[00:54:29]: Could not find anim [dismount] in bank [wilson]
-[00:54:29]: Could not find anim [dismount] in bank [wilson]
-[00:54:39]: Could not find anim [dismount] in bank [wilson]
-[00:54:39]: Could not find anim [dismount] in bank [wilson]
-[00:54:59]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("nightsword",2)) @(-287.39, -27.59)
-[00:54:59]: giving 	144908 - nightsword	
-[00:54:59]: giving 	144910 - nightsword	
-[00:55:48]: Could not find anim [dismount] in bank [wilson]
-[00:55:48]: Could not find anim [dismount] in bank [wilson]
-[00:55:57]: Could not find anim [dismount] in bank [wilson]
-[00:55:57]: Could not find anim [dismount] in bank [wilson]
-[00:56:07]: Stale Component Reference: GUID 145492, scripts/entityscript.lua:1177
-[00:56:07]: Could not find anim [spawn] in bank [squiderp]
-[00:56:07]: Stale Component Reference: GUID 145492, scripts/entityscript.lua:1177
-[00:56:07]: Could not find anim [spawn] in bank [squiderp]
-[00:58:02]: Available disk space for save files: 13164 MB
-[00:58:02]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000220
-[00:58:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000220
-[00:58:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000220
-[00:58:02]: Serializing world: session/019D2AD0C91A19CC/0000000220
-[00:58:49]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-292.86, -0.19)
-[00:58:49]: giving 	147304 - cutgrass	
-[00:58:49]: giving 	147306 - cutgrass	
-[00:58:49]: giving 	147308 - cutgrass	
-[00:58:49]: giving 	147310 - cutgrass	
-[00:58:49]: giving 	147312 - cutgrass	
-[00:58:49]: giving 	147314 - cutgrass	
-[00:58:49]: giving 	147316 - cutgrass	
-[00:58:49]: giving 	147318 - cutgrass	
-[00:58:49]: giving 	147320 - cutgrass	
-[00:58:49]: giving 	147322 - cutgrass	
-[00:58:49]: giving 	147324 - cutgrass	
-[00:58:49]: giving 	147326 - cutgrass	
-[00:58:49]: giving 	147328 - cutgrass	
-[00:58:49]: giving 	147330 - cutgrass	
-[00:58:49]: giving 	147332 - cutgrass	
-[00:58:49]: giving 	147334 - cutgrass	
-[00:58:49]: giving 	147336 - cutgrass	
-[00:58:49]: giving 	147338 - cutgrass	
-[00:58:49]: giving 	147340 - cutgrass	
-[00:58:49]: giving 	147342 - cutgrass	
-[00:58:49]: giving 	147344 - cutgrass	
-[00:58:49]: giving 	147346 - cutgrass	
-[00:58:49]: giving 	147348 - cutgrass	
-[00:58:49]: giving 	147350 - cutgrass	
-[00:58:49]: giving 	147352 - cutgrass	
-[00:58:49]: giving 	147354 - cutgrass	
-[00:58:49]: giving 	147356 - cutgrass	
-[00:58:49]: giving 	147358 - cutgrass	
-[00:58:49]: giving 	147360 - cutgrass	
-[00:58:49]: giving 	147362 - cutgrass	
-[01:00:05]: [200] Account Communication Success (6)
-[01:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[01:00:43]: Could not find anim [dismount] in bank [wilson]
-[01:00:43]: Could not find anim [dismount] in bank [wilson]
-[01:01:50]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 3)) @(-329.87, 25.22)
-[01:01:50]: giving 	148983 - dragonpie	
-[01:01:50]: giving 	148985 - dragonpie	
-[01:01:50]: giving 	148987 - dragonpie	
-[01:02:23]: Could not find anim [dismount] in bank [wilson]
-[01:02:39]: Could not find anim [dismount] in bank [wilson]
-[01:03:57]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("torch", 1)) @(-316.87, 3.15)
-[01:03:57]: giving 	150118 - torch	
-[01:04:08]: Could not find anim [buck] in bank [wilson]
-[01:04:41]: Could not find anim [dismount] in bank [wilson]
-[01:04:41]: Could not find anim [dismount] in bank [wilson]
-[01:04:46]: Shave from	49	
-[01:04:53]: Shave from	49	
-[01:04:57]: Shave from	49	
-[01:05:00]: Shave from	49	
-[01:05:02]: Shave from	49	
-[01:05:04]: Shave from	49	
-[01:05:07]: Shave from	49	
-[01:05:09]: Shave from	49	
-[01:05:11]: Shave from	63	
-[01:05:13]: Shave from	49	
-[01:05:16]: Shave from	49	
-[01:06:02]: Available disk space for save files: 13164 MB
-[01:06:02]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000221
-[01:06:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000221
-[01:06:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000221
-[01:06:03]: Serializing world: session/019D2AD0C91A19CC/0000000221
-[01:06:33]: Could not find anim [dismount] in bank [wilson]
-[01:06:33]: Could not find anim [dismount] in bank [wilson]
-[01:07:50]: Could not find anim [dismount] in bank [wilson]
-[01:07:50]: Could not find anim [dismount] in bank [wilson]
-[01:08:33]: Could not find anim build FROMNUM
-[01:08:46]: Could not find anim build FROMNUM
-[01:08:54]: Could not find anim build FROMNUM
-[01:09:08]: Could not find anim build FROMNUM
-[01:09:38]: Could not find anim [dismount] in bank [wilson]
-[01:09:38]: Could not find anim [dismount] in bank [wilson]
-[01:10:35]: Could not find anim [dismount] in bank [wilson]
-[01:10:35]: Could not find anim [dismount] in bank [wilson]
-[01:10:44]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 3)) @(-327.17, 21.00)
-[01:10:44]: giving 	152554 - dragonpie	
-[01:10:44]: giving 	152556 - dragonpie	
-[01:10:44]: giving 	152558 - dragonpie	
-[01:11:00]: Could not find anim [dismount] in bank [wilson]
-[01:11:00]: Could not find anim [dismount] in bank [wilson]
-[01:11:57]: Could not find anim [dismount] in bank [wilson]
-[01:14:01]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("feather_crow", 10)) @(-382.77, 64.08)
-[01:14:01]: giving 	153428 - feather_crow	
-[01:14:01]: giving 	153430 - feather_crow	
-[01:14:01]: giving 	153432 - feather_crow	
-[01:14:01]: giving 	153434 - feather_crow	
-[01:14:01]: giving 	153436 - feather_crow	
-[01:14:01]: giving 	153438 - feather_crow	
-[01:14:01]: giving 	153440 - feather_crow	
-[01:14:01]: giving 	153442 - feather_crow	
-[01:14:01]: giving 	153444 - feather_crow	
-[01:14:01]: giving 	153446 - feather_crow	
-[01:14:03]: Available disk space for save files: 13160 MB
-[01:14:03]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000222
-[01:14:03]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000222
-[01:14:03]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000222
-[01:14:03]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[01:14:03]: Serializing world: session/019D2AD0C91A19CC/0000000222
-[01:14:18]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("charcoal", 10)) @(-384.49, 66.97)
-[01:14:18]: giving 	153535 - charcoal	
-[01:14:18]: giving 	153537 - charcoal	
-[01:14:18]: giving 	153539 - charcoal	
-[01:14:18]: giving 	153541 - charcoal	
-[01:14:18]: giving 	153543 - charcoal	
-[01:14:18]: giving 	153545 - charcoal	
-[01:14:18]: giving 	153547 - charcoal	
-[01:14:18]: giving 	153549 - charcoal	
-[01:14:18]: giving 	153551 - charcoal	
-[01:14:18]: giving 	153553 - charcoal	
-[01:15:13]: Could not find anim [dismount] in bank [wilson]
-[01:15:13]: Could not find anim [dismount] in bank [wilson]
-[01:16:44]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 3)) @(-385.00, 69.04)
-[01:16:44]: giving 	154537 - dragonpie	
-[01:16:44]: giving 	154539 - dragonpie	
-[01:16:44]: giving 	154541 - dragonpie	
-[01:18:24]: Could not find anim build FROMNUM
-[01:21:14]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("log", 20)) @(-384.23, 64.74)
-[01:21:14]: giving 	155906 - log	
-[01:21:14]: giving 	155908 - log	
-[01:21:14]: giving 	155910 - log	
-[01:21:14]: giving 	155912 - log	
-[01:21:14]: giving 	155914 - log	
-[01:21:14]: giving 	155916 - log	
-[01:21:14]: giving 	155918 - log	
-[01:21:14]: giving 	155920 - log	
-[01:21:14]: giving 	155922 - log	
-[01:21:14]: giving 	155924 - log	
-[01:21:14]: giving 	155926 - log	
-[01:21:14]: giving 	155928 - log	
-[01:21:14]: giving 	155930 - log	
-[01:21:14]: giving 	155932 - log	
-[01:21:14]: giving 	155934 - log	
-[01:21:14]: giving 	155936 - log	
-[01:21:14]: giving 	155938 - log	
-[01:21:14]: giving 	155940 - log	
-[01:21:14]: giving 	155942 - log	
-[01:21:14]: giving 	155944 - log	
-[01:21:36]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 3)) @(-385.53, 59.40)
-[01:21:36]: giving 	156063 - dragonpie	
-[01:21:36]: giving 	156065 - dragonpie	
-[01:21:36]: giving 	156067 - dragonpie	
-[01:22:03]: Available disk space for save files: 13156 MB
-[01:22:03]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000223
-[01:22:03]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000223
-[01:22:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000223
-[01:22:04]: Serializing world: session/019D2AD0C91A19CC/0000000223
-[01:23:30]: Failed to assign item skin ids due to ownership check failure.
-[01:23:35]: Failed to assign item skin ids due to ownership check failure.
-[01:23:38]: Failed to assign item skin ids due to ownership check failure.
-[01:23:44]: Failed to assign item skin ids due to ownership check failure.
-[01:23:48]: Failed to assign item skin ids due to ownership check failure.
-[01:24:21]: Could not find anim [buck] in bank [wilson]
-[01:24:21]: Could not find anim [buck] in bank [wilson]
-[01:25:18]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("nightsword", 1)) @(-296.22, -2.75)
-[01:25:18]: giving 	158127 - nightsword	
-[01:26:35]: Could not find anim [dismount] in bank [wilson]
-[01:26:35]: Could not find anim [dismount] in bank [wilson]
-[01:28:09]: Could not find anim [dismount] in bank [wilson]
-[01:29:40]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("nightsword", 1)) @(-278.02, -39.17)
-[01:29:40]: giving 	160741 - nightsword	
-[01:30:04]: Available disk space for save files: 13152 MB
-[01:30:04]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000224
-[01:30:04]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000224
-[01:30:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000224
-[01:30:04]: Missing reference:	111006 - beefaloherd	->	110289	110289 - beefalo	
-[01:30:04]: Serializing world: session/019D2AD0C91A19CC/0000000224
-[01:30:05]: [200] Account Communication Success (6)
-[01:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[01:31:41]: Could not find anim [dismount] in bank [wilson]
-[01:31:41]: Could not find anim [dismount] in bank [wilson]
-[01:32:30]: Could not find anim [dismount] in bank [wilson]
-[01:32:56]: [Steam] SendUserDisconnect for '76561198252722114'
-[01:32:56]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
-[01:32:56]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000225
-[01:34:05]: [Steam] SendUserDisconnect for '76561198111006597'
-[01:34:05]: Connection lost to 1.47.19.13|17783 <1431345590177051333>
-[01:34:05]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[01:34:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000225
-[01:36:33]: New incoming connection 1.47.19.13|32517 <2760282963015754424>
-[01:36:33]: Client connected from 1.47.19.13|32517 <2760282963015754424>
-[01:36:33]: ValidateGameSessionToken GUID<2760282963015754424>
-[01:36:33]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[01:36:33]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[01:36:34]: [Steam] Authenticated client '76561198111006597'
-[01:36:35]: There is no active event to validate against.
-[01:36:35]: [Shard] Read save location file for (KU_kH-fQy3p)
-[01:36:56]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000225
-[01:36:57]: Spawning player at: [Load] (-380.46, 0.00, 68.59)	
-[01:38:05]: Available disk space for save files: 13148 MB
-[01:38:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000225
-[01:38:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000225
-[01:38:05]: Missing reference:	125462 - beef_bell	->	110289	110289 - beefalo	
-[01:38:06]: Serializing world: session/019D2AD0C91A19CC/0000000225
-[01:39:50]: Could not find anim build FROMNUM
-[01:40:02]: Could not find anim build FROMNUM
-[01:44:44]: Shave from	5	
-[01:44:47]: Shave from	5	
-[01:44:57]: Shave from	5	
-[01:44:59]: Shave from	5	
-[01:45:01]: Shave from	5	
-[01:45:03]: Shave from	5	
-[01:45:05]: Shave from	5	
-[01:45:07]: Shave from	5	
-[01:45:09]: Shave from	5	
-[01:45:11]: Shave from	5	
-[01:45:21]: Shave from	5	
-[01:46:06]: Available disk space for save files: 13144 MB
-[01:46:06]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000226
-[01:46:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000226
-[01:46:06]: Missing reference:	125462 - beef_bell	->	110289	110289 - beefalo	
-[01:46:06]: Serializing world: session/019D2AD0C91A19CC/0000000226
-[01:54:06]: Available disk space for save files: 13141 MB
-[01:54:06]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000227
-[01:54:06]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000227
-[01:54:06]: Missing reference:	125462 - beef_bell	->	110289	110289 - beefalo	
-[01:54:07]: Serializing world: session/019D2AD0C91A19CC/0000000227
-[01:57:10]: Activating portal[9] to 3362536613	
-[01:57:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000228
-[01:57:11]: [Shard] Migration request: (KU_kH-fQy3p) to Caves(3362536613)
-[01:57:11]: [Shard] Begin migration #3 for (KU_kH-fQy3p)
-[01:57:11]: [Shard] #3 [SHDMASTER](1) -> Caves(3362536613)
-[01:57:11]: [Shard] #3 <- session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000228
-[01:57:11]: [Shard] Writing save location file for (KU_kH-fQy3p)
-[01:57:11]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[01:57:11]: [Steam] SendUserDisconnect for '76561198111006597'
-[01:57:11]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[01:57:15]: [Shard] Completed migration #3 for player (KU_kH-fQy3p)
-[02:00:05]: [200] Account Communication Success (6)
-[02:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[02:01:13]: Shave from	56	
-[02:02:07]: Available disk space for save files: 13136 MB
-[02:02:07]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000228
-[02:02:07]: Missing reference:	125462 - beef_bell	->	110289	110289 - beefalo	
-[02:02:07]: Serializing world: session/019D2AD0C91A19CC/0000000228
-[02:03:33]: New incoming connection 223.205.176.6|56660 <3672188863689347813>
-[02:03:33]: Client connected from 223.205.176.6|56660 <3672188863689347813>
-[02:03:33]: ValidateGameSessionToken GUID<3672188863689347813>
-[02:03:34]: Client authenticated: (KU_k49iQnDI) demons.jostle
-[02:03:34]: [Steam] Authenticated host '76561198252722114'
-[02:03:35]: There is no active event to validate against.
-[02:03:35]: [Shard] Read save location file for (KU_k49iQnDI)
-[02:03:49]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000225
-[02:03:49]: Spawning player at: [Load] (-361.99, 0.00, 122.18)	
-[02:04:31]: Could not find anim [death] in bank [ghost]
-[02:04:31]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000229
-[02:04:34]: Could not find anim [idle_loop] in bank [ghost]
-[02:04:37]: Could not find anim [transform] in bank [wilson]
-[02:04:38]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000229
-[02:04:52]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-356.02, 128.10)
-[02:04:52]: God mode: true	
-[02:05:58]: [Shard] Begin migration #4 for (KU_kH-fQy3p)
-[02:05:58]: [Shard] #4 Caves(3362536613) -> [SHDMASTER](1)
-[02:05:58]: [Shard] #4 -> session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000229
-[02:05:58]: [Shard] Received migration #4 data for (KU_kH-fQy3p)
-[02:05:58]: [Shard] Writing save location file for (KU_kH-fQy3p)
-[02:05:58]: [Shard] (KU_kH-fQy3p) disconnected from Caves(3362536613)
-[02:06:02]: New incoming connection 1.47.19.13|21245 <1933823858022570442>
-[02:06:02]: Client connected from 1.47.19.13|21245 <1933823858022570442>
-[02:06:02]: ValidateGameSessionToken GUID<1933823858022570442>
-[02:06:02]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[02:06:02]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[02:06:03]: [Steam] Authenticated client '76561198111006597'
-[02:06:03]: [Shard] Completed incoming migration #4 for (KU_kH-fQy3p)
-[02:06:03]: [Shard] Completed migration #4 for player (KU_kH-fQy3p)
-[02:06:14]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000229
-[02:06:14]: Player will spawn close to portal #9	
-[02:06:14]: Spawning player at: [Load] (-562.44, 0.00, 243.68)	
-[02:07:21]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 5)) @(-412.43, 220.00)
-[02:07:21]: giving 	171919 - dragonpie	
-[02:07:21]: giving 	171921 - dragonpie	
-[02:07:21]: giving 	171923 - dragonpie	
-[02:07:21]: giving 	171925 - dragonpie	
-[02:07:21]: giving 	171927 - dragonpie	
-[02:09:14]: Shave from	3	
-[02:09:17]: Shave from	3	
-[02:09:21]: Shave from	3	
-[02:09:22]: Shave from	3	
-[02:09:25]: Shave from	3	
-[02:09:26]: Shave from	3	
-[02:09:29]: Shave from	3	
-[02:09:31]: Shave from	3	
-[02:09:33]: Shave from	3	
-[02:10:07]: Available disk space for save files: 13129 MB
-[02:10:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000229
-[02:10:08]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000229
-[02:10:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000229
-[02:10:08]: Missing reference:	111006 - beefaloherd	->	110291	110291 - beefalo	
-[02:10:08]: Serializing world: session/019D2AD0C91A19CC/0000000229
-[02:16:30]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-450.77, 245.12)
-[02:18:08]: Available disk space for save files: 13129 MB
-[02:18:08]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000230
-[02:18:08]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000230
-[02:18:08]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000230
-[02:18:09]: Serializing world: session/019D2AD0C91A19CC/0000000230
-[02:20:44]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-352.52, 113.66)
-[02:20:44]: giving 	177903 - cutgrass	
-[02:20:44]: giving 	177905 - cutgrass	
-[02:20:44]: giving 	177907 - cutgrass	
-[02:20:44]: giving 	177909 - cutgrass	
-[02:20:44]: giving 	177911 - cutgrass	
-[02:20:44]: giving 	177913 - cutgrass	
-[02:20:44]: giving 	177915 - cutgrass	
-[02:20:44]: giving 	177917 - cutgrass	
-[02:20:44]: giving 	177919 - cutgrass	
-[02:20:44]: giving 	177921 - cutgrass	
-[02:20:44]: giving 	177923 - cutgrass	
-[02:20:44]: giving 	177925 - cutgrass	
-[02:20:44]: giving 	177927 - cutgrass	
-[02:20:44]: giving 	177929 - cutgrass	
-[02:20:44]: giving 	177931 - cutgrass	
-[02:20:44]: giving 	177933 - cutgrass	
-[02:20:44]: giving 	177935 - cutgrass	
-[02:20:44]: giving 	177937 - cutgrass	
-[02:20:44]: giving 	177939 - cutgrass	
-[02:20:44]: giving 	177941 - cutgrass	
-[02:20:44]: giving 	177943 - cutgrass	
-[02:20:44]: giving 	177945 - cutgrass	
-[02:20:44]: giving 	177947 - cutgrass	
-[02:20:44]: giving 	177949 - cutgrass	
-[02:20:44]: giving 	177951 - cutgrass	
-[02:20:44]: giving 	177953 - cutgrass	
-[02:20:44]: giving 	177955 - cutgrass	
-[02:20:44]: giving 	177957 - cutgrass	
-[02:20:44]: giving 	177959 - cutgrass	
-[02:20:44]: giving 	177961 - cutgrass	
-[02:21:25]: Could not find anim [buck] in bank [wilson]
-[02:21:25]: Could not find anim [buck] in bank [wilson]
-[02:25:19]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("cutgrass", 30)) @(-382.85, 155.68)
-[02:25:20]: giving 	180112 - cutgrass	
-[02:25:20]: giving 	180114 - cutgrass	
-[02:25:20]: giving 	180116 - cutgrass	
-[02:25:20]: giving 	180118 - cutgrass	
-[02:25:20]: giving 	180120 - cutgrass	
-[02:25:20]: giving 	180122 - cutgrass	
-[02:25:20]: giving 	180124 - cutgrass	
-[02:25:20]: giving 	180126 - cutgrass	
-[02:25:20]: giving 	180128 - cutgrass	
-[02:25:20]: giving 	180130 - cutgrass	
-[02:25:20]: giving 	180132 - cutgrass	
-[02:25:20]: giving 	180134 - cutgrass	
-[02:25:20]: giving 	180136 - cutgrass	
-[02:25:20]: giving 	180138 - cutgrass	
-[02:25:20]: giving 	180140 - cutgrass	
-[02:25:20]: giving 	180142 - cutgrass	
-[02:25:20]: giving 	180144 - cutgrass	
-[02:25:20]: giving 	180146 - cutgrass	
-[02:25:20]: giving 	180148 - cutgrass	
-[02:25:20]: giving 	180150 - cutgrass	
-[02:25:20]: giving 	180152 - cutgrass	
-[02:25:20]: giving 	180154 - cutgrass	
-[02:25:20]: giving 	180156 - cutgrass	
-[02:25:20]: giving 	180158 - cutgrass	
-[02:25:20]: giving 	180160 - cutgrass	
-[02:25:20]: giving 	180162 - cutgrass	
-[02:25:20]: giving 	180164 - cutgrass	
-[02:25:20]: giving 	180166 - cutgrass	
-[02:25:20]: giving 	180168 - cutgrass	
-[02:25:20]: giving 	180170 - cutgrass	
-[02:26:09]: Available disk space for save files: 13125 MB
-[02:26:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000231
-[02:26:09]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000231
-[02:26:09]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000231
-[02:26:09]: Serializing world: session/019D2AD0C91A19CC/0000000231
-[02:27:51]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("dragonpie", 3)) @(-408.25, 179.53)
-[02:27:51]: giving 	181359 - dragonpie	
-[02:27:51]: giving 	181361 - dragonpie	
-[02:27:51]: giving 	181363 - dragonpie	
-[02:28:34]: [Steam] SendUserDisconnect for '76561198252722114'
-[02:28:34]: Connection lost to 223.205.176.6|56660 <3672188863689347813>
-[02:28:34]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
-[02:28:34]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[02:29:05]: New incoming connection 223.205.176.6|56312 <4970583476756831075>
-[02:29:05]: Client connected from 223.205.176.6|56312 <4970583476756831075>
-[02:29:05]: ValidateGameSessionToken GUID<4970583476756831075>
-[02:29:05]: Client authenticated: (KU_k49iQnDI) demons.jostle
-[02:29:05]: [Steam] Authenticated host '76561198252722114'
-[02:29:06]: There is no active event to validate against.
-[02:29:06]: [Shard] Read save location file for (KU_k49iQnDI)
-[02:29:19]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[02:29:19]: Spawning player at: [Load] (-382.98, 0.00, 114.16)	
-[02:29:43]: Could not find anim [death] in bank [ghost]
-[02:29:43]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[02:29:47]: Could not find anim [idle_loop] in bank [ghost]
-[02:29:50]: Could not find anim [transform] in bank [wilson]
-[02:29:51]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[02:29:52]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-391.73, 175.57)
-[02:29:52]: God mode: true	
-[02:30:05]: [200] Account Communication Success (6)
-[02:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[02:32:14]: Could not find anim [death] in bank [ghost]
-[02:32:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000232
-[02:32:23]: Could not find anim [idle_loop] in bank [ghost]
-[02:32:26]: Could not find anim [transform] in bank [wilson]
-[02:32:27]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000232
-[02:32:55]: Failed to assign item skin ids due to ownership check failure.
-[02:32:59]: Failed to assign item skin ids due to ownership check failure.
-[02:33:03]: Failed to assign item skin ids due to ownership check failure.
-[02:33:27]: Failed to assign item skin ids due to ownership check failure.
-[02:34:04]: Could not find anim [death] in bank [ghost]
-[02:34:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000232
-[02:34:09]: Available disk space for save files: 13121 MB
-[02:34:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000232
-[02:34:09]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000232
-[02:34:09]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[02:34:10]: Serializing world: session/019D2AD0C91A19CC/0000000232
-[02:34:13]: Could not find anim [idle_loop] in bank [ghost]
-[02:34:16]: Could not find anim [transform] in bank [wilson]
-[02:34:17]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000233
-[02:34:29]: Failed to assign item skin ids due to ownership check failure.
-[02:34:41]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-543.85, 239.19)
-[02:34:41]: God mode: false	
-[02:34:47]: Could not find anim [death] in bank [ghost]
-[02:34:47]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:34:58]: Could not find anim [idle_loop] in bank [ghost]
-[02:35:01]: Could not find anim [transform] in bank [wilson]
-[02:35:02]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:35:20]: Could not find anim [death] in bank [ghost]
-[02:35:20]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:35:29]: Could not find anim [idle_loop] in bank [ghost]
-[02:35:31]: Could not find anim [transform] in bank [wilson]
-[02:35:33]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:35:34]: Could not find anim [death] in bank [ghost]
-[02:35:34]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000233
-[02:35:34]: Could not find anim [death] in bank [ghost]
-[02:35:34]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000233
-[02:35:43]: Could not find anim [idle_loop] in bank [ghost]
-[02:35:43]: Could not find anim [idle_loop] in bank [ghost]
-[02:35:46]: Could not find anim [transform] in bank [wilson]
-[02:35:46]: Could not find anim [transform] in bank [wilson]
-[02:35:47]: Could not find anim [death] in bank [ghost]
-[02:35:47]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:35:47]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000233
-[02:35:48]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000233
-[02:35:54]: Could not find anim [idle_loop] in bank [ghost]
-[02:35:57]: Could not find anim [transform] in bank [wilson]
-[02:35:59]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:36:13]: Could not find anim [death] in bank [ghost]
-[02:36:13]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:36:20]: Could not find anim [idle_loop] in bank [ghost]
-[02:36:23]: Could not find anim [transform] in bank [wilson]
-[02:36:25]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:37:40]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-445.67, 251.92)
-[02:37:40]: God mode: true	
-[02:42:10]: Available disk space for save files: 13117 MB
-[02:42:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000233
-[02:42:10]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000233
-[02:42:10]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[02:42:10]: Serializing world: session/019D2AD0C91A19CC/0000000233
-[02:50:10]: Available disk space for save files: 13113 MB
-[02:50:10]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000234
-[02:50:10]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000234
-[02:50:10]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000234
-[02:50:11]: Serializing world: session/019D2AD0C91A19CC/0000000234
-[02:52:51]: Could not find anim build FROMNUM
-[02:53:15]: Could not find anim build FROMNUM
-[02:53:30]: Could not find anim build FROMNUM
-[02:54:29]: Could not find anim [death] in bank [ghost]
-[02:54:29]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000235
-[02:54:51]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-152.03, 482.98)
-[02:54:54]: Could not find anim [idle_loop] in bank [ghost]
-[02:54:57]: Could not find anim [transform] in bank [wilson]
-[02:54:58]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000235
-[02:55:01]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-152.14, 478.11)
-[02:55:01]: God mode: true	
-[02:58:09]: Could not find anim [spawn] in bank [squiderp]
-[02:58:10]: Stale Component Reference: GUID 195713, scripts/entityscript.lua:1177
-[02:58:10]: Could not find anim [spawn] in bank [squiderp]
-[02:58:10]: Stale Component Reference: GUID 195713, scripts/entityscript.lua:1177
-[02:58:10]: Could not find anim [spawn] in bank [squiderp]
-[02:58:11]: Available disk space for save files: 13109 MB
-[02:58:11]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000235
-[02:58:11]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000235
-[02:58:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000235
-[02:58:11]: Serializing world: session/019D2AD0C91A19CC/0000000235
-[03:00:05]: [200] Account Communication Success (6)
-[03:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[03:04:52]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("pickaxe",1)) @(-80.23, 476.10)
-[03:04:52]: giving 	198816 - pickaxe	
-[03:06:11]: Available disk space for save files: 13105 MB
-[03:06:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000236
-[03:06:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000236
-[03:06:12]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000236
-[03:06:12]: Serializing world: session/019D2AD0C91A19CC/0000000236
-[03:06:17]: Stale Component Reference: GUID 199162, scripts/entityscript.lua:1177
-[03:06:17]: Could not find anim [spawn] in bank [squiderp]
-[03:06:17]: Stale Component Reference: GUID 199162, scripts/entityscript.lua:1177
-[03:06:17]: Could not find anim [spawn] in bank [squiderp]
-[03:06:18]: Stale Component Reference: GUID 199162, scripts/entityscript.lua:1177
-[03:06:18]: Could not find anim [spawn] in bank [squiderp]
-[03:07:38]: Validating portal[6] <-> 3362536613[6] (active)	
-[03:09:21]: [Steam] SendUserDisconnect for '76561198111006597'
-[03:09:21]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[03:09:21]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000237
-[03:11:59]: Could not find anim [death] in bank [ghost]
-[03:11:59]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000237
-[03:12:14]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(18.10, 406.46)
-[03:12:20]: Could not find anim [idle_loop] in bank [ghost]
-[03:12:23]: Could not find anim [transform] in bank [wilson]
-[03:12:24]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000237
-[03:12:24]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(11.58, 404.57)
-[03:12:24]: God mode: true	
-[03:14:12]: Available disk space for save files: 13101 MB
-[03:14:12]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000237
-[03:14:12]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000237
-[03:14:12]: Serializing world: session/019D2AD0C91A19CC/0000000237
-[03:20:34]: New incoming connection 1.47.19.13|35982 <5558290737443384150>
-[03:20:34]: Client connected from 1.47.19.13|35982 <5558290737443384150>
-[03:20:34]: ValidateGameSessionToken GUID<5558290737443384150>
-[03:20:34]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[03:20:34]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[03:20:35]: [Steam] Authenticated client '76561198111006597'
-[03:20:35]: There is no active event to validate against.
-[03:20:35]: [Shard] Read save location file for (KU_kH-fQy3p)
-[03:20:55]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000237
-[03:20:55]: Spawning player at: [Load] (-400.86, 0.00, 70.71)	
-[03:22:14]: Available disk space for save files: 13097 MB
-[03:22:14]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000238
-[03:22:14]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000238
-[03:22:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000238
-[03:22:14]: Serializing world: session/019D2AD0C91A19CC/0000000238
-[03:25:17]: [Steam] SendUserDisconnect for '76561198146349502'
-[03:25:17]: Connection lost to 182.52.45.164|51369 <5277939555028178278>
-[03:25:17]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
-[03:25:18]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000239
-[03:29:56]: Stale Component Reference: GUID 204117, scripts/entityscript.lua:1177
-[03:29:56]: Could not find anim [spawn] in bank [squiderp]
-[03:29:58]: Stale Component Reference: GUID 204117, scripts/entityscript.lua:1177
-[03:29:58]: Could not find anim [spawn] in bank [squiderp]
-[03:30:05]: [200] Account Communication Success (6)
-[03:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[03:30:14]: Available disk space for save files: 13093 MB
-[03:30:14]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000239
-[03:30:14]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000239
-[03:30:15]: Serializing world: session/019D2AD0C91A19CC/0000000239
-[03:35:15]: Could not find anim [death] in bank [ghost]
-[03:35:15]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[03:35:18]: Could not find anim [idle_loop] in bank [ghost]
-[03:35:21]: Could not find anim [transform] in bank [wilson]
-[03:35:22]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[03:35:34]: New incoming connection 182.52.45.164|54267 <5820401955981882638>
-[03:35:34]: Client connected from 182.52.45.164|54267 <5820401955981882638>
-[03:35:34]: ValidateGameSessionToken GUID<5820401955981882638>
-[03:35:35]: Client authenticated: (KU_wwUugW71) Trexa
-[03:35:35]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
-[03:35:35]: [Steam] Authenticated client '76561198146349502'
-[03:35:37]: There is no active event to validate against.
-[03:35:37]: [Shard] Read save location file for (KU_wwUugW71)
-[03:36:03]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000239
-[03:36:03]: Spawning player at: [Load] (-373.59, 0.00, 62.49)	
-[03:37:56]: Could not find anim [death] in bank [ghost]
-[03:37:56]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[03:38:00]: Could not find anim [idle_loop] in bank [ghost]
-[03:38:03]: Could not find anim [transform] in bank [wilson]
-[03:38:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[03:38:16]: Available disk space for save files: 13089 MB
-[03:38:16]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000240
-[03:38:16]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[03:38:16]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000240
-[03:38:17]: Serializing world: session/019D2AD0C91A19CC/0000000240
-[03:40:32]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("nightsword",1)) @(-421.57, -153.52)
-[03:40:32]: giving 	206903 - nightsword	
-[03:46:17]: Available disk space for save files: 13085 MB
-[03:46:17]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000241
-[03:46:17]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000241
-[03:46:17]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000241
-[03:46:17]: Serializing world: session/019D2AD0C91A19CC/0000000241
-[03:53:56]: Stale Component Reference: GUID 212105, scripts/entityscript.lua:1177
-[03:53:56]: Could not find anim [spawn] in bank [squiderp]
-[03:53:56]: Stale Component Reference: GUID 212105, scripts/entityscript.lua:1177
-[03:53:56]: Could not find anim [spawn] in bank [squiderp]
-[03:53:56]: Stale Component Reference: GUID 212105, scripts/entityscript.lua:1177
-[03:53:56]: Could not find anim [spawn] in bank [squiderp]
-[03:54:17]: Available disk space for save files: 13081 MB
-[03:54:17]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000242
-[03:54:17]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000242
-[03:54:17]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000242
-[03:54:18]: Serializing world: session/019D2AD0C91A19CC/0000000242
-[03:56:57]: Activating portal[8] to 3362536613	
-[03:56:58]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000243
-[03:56:58]: [Shard] Migration request: (KU_wwUugW71) to Caves(3362536613)
-[03:56:58]: [Shard] Begin migration #5 for (KU_wwUugW71)
-[03:56:58]: [Shard] #5 [SHDMASTER](1) -> Caves(3362536613)
-[03:56:58]: [Shard] #5 <- session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000243
-[03:56:58]: [Shard] Writing save location file for (KU_wwUugW71)
-[03:56:58]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[03:56:58]: [Steam] SendUserDisconnect for '76561198146349502'
-[03:56:58]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
-[03:57:02]: [Shard] Completed migration #5 for player (KU_wwUugW71)
-[04:00:05]: [200] Account Communication Success (6)
-[04:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[04:02:18]: Available disk space for save files: 13077 MB
-[04:02:18]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000243
-[04:02:18]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000243
-[04:02:18]: Serializing world: session/019D2AD0C91A19CC/0000000243
-[04:03:49]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-239.08, -453.94)
-[04:03:49]: God mode: false	
-[04:04:19]: Failed to assign item skin ids due to ownership check failure.
-[04:04:19]: Failed to assign item skin ids due to ownership check failure.
-[04:07:24]: [Shard] Begin migration #6 for (KU_wwUugW71)
-[04:07:24]: [Shard] #6 Caves(3362536613) -> [SHDMASTER](1)
-[04:07:24]: [Shard] #6 -> session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000244
-[04:07:24]: [Shard] Received migration #6 data for (KU_wwUugW71)
-[04:07:24]: [Shard] Writing save location file for (KU_wwUugW71)
-[04:07:24]: [Shard] (KU_wwUugW71) disconnected from Caves(3362536613)
-[04:07:27]: New incoming connection 182.52.45.164|64659 <3175111043405897499>
-[04:07:27]: Client connected from 182.52.45.164|64659 <3175111043405897499>
-[04:07:27]: ValidateGameSessionToken GUID<3175111043405897499>
-[04:07:28]: Client authenticated: (KU_wwUugW71) Trexa
-[04:07:28]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
-[04:07:28]: [Steam] Authenticated client '76561198146349502'
-[04:07:28]: [Shard] Completed incoming migration #6 for (KU_wwUugW71)
-[04:07:28]: [Shard] Completed migration #6 for player (KU_wwUugW71)
-[04:07:41]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000244
-[04:07:41]: Player will spawn close to portal #8	
-[04:07:41]: Spawning player at: [Load] (-725.79, 0.00, 320.22)	
-[04:09:04]: Could not find anim [death] in bank [ghost]
-[04:09:04]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000244
-[04:09:18]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_spawn("firepit")) @(-397.29, -315.86)
-[04:09:24]: Could not find anim [idle_loop] in bank [ghost]
-[04:09:27]: Could not find anim [transform] in bank [wilson]
-[04:09:28]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-396.19, -312.39)
-[04:09:28]: God mode: false	
-[04:09:28]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000244
-[04:09:38]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-394.63, -318.09)
-[04:09:38]: God mode: true	
-[04:10:20]: Available disk space for save files: 13069 MB
-[04:10:20]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000244
-[04:10:20]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000244
-[04:10:20]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000244
-[04:10:20]: Serializing world: session/019D2AD0C91A19CC/0000000244
-[04:18:20]: Available disk space for save files: 13069 MB
-[04:18:21]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000245
-[04:18:21]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000245
-[04:18:21]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000245
-[04:18:21]: Serializing world: session/019D2AD0C91A19CC/0000000245
-[04:22:28]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-384.88, 66.23)
-[04:22:28]: God mode: true	
-[04:26:21]: Available disk space for save files: 13065 MB
-[04:26:21]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000246
-[04:26:21]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000246
-[04:26:21]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000246
-[04:26:22]: Serializing world: session/019D2AD0C91A19CC/0000000246
-[04:26:37]: Could not find anim [death] in bank [ghost]
-[04:26:37]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000247
-[04:26:40]: Could not find anim [idle_loop] in bank [ghost]
-[04:26:43]: Could not find anim [transform] in bank [wilson]
-[04:26:43]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-380.26, 35.40)
-[04:26:43]: God mode: false	
-[04:26:44]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000247
-[04:26:52]: Failed to assign item skin ids due to ownership check failure.
-[04:26:57]: Failed to assign item skin ids due to ownership check failure.
-[04:29:10]: [Steam] SendUserDisconnect for '76561198252722114'
-[04:29:10]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
-[04:29:11]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000247
-[04:30:05]: [200] Account Communication Success (6)
-[04:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[04:34:22]: Available disk space for save files: 13061 MB
-[04:34:22]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000247
-[04:34:22]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000247
-[04:34:22]: Serializing world: session/019D2AD0C91A19CC/0000000247
-[04:34:41]: [VFXParticleEmit] Cannot SetRenderResources with the texture "fx/frostbreath.tex" because it is invalid.
-[04:36:07]: New incoming connection 223.205.176.6|55167 <1081759043161811014>
-[04:36:07]: Client connected from 223.205.176.6|55167 <1081759043161811014>
-[04:36:07]: ValidateGameSessionToken GUID<1081759043161811014>
-[04:36:08]: Client authenticated: (KU_k49iQnDI) demons.jostle
-[04:36:08]: [Steam] Authenticated host '76561198252722114'
-[04:36:09]: There is no active event to validate against.
-[04:36:09]: [Shard] Read save location file for (KU_k49iQnDI)
-[04:36:23]: Resuming user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000247
-[04:36:23]: Spawning player at: [Load] (-378.29, 0.00, 74.56)	
-[04:40:05]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-385.15, 77.51)
-[04:40:05]: God mode: true	
-[04:42:22]: Available disk space for save files: 13057 MB
-[04:42:22]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000248
-[04:42:22]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000248
-[04:42:22]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000248
-[04:42:23]: Serializing world: session/019D2AD0C91A19CC/0000000248
-[04:50:23]: Available disk space for save files: 13053 MB
-[04:50:23]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000249
-[04:50:23]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000249
-[04:50:23]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000249
-[04:50:23]: Serializing world: session/019D2AD0C91A19CC/0000000249
-[04:50:40]: Could not find anim build FROMNUM
-[04:50:55]: Could not find anim build FROMNUM
-[04:51:05]: Could not find anim build FROMNUM
-[04:51:34]: Could not find anim build FROMNUM
-[04:51:44]: Could not find anim build FROMNUM
-[04:52:07]: Could not find anim build FROMNUM
-[04:52:18]: Could not find anim build FROMNUM
-[04:52:28]: Could not find anim build FROMNUM
-[04:53:12]: Could not find anim build FROMNUM
-[04:58:23]: Available disk space for save files: 13049 MB
-[04:58:24]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000250
-[04:58:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000250
-[04:58:24]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000250
-[04:58:24]: Serializing world: session/019D2AD0C91A19CC/0000000250
-[05:00:05]: [200] Account Communication Success (6)
-[05:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[05:00:23]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("mast_item", 1)) @(-392.92, 76.14)
-[05:00:23]: giving 	236512 - mast_item	
-[05:01:09]: Activating portal[9] to 3362536613	
-[05:01:09]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[05:01:09]: [Shard] Migration request: (KU_wwUugW71) to Caves(3362536613)
-[05:01:09]: [Shard] Begin migration #7 for (KU_wwUugW71)
-[05:01:09]: [Shard] #7 [SHDMASTER](1) -> Caves(3362536613)
-[05:01:09]: [Shard] #7 <- session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[05:01:10]: [Shard] Writing save location file for (KU_wwUugW71)
-[05:01:10]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[05:01:10]: [Steam] SendUserDisconnect for '76561198146349502'
-[05:01:10]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
-[05:01:14]: [Shard] Completed migration #7 for player (KU_wwUugW71)
-[05:03:09]: [Shard] Begin migration #8 for (KU_wwUugW71)
-[05:03:09]: [Shard] #8 Caves(3362536613) -> [SHDMASTER](1)
-[05:03:10]: [Shard] #8 -> session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[05:03:10]: [Shard] Received migration #8 data for (KU_wwUugW71)
-[05:03:10]: [Shard] Writing save location file for (KU_wwUugW71)
-[05:03:10]: [Shard] (KU_wwUugW71) disconnected from Caves(3362536613)
-[05:03:13]: New incoming connection 182.52.45.164|52318 <5626526920149458197>
-[05:03:13]: Client connected from 182.52.45.164|52318 <5626526920149458197>
-[05:03:13]: ValidateGameSessionToken GUID<5626526920149458197>
-[05:03:13]: Client authenticated: (KU_wwUugW71) Trexa
-[05:03:13]: [Steam] SendUserConnectAndAuthenticate for '76561198146349502'
-[05:03:14]: [Steam] Authenticated client '76561198146349502'
-[05:03:14]: [Shard] Completed incoming migration #8 for (KU_wwUugW71)
-[05:03:14]: [Shard] Completed migration #8 for player (KU_wwUugW71)
-[05:03:26]: Resuming user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[05:03:26]: Player will spawn close to portal #9	
-[05:03:26]: Spawning player at: [Load] (-565.07, 0.00, 243.91)	
-[05:06:24]: Available disk space for save files: 13045 MB
-[05:06:24]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000251
-[05:06:24]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000251
-[05:06:24]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[05:06:25]: Serializing world: session/019D2AD0C91A19CC/0000000251
-[05:06:39]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("mast_item", 1)) @(-385.67, 70.24)
-[05:06:39]: giving 	237579 - mast_item	
-[05:07:02]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("mastupgrade_lamp_item", 1)) @(-390.22, 72.80)
-[05:07:02]: giving 	237655 - mastupgrade_lamp_item	
-[05:07:28]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("mast_item", 3)) @(-397.94, 78.35)
-[05:07:28]: giving 	237852 - mast_item	
-[05:07:28]: giving 	237854 - mast_item	
-[05:07:28]: giving 	237856 - mast_item	
-[05:08:31]: Failed to assign item skin ids due to ownership check failure.
-[05:08:33]: Failed to assign item skin ids due to ownership check failure.
-[05:08:34]: Failed to assign item skin ids due to ownership check failure.
-[05:08:35]: Failed to assign item skin ids due to ownership check failure.
-[05:08:37]: Failed to assign item skin ids due to ownership check failure.
-[05:08:38]: Failed to assign item skin ids due to ownership check failure.
-[05:08:43]: Could not find anim [death] in bank [ghost]
-[05:08:43]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000252
-[05:09:01]: Could not find anim [idle_loop] in bank [ghost]
-[05:09:03]: Could not find anim [transform] in bank [wilson]
-[05:09:05]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000252
-[05:09:46]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-396.24, 151.85)
-[05:09:46]: God mode: false	
-[05:09:56]: Could not find anim [death] in bank [ghost]
-[05:09:56]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000252
-[05:09:59]: Could not find anim [idle_loop] in bank [ghost]
-[05:10:02]: Could not find anim [transform] in bank [wilson]
-[05:10:04]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000252
-[05:10:04]: Could not find anim [death] in bank [ghost]
-[05:10:04]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000252
-[05:10:07]: Could not find anim [idle_loop] in bank [ghost]
-[05:10:10]: Could not find anim [transform] in bank [wilson]
-[05:10:12]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000252
-[05:10:40]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_supergodmode()) @(-366.39, 125.49)
-[05:10:40]: God mode: true	
-[05:11:21]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("mastupgrade_lamp_item", 2)) @(-392.49, 74.53)
-[05:11:21]: giving 	240073 - mastupgrade_lamp_item	
-[05:11:21]: giving 	240075 - mastupgrade_lamp_item	
-[05:12:32]: [(KU_k49iQnDI) demons.jostle] ReceiveRemoteExecute(c_give("anchor_item", 1)) @(-386.72, 82.58)
-[05:12:32]: giving 	240429 - anchor_item	
-[05:14:25]: Available disk space for save files: 13041 MB
-[05:14:25]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000252
-[05:14:25]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000252
-[05:14:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000252
-[05:14:25]: Serializing world: session/019D2AD0C91A19CC/0000000252
-[05:16:01]: [Steam] SendUserDisconnect for '76561198252722114'
-[05:16:01]: [Shard] (KU_k49iQnDI) disconnected from [SHDMASTER](1)
-[05:16:02]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000253
-[05:22:25]: Available disk space for save files: 13037 MB
-[05:22:25]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000253
-[05:22:25]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000253
-[05:22:26]: Serializing world: session/019D2AD0C91A19CC/0000000253
-[05:26:05]: Could not find anim [death] in bank [ghost]
-[05:26:05]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000254
-[05:26:32]: Could not find anim [idle_loop] in bank [ghost]
-[05:26:35]: Could not find anim [transform] in bank [wilson]
-[05:26:36]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000254
-[05:30:05]: [200] Account Communication Success (6)
-[05:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[05:30:26]: Available disk space for save files: 13033 MB
-[05:30:26]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000254
-[05:30:26]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000254
-[05:30:26]: Serializing world: session/019D2AD0C91A19CC/0000000254
-[05:30:35]: [Steam] SendUserDisconnect for '76561198111006597'
-[05:30:35]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[05:30:35]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000255
-[05:31:09]: New incoming connection 1.47.19.13|38596 <3645438860268211751>
-[05:31:09]: Client connected from 1.47.19.13|38596 <3645438860268211751>
-[05:31:09]: ValidateGameSessionToken GUID<3645438860268211751>
-[05:31:09]: Client authenticated: (KU_kH-fQy3p) medicc.c
-[05:31:10]: [Steam] SendUserConnectAndAuthenticate for '76561198111006597'
-[05:31:10]: [Steam] Authenticated client '76561198111006597'
-[05:31:11]: There is no active event to validate against.
-[05:31:11]: [Shard] Read save location file for (KU_kH-fQy3p)
-[05:31:31]: Resuming user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000255
-[05:31:31]: Spawning player at: [Load] (-337.21, 0.00, -572.90)	
-[05:35:54]: [VFXParticleEmit] Cannot SetRenderResources with the texture "fx/frostbreath.tex" because it is invalid.
-[05:38:26]: Available disk space for save files: 13029 MB
-[05:38:27]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000255
-[05:38:27]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000255
-[05:38:27]: Serializing world: session/019D2AD0C91A19CC/0000000255
-[05:46:27]: Available disk space for save files: 13025 MB
-[05:46:27]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000256
-[05:46:27]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000256
-[05:46:27]: Serializing world: session/019D2AD0C91A19CC/0000000256
-[05:48:47]: [VFXParticleEmit] Cannot SetRenderResources with the texture "fx/frostbreath.tex" because it is invalid.
-[05:52:59]: Stale Component Reference: GUID 252053, scripts/entityscript.lua:1177
-[05:52:59]: Could not find anim [spawn] in bank [squiderp]
-[05:52:59]: Stale Component Reference: GUID 252053, scripts/entityscript.lua:1177
-[05:52:59]: Could not find anim [spawn] in bank [squiderp]
-[05:53:00]: Stale Component Reference: GUID 252053, scripts/entityscript.lua:1177
-[05:53:00]: Could not find anim [spawn] in bank [squiderp]
-[05:54:27]: Available disk space for save files: 13021 MB
-[05:54:28]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000257
-[05:54:28]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000257
-[05:54:28]: Serializing world: session/019D2AD0C91A19CC/0000000257
-[05:57:01]: [Steam] SendUserDisconnect for '76561198111006597'
-[05:57:01]: [Shard] (KU_kH-fQy3p) disconnected from [SHDMASTER](1)
-[05:57:02]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000258
-[06:00:02]: [Steam] SendUserDisconnect for '76561198146349502'
-[06:00:02]: [Shard] (KU_wwUugW71) disconnected from [SHDMASTER](1)
-[06:00:02]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000258
-[06:00:02]: Sim paused
-[06:00:05]: [200] Account Communication Success (6)
-[06:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[06:30:05]: [200] Account Communication Success (6)
-[06:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[07:00:05]: [200] Account Communication Success (6)
-[07:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[07:30:05]: [200] Account Communication Success (6)
-[07:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[08:00:05]: [200] Account Communication Success (6)
-[08:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[08:30:05]: [200] Account Communication Success (6)
-[08:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[09:00:05]: [200] Account Communication Success (6)
-[09:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[09:30:05]: [200] Account Communication Success (6)
-[09:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[10:00:05]: [200] Account Communication Success (6)
-[10:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[10:30:05]: [200] Account Communication Success (6)
-[10:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[11:00:05]: [200] Account Communication Success (6)
-[11:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[11:30:05]: [200] Account Communication Success (6)
-[11:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[12:00:05]: [200] Account Communication Success (6)
-[12:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[12:30:05]: [200] Account Communication Success (6)
-[12:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[13:00:05]: [200] Account Communication Success (6)
-[13:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[13:30:05]: [200] Account Communication Success (6)
-[13:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[14:00:05]: [200] Account Communication Success (6)
-[14:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[14:30:05]: [200] Account Communication Success (6)
-[14:30:05]: Received (KU_k49iQnDI) from TokenPurpose
-[15:00:05]: [200] Account Communication Success (6)
-[15:00:05]: Received (KU_k49iQnDI) from TokenPurpose
-[15:30:06]: [200] Account Communication Success (6)
-[15:30:06]: Received (KU_k49iQnDI) from TokenPurpose
-[16:00:06]: [200] Account Communication Success (6)
-[16:00:06]: Received (KU_k49iQnDI) from TokenPurpose
-[16:28:50]: Available disk space for save files: 12844 MB
-[16:28:50]: Serializing world: session/019D2AD0C91A19CC/0000000258
-[16:28:50]: Truncating to snapshot #258...
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000230
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000213
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000223
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000235
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000212
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000243
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000210
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000238
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000246
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000217
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000225
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000236
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000211
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000218
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000251
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000227
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000248
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000226
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000237
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000244
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000229
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000224
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000208
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000233
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000242
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000252
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000241
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000231
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000247
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000240
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000221
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000222
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000219
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000209
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000234
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000250
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000214
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000249
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000215
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000239
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000245
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000216
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000220
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000228
-[16:28:50]:  - session/019D2AD0C91A19CC/0000000232
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000252
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000251
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000250
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000249
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000248
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000247
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000246
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000245
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000244
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000243
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000242
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000241
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000240
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000239
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000238
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000237
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000236
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000235
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000234
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000233
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000232
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000231
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000230
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000229
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000225
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000224
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000223
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000222
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000221
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000220
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000219
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000218
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000217
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000216
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000215
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000214
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000213
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000212
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000209
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000208
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000252
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000251
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000250
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000249
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000248
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000247
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000246
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000245
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000244
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000243
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000242
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000241
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000240
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000239
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000238
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000237
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000236
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000235
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000234
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000233
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000232
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000231
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000230
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000229
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000228
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000227
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000226
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000225
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000224
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000223
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000222
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000221
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000220
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000219
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000218
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000217
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000216
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000215
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000214
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000213
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000212
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000211
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000210
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000209
-[16:28:50]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000208
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000252
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000251
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000250
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000249
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000248
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000247
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000246
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000245
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000244
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000243
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000242
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000241
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000240
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000239
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000238
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000237
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000236
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000235
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000234
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000233
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000232
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000231
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000230
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000229
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000228
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000227
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000226
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000225
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000224
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000223
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000222
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000221
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000220
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000219
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000218
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000217
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000216
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000215
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000214
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000213
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000212
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000211
-[16:28:50]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000180
-[16:28:50]:    173 file(s) removed
-[16:28:50]:  > session/019D2AD0C91A19CC/A7LP3UKMNG7J/savelocation
-[16:28:50]:  > session/019D2AD0C91A19CC/A7NBKUSAK0E1/savelocation
-[16:28:50]:    2 file(s) updated
-[16:28:50]: Removing server from lobby
-[16:28:50]: [Shard] Stopping shard mode
-[16:28:50]: [Steam] SendUserDisconnect for ''
-[16:28:51]: Collecting garbage...
-[16:28:51]: lua_gc took 0.49 seconds
-[16:28:51]: ~ShardLuaProxy()
-[16:28:51]: ~cEventLeaderboardProxy()
-[16:28:51]: ~ItemServerLuaProxy()
-[16:28:51]: ~InventoryLuaProxy()
-[16:28:51]: ~NetworkLuaProxy()
-[16:28:51]: ~SimLuaProxy()
-[16:28:51]: Cancelling LuaQueryCallback handle [1493]
-[16:28:51]: Cancelling LuaQueryCallback handle [1494]
-[16:28:52]: lua_close took 0.76 seconds
-[16:28:52]: CurlRequestManager::ClientThread::Main() complete
-[16:28:52]: HttpClient2 discarded 1 callbacks.
-[16:28:52]: Shutting down
+[00:00:08]: modoverrides.lua enabling workshop-478005098	
+[00:00:08]: modoverrides.lua enabling workshop-1383795736	
+[00:00:08]: modoverrides.lua enabling workshop-407977022	
+[00:00:08]: modoverrides.lua enabling workshop-378160973	
+[00:00:08]: modoverrides.lua enabling workshop-438293817	
+[00:00:08]: modoverrides.lua enabling workshop-458940297	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-551324730	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-438293817	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-551324730	
+[00:00:08]: Loading mod: workshop-551324730 (Realistic Placement) Version:1.2	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-458940297	
+[00:00:08]: Loading mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client)) Version:2.5	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
+[00:00:08]: Loading mod: workshop-2032685784 (Extra Equip Slots) Version:1.8.2	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-438293817	
+[00:00:08]: Loading mod: workshop-438293817 (Friendly Flingomatics) Version:1.0	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1383795736	
+[00:00:08]: Loading mod: workshop-1383795736 (Daisy) Version:1.0.2	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:08]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.4	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:08]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-407977022	
+[00:00:08]: Loading mod: workshop-407977022 (Chester Family) Version:5.9.6	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:08]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:08]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-569043634	
+[00:00:08]: Loading mod: workshop-569043634 (Campfire Respawn) Version:1.6.8.1	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-551324730	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:08]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:08]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:08]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:08]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-569043634	
+[00:00:08]: Overriding mod workshop-569043634's option ReturnHotkey_Mode with value Closest	
+[00:00:08]: Overriding mod workshop-569043634's option campfire with value Enabled	
+[00:00:08]: Overriding mod workshop-569043634's option Health_Penalty_Generic with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option skeleton with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option NoPlayerSkeletons with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option Health_Respawn_Amount with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option Health_Penalty_Maximum with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option reviver with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option KeepInventory with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option Health_Penalty_Meat_Effigy with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option coldfire with value Enabled	
+[00:00:08]: Overriding mod workshop-569043634's option SpawnProtection with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option Health_Penalty_Portal with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option firepit with value Enabled	
+[00:00:08]: Overriding mod workshop-569043634's option usetags with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option coldfirepit with value Enabled	
+[00:00:08]: Overriding mod workshop-569043634's option ReturnHotkey with value Unchanged	
+[00:00:08]: Overriding mod workshop-569043634's option KillMe with value Unchanged	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2032685784	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-463740026	
+[00:00:08]: Overriding mod workshop-463740026's option ownership with value false	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1383795736	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-407977022	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option  with value 1	
+[00:00:08]: Overriding mod workshop-407977022's option stovester_config with value true	
+[00:00:08]: Overriding mod workshop-407977022's option force_stovester with value false	
+[00:00:08]: Overriding mod workshop-407977022's option dubster_config with value true	
+[00:00:08]: Overriding mod workshop-407977022's option force_daddy with value false	
+[00:00:08]: Overriding mod workshop-407977022's option chilltime with value 0.5	
+[00:00:08]: Overriding mod workshop-407977022's option force_afester with value false	
+[00:00:08]: Overriding mod workshop-407977022's option bluester_config with value true	
+[00:00:08]: Overriding mod workshop-407977022's option force_dubster with value false	
+[00:00:08]: Overriding mod workshop-407977022's option cavester_config with value true	
+[00:00:08]: Overriding mod workshop-407977022's option daddy_config with value true	
+[00:00:08]: Overriding mod workshop-407977022's option force_bluester with value false	
+[00:00:08]: Overriding mod workshop-407977022's option afester_config with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-438293817	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-458940297	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_Language with value EN	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_PercentReplace with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowADefence with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowDamage with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowInsulation with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowUses with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_FueledSettings with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowTemperature with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_MinimalMode with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowACondition with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowFireTime with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ClientPrediction with value default	
+[00:00:08]: Overriding mod workshop-458940297's option DFV_ShowAType with value default	
+[00:00:08]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2032685784 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:08]: ShowMe version:	0.58	
+[00:00:08]: show_food_units	-1	-1	-1	
+[00:00:08]: show_uses	-1	-1	-1	
+[00:00:08]: Detected language for ShowMe: 	auto		
+[00:00:08]: Mod: workshop-551324730 (Realistic Placement)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-551324730 (Realistic Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-551324730 (Realistic Placement)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-438293817 (Friendly Flingomatics)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-438293817 (Friendly Flingomatics)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-438293817 (Friendly Flingomatics)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1383795736 (Daisy)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1383795736 (Daisy)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1383795736 (Daisy)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	craftable_gears	
+[00:00:08]: Mod: workshop-407977022 (Chester Family)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-407977022 (Chester Family)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-569043634 (Campfire Respawn)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-569043634 (Campfire Respawn)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-569043634 (Campfire Respawn)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-551324730	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-438293817	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1383795736	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-463740026	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-407977022	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-478005098	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-569043634	
+[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: Registering Server mod namespace "food item"
+[00:00:08]: Registering Server mod namespace "showme"
+[00:00:08]: Registering Server mod namespace "foodvalues - itemtooltips"
+[00:00:08]: Registering Server mod namespace "showmeshint"
+[00:00:08]: Registering Server mod namespace "workshop-378160973"
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: ConsoleScreenSettings could not load consolescreen	
+[00:00:08]: bloom_enabled	true	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/019D2AD0C91A19CC/0000000379	
+[00:00:09]: Save file is at version 5.141	
+[00:00:09]: Klump load on boot started.	
+[00:00:09]: Klump files loaded: 	0	
+[00:00:09]: 	Unload FE	
+[00:00:09]: 	Unload FE done	
+[00:00:11]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
+[00:00:11]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
+[00:00:11]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:11]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:11]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-551324730 (Realistic Placement)	Registering prefabs	
+[00:00:11]: Mod: workshop-551324730 (Realistic Placement)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:11]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-438293817 (Friendly Flingomatics)	Registering prefabs	
+[00:00:11]: Mod: workshop-438293817 (Friendly Flingomatics)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	Registering prefabs	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	    daisy	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisy_none	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	    daisy_none	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	  Registering prefab file: prefabs/daisyhat	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	    daisyhat	
+[00:00:11]: Mod: workshop-1383795736 (Daisy)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:11]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	Registering prefabs	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/family_commands	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    bluechester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bluechester_eyebone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    bluechester_eyebone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    bigdaddy	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/bigdaddy_eyebone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    bigdaddy_eyebone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partychester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    partychester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/partybone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    partybone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    afester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/afestertoy	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    afestertoy	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/cavester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    cavester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/glowbone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    glowbone	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/stovester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    stovester	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering prefab file: prefabs/ladle	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	    ladle	
+[00:00:11]: Mod: workshop-407977022 (Chester Family)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-569043634 (Campfire Respawn)	Registering prefabs	
+[00:00:11]: Mod: workshop-569043634 (Campfire Respawn)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:11]: 	LOAD BE	
+[00:00:22]: 	LOAD BE: done	
+[00:00:22]: Begin Session: 019D2AD0C91A19CC
+[00:00:22]: saving to server_temp/server_save	
+[00:00:22]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-1383795736/images/map_icons/daisy.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-407977022/minimap/afester.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:22]: Loading 20 new character(s)	
+[00:00:23]: Total 20 character(s) loaded	
+[00:00:24]: Loading Nav Grid	
+[00:00:24]: World generated on build 542788 with save version: 5.13, using seed: 1678618316	
+[00:00:24]: setting 	summerlength	15	
+[00:00:24]: setting 	cavemoonphase	quarter	
+[00:00:24]: setting 	iscavefullmoon	false	
+[00:00:24]: setting 	isnightmaredawn	false	
+[00:00:24]: setting 	elapseddaysinseason	7	
+[00:00:24]: setting 	isfullmoon	false	
+[00:00:24]: setting 	moisture	4126.7133789062	
+[00:00:24]: setting 	cavephase	day	
+[00:00:24]: setting 	iscavewaxingmoon	false	
+[00:00:24]: setting 	isnightmarewild	false	
+[00:00:24]: setting 	nightmaretimeinphase	0	
+[00:00:24]: setting 	precipitationrate	0.35878473520279	
+[00:00:24]: setting 	iswet	false	
+[00:00:24]: setting 	isnewmoon	false	
+[00:00:24]: setting 	precipitation	rain	
+[00:00:24]: setting 	israining	true	
+[00:00:24]: setting 	isnightmarewarn	false	
+[00:00:24]: setting 	iswinter	false	
+[00:00:24]: setting 	season	autumn	
+[00:00:24]: setting 	remainingdaysinseason	13	
+[00:00:24]: setting 	winterlength	15	
+[00:00:24]: setting 	iscaveday	true	
+[00:00:24]: setting 	moistureceil	5177.541015625	
+[00:00:24]: setting 	isday	true	
+[00:00:24]: setting 	springlength	20	
+[00:00:24]: setting 	wetness	30.191400527954	
+[00:00:24]: setting 	iscavedusk	false	
+[00:00:24]: setting 	isalterawake	false	
+[00:00:24]: setting 	isnightmarecalm	false	
+[00:00:24]: setting 	isnight	false	
+[00:00:24]: setting 	isdusk	false	
+[00:00:24]: setting 	isspring	false	
+[00:00:24]: setting 	isautumn	true	
+[00:00:24]: setting 	issnowing	false	
+[00:00:24]: setting 	iswaxingmoon	false	
+[00:00:24]: setting 	phase	day	
+[00:00:24]: setting 	snowlevel	0	
+[00:00:24]: setting 	issnowcovered	false	
+[00:00:24]: setting 	autumnlength	20	
+[00:00:24]: setting 	pop	1	
+[00:00:24]: setting 	nightmaretime	0	
+[00:00:24]: setting 	seasonprogress	0.35	
+[00:00:24]: setting 	moonphase	quarter	
+[00:00:24]: setting 	nightmarephase	none	
+[00:00:24]: setting 	cycles	357	
+[00:00:24]: setting 	timeinphase	0.0041869481404623	
+[00:00:24]: setting 	iscavenight	false	
+[00:00:24]: setting 	iscavenewmoon	false	
+[00:00:24]: setting 	issummer	false	
+[00:00:24]: setting 	temperature	38.740080229859	
+[00:00:24]: setting 	time	0.0020934740702311	
+[00:00:24]: OVERRIDE: setting	resettime	to	none	
+[00:00:24]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:24]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:24]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:32]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[00:00:33]: Could not find anim [sway1_loop_normal] in bank [tree_leaf_monster]
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:33]: Could not find anim build FROMNUM
+[00:00:36]: Reconstructing topology	
+[00:00:36]: 	...Sorting points	
+[00:00:36]: 	...Sorting edges	
+[00:00:36]: 	...Connecting nodes	
+[00:00:36]: 	...Validating connections	
+[00:00:36]: 	...Housekeeping	
+[00:00:36]: 	...Done!	
+[00:00:36]: Truncating to snapshot #379...
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000371
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000368
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000356
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000362
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000350
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000347
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000354
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000358
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000355
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000357
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000348
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000363
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000369
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000366
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000353
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000367
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000372
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000365
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000361
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000359
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000352
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000349
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000370
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000373
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000351
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000364
+[00:00:36]:  - session/019D2AD0C91A19CC/0000000360
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000380
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000373
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000372
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000371
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000370
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000369
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000368
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000309
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000380
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000373
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000372
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000371
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000370
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000369
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000368
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000367
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000366
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000365
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000364
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000363
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000362
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000361
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000360
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000359
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000358
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000357
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000356
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000355
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000354
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000353
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000351
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000350
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000349
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000348
+[00:00:36]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000347
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000380
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000373
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000372
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000371
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000370
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000369
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000358
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000357
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000356
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000355
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000354
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000353
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000351
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000350
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000349
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000348
+[00:00:36]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000347
+[00:00:36]:    79 file(s) removed
+[00:00:36]:  > session/019D2AD0C91A19CC/A7LP3UKMNG7J/savelocation
+[00:00:36]:  > session/019D2AD0C91A19CC/A7NBKUSAK0E1/savelocation
+[00:00:36]:    2 file(s) updated
+[00:00:36]: Restoring user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000379	
+[00:00:36]: Restoring user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000379	
+[00:00:36]: Health:SetPenalty	false	
+[00:00:36]: Restoring user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000379	
+[00:00:36]: Serializing user: session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000380
+[00:00:36]: Serializing user: session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000380
+[00:00:36]: Serializing user: session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000380
+[00:00:36]: 1 uploads added to server. From server_temp
+[00:00:36]: About to start a shard with these settings:
+[00:00:36]:   ShardName: [SHDMASTER]
+[00:00:36]:   ShardID: 1
+[00:00:36]:   ShardRole: MASTER
+[00:00:36]:   MasterHost: (null)
+[00:00:36]:   MasterBind: 127.0.0.1
+[00:00:36]:   MasterPort: 10998
+[00:00:36]: [Shard] Starting master server
+[00:00:36]: [Shard] Shard server started on port: 10998
+[00:00:36]: Telling Client our new session identifier: 019D2AD0C91A19CC
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: Available disk space for save files: 21349 MB
+[00:00:36]: ModIndex: Load sequence finished successfully.	
+[00:00:38]: Reset() returning
+[00:00:39]: Validating portal[9] <-> 3362536613[9] (inactive)	
+[00:00:39]: Validating portal[1] <-> 3362536613[1] (inactive)	
+[00:00:39]: Validating portal[7] <-> 3362536613[7] (inactive)	
+[00:00:39]: Validating portal[3] <-> 3362536613[3] (inactive)	
+[00:00:39]: Validating portal[5] <-> 3362536613[5] (inactive)	
+[00:00:39]: Validating portal[6] <-> 3362536613[6] (inactive)	
+[00:00:39]: Validating portal[4] <-> 3362536613[4] (inactive)	
+[00:00:39]: Validating portal[8] <-> 3362536613[8] (inactive)	
+[00:00:39]: Validating portal[2] <-> 3362536613[2] (inactive)	
+[00:00:39]: Server registered via geo DNS in ap-southeast-1
+[00:00:39]: Sim paused
+[00:00:39]: [Shard] Secondary shard Caves(3362536613) connected: [LAN] 127.0.0.1
+[00:00:39]: [Shard] Secondary Caves(3362536613) ready!
+[00:00:39]: World 3362536613 is now connected	
+[00:00:39]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:39]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:00:39]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:39]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:00:39]: Validating portal[9] <-> 3362536613[9] (active)	
+[00:00:39]: Validating portal[1] <-> 3362536613[1] (active)	
+[00:00:39]: Validating portal[7] <-> 3362536613[7] (active)	
+[00:00:39]: Validating portal[3] <-> 3362536613[3] (active)	
+[00:00:39]: Validating portal[5] <-> 3362536613[5] (active)	
+[00:00:39]: Validating portal[6] <-> 3362536613[6] (active)	
+[00:00:39]: Validating portal[4] <-> 3362536613[4] (active)	
+[00:00:39]: Validating portal[8] <-> 3362536613[8] (active)	
+[00:00:39]: Validating portal[2] <-> 3362536613[2] (disabled)	
+[00:00:40]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:40]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:00:40]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:00:40]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:13:57]: Available disk space for save files: 21349 MB
+[00:13:57]: Missing reference:	120493 - beef_bell	->	120495	120495 - beefalo	
+[00:13:57]: Missing reference:	120499 - beef_bell	->	120501	120501 - beefalo	
+[00:13:57]: Serializing world: session/019D2AD0C91A19CC/0000000380
+[00:13:57]: Truncating to snapshot #380...
+[00:13:57]:  - session/019D2AD0C91A19CC/0000000374
+[00:13:57]:  - session/019D2AD0C91A19CC/A7LO89M6M4QI/0000000374
+[00:13:57]:  - session/019D2AD0C91A19CC/A7LP3UKMNG7J/0000000374
+[00:13:57]:  - session/019D2AD0C91A19CC/A7NBKUSAK0E1/0000000374
+[00:13:57]:    4 file(s) removed
+[00:13:57]: Removing server from lobby
+[00:13:57]: [Shard] Stopping shard mode
+[00:13:57]: [Steam] SendUserDisconnect for ''
+[00:13:58]: Collecting garbage...
+[00:13:58]: lua_gc took 0.47 seconds
+[00:13:59]: ~ShardLuaProxy()
+[00:13:59]: ~cEventLeaderboardProxy()
+[00:13:59]: ~ItemServerLuaProxy()
+[00:13:59]: ~InventoryLuaProxy()
+[00:13:59]: ~NetworkLuaProxy()
+[00:13:59]: ~SimLuaProxy()
+[00:13:59]: lua_close took 0.62 seconds
+[00:13:59]: CurlRequestManager::ClientThread::Main() complete
+[00:13:59]: HttpClient2 discarded 1 callbacks.
+[00:13:59]: Shutting down

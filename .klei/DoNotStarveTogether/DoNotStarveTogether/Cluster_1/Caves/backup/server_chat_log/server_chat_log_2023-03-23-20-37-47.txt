@@ -1,0 +1,215 @@
+[00:01:00]: [Join Announcement] demons.jostle
+[00:02:26]: [Join Announcement] medicc.c
+[00:06:42]: [Say] (KU_kH-fQy3p) medicc.c: i need stone
+[00:17:09]: [Skin Announcement] medicc.c hand_wurt_shadow
+[00:26:56]: [Death Announcement] demons.jostle was killed by Darkness. He became a spooky ghost!
+[00:27:12]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:58.
+[00:30:02]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[00:30:32]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:48:53]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:51:23]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:52:07]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:52:29]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:53:12]: [Leave Announcement] demons.jostle
+[00:53:48]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:54:04]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:54:45]: [Death Announcement] medicc.c was killed by Moose. She became a spooky ghost!
+[00:55:02]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[00:55:52]: [Death Announcement] medicc.c was killed by Goose. She became a spooky ghost!
+[00:55:56]: [Resurrect Announcement] medicc.c was resurrected by Campfire
+Remaining burn time: 1:55.
+[00:58:41]: [Death Announcement] medicc.c was killed by Moose. She became a spooky ghost!
+[01:00:09]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[01:43:14]: [Skin Announcement] medicc.c feet_waxwell_wizard
+[01:47:55]: [Leave Announcement] medicc.c
+[02:08:42]: [Join Announcement] medicc.c
+[02:42:59]: [Death Announcement] medicc.c was killed by Pig Man. She became a spooky ghost!
+[02:43:03]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[03:10:00]: [Leave Announcement] medicc.c
+[03:58:30]: [Join Announcement] medicc.c
+[04:02:27]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[04:02:34]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[04:03:30]: [Death Announcement] medicc.c was killed by Koalefant. She became a spooky ghost!
+[04:03:36]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[04:07:01]: [Death Announcement] medicc.c was killed by Spider Warrior. She became a spooky ghost!
+[04:07:16]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[04:07:54]: [Death Announcement] medicc.c was killed by Darkness. She became a spooky ghost!
+[04:09:11]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[04:21:21]: [Join Announcement] demons.jostle
+[06:17:02]: [Say] (KU_kH-fQy3p) medicc.c: soooooo sleepy
+[06:26:32]: [Leave Announcement] medicc.c
+[06:29:16]: [Leave Announcement] demons.jostle
+[23:46:00]: [Join Announcement] medicc.c
+[23:50:50]: [Leave Announcement] medicc.c
+[05:22:00]: [Join Announcement] Trexa
+[05:22:42]: [Leave Announcement] Trexa
+[06:55:34]: [Join Announcement] demons.jostle
+[07:03:28]: [Join Announcement] medicc.c
+[07:04:37]: [Say] (KU_k49iQnDI) demons.jostle: hi
+[07:04:42]: [Say] (KU_k49iQnDI) demons.jostle: how are you?
+[07:04:53]: [Say] (KU_k49iQnDI) demons.jostle: eiei
+[07:05:01]: [Say] (KU_kH-fQy3p) medicc.c: *-*
+[07:05:18]: [Say] (KU_kH-fQy3p) medicc.c: unmute ur sound
+[07:05:50]: [Join Announcement] Trexa
+[07:09:20]: [Death Announcement] demons.jostle was killed by Spider Warrior. He became a spooky ghost!
+[07:09:35]: [Resurrect Announcement] demons.jostle was resurrected by Shenanigans.
+[07:31:48]: [Say] (KU_k49iQnDI) demons.jostle: bearger
+[07:31:58]: [Say] (KU_k49iQnDI) demons.jostle: bearger
+[07:32:18]: [Say] (KU_wwUugW71) Trexa: roger!!
+[07:32:26]: [Say] (KU_kH-fQy3p) medicc.c: where
+[07:34:47]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[07:35:03]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[07:35:54]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:35:59]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 2:14.
+[07:36:19]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:36:23]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 1:51.
+[07:36:41]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:36:55]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:36:59]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:37:09]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:37:23]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:37:31]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[07:37:31]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:37:37]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:37:45]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:37:45]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:38:05]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[07:38:08]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:38:10]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit
+Remaining burn time: 2:49.
+[07:38:12]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 2:46.
+[07:38:21]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:38:39]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:38:39]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:38:47]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 2:11.
+[07:38:54]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:39:01]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:21.
+[07:39:05]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:39:13]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 1:45.
+[07:39:27]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:39:33]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
+Remaining burn time: 2:14.
+[07:39:47]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:39:48]: [Say] (KU_k49iQnDI) demons.jostle: kuay
+[07:39:54]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
+Remaining burn time: 2:38.
+[07:40:16]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:40:21]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
+Remaining burn time: 2:14.
+[07:40:35]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:40:39]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 1:57.
+[07:41:01]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[07:41:04]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 2:16.
+[07:41:27]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:41:30]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
+Remaining burn time: 1:50.
+[07:42:10]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[07:42:13]: [Resurrect Announcement] medicc.c was resurrected by Campfire
+Remaining burn time: 1:08.
+[07:42:29]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[07:42:33]: [Resurrect Announcement] demons.jostle was resurrected by Campfire
+Remaining burn time: 0:47.
+[07:43:37]: [Leave Announcement] demons.jostle
+[07:48:19]: [Leave Announcement] Trexa
+[07:49:07]: [Join Announcement] Trexa
+[08:23:20]: [Skin Announcement] Trexa feet_webber_magma
+[08:47:23]: [Death Announcement] medicc.c was killed by Spider Warrior. She became a spooky ghost!
+[08:47:58]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[08:48:10]: [Death Announcement] medicc.c was killed by Darkness. She became a spooky ghost!
+[08:48:11]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[09:13:35]: [Leave Announcement] medicc.c
+[09:14:25]: [Skin Announcement] Trexa body_ugly_winterhat
+[09:15:15]: [Join Announcement] medicc.c
+[09:51:50]: [Death Announcement] medicc.c was killed by Varglet. She became a spooky ghost!
+[09:51:53]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[10:27:31]: [Death Announcement] medicc.c was killed by Crawling Horror. She became a spooky ghost!
+[10:27:33]: [Resurrect Announcement] medicc.c was resurrected by Campfire
+Remaining burn time: 1:23.
+[10:40:08]: [Skin Announcement] Trexa feet_sneakers_tan_beefalo
+[10:43:06]: [Death Announcement] medicc.c was killed by MacTusk. She became a spooky ghost!
+[10:43:29]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[10:44:19]: [Death Announcement] medicc.c was killed by MacTusk. She became a spooky ghost!
+[10:44:42]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[12:49:26]: [Leave Announcement] medicc.c
+[12:50:12]: [Join Announcement] medicc.c
+[14:13:09]: [Leave Announcement] Trexa
+[14:14:39]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[14:14:40]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[14:14:50]: [Death Announcement] medicc.c was killed by Red Hound. She became a spooky ghost!
+[14:14:52]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[14:17:49]: [Death Announcement] medicc.c was killed by Varglet. She became a spooky ghost!
+[14:17:50]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[14:18:05]: [Death Announcement] medicc.c was killed by Varglet. She became a spooky ghost!
+[14:18:06]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[14:18:43]: [Death Announcement] medicc.c was killed by Varglet. She became a spooky ghost!
+[14:18:47]: [Resurrect Announcement] medicc.c was resurrected by Endothermic Fire Pit.
+[14:27:27]: [Leave Announcement] medicc.c
+[17:18:56]: [Join Announcement] medicc.c
+[17:21:46]: [Leave Announcement] medicc.c
+[02:08:46]: [Join Announcement] medicc.c
+[02:53:51]: [Leave Announcement] medicc.c
+[07:20:33]: [Join Announcement] medicc.c
+[07:38:42]: [Join Announcement] demons.jostle
+[07:46:43]: [Join Announcement] Trexa
+[08:46:32]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:46:35]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[08:47:00]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:47:02]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[08:48:15]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[08:48:15]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:48:29]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[08:48:36]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[08:48:52]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:48:58]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:49:12]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[08:49:12]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:49:19]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[08:49:20]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:49:35]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:49:40]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:50:04]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:50:08]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:50:21]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:50:26]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:50:35]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:50:42]: [Resurrect Announcement] Trexa was resurrected by Fire Pit.
+[08:50:50]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[08:50:58]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[08:51:07]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:51:07]: [Death Announcement] medicc.c was killed by Bearger. She became a spooky ghost!
+[08:51:10]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit.
+[08:51:11]: [Resurrect Announcement] medicc.c was resurrected by Fire Pit.
+[08:51:57]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:52:04]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 2:59.
+[08:52:57]: [Death Announcement] demons.jostle was killed by Bearger. He became a spooky ghost!
+[08:53:12]: [Resurrect Announcement] demons.jostle was resurrected by Fire Pit
+Remaining burn time: 1:52.
+[08:54:09]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:54:27]: [Resurrect Announcement] Trexa was resurrected by Fire Pit
+Remaining burn time: 3:50.
+[08:58:30]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:58:43]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 2:09.
+[08:59:47]: [Death Announcement] Trexa was killed by Bearger. He became a spooky ghost!
+[08:59:54]: [Resurrect Announcement] Trexa was resurrected by Campfire
+Remaining burn time: 0:58.
+[09:09:19]: [Skin Announcement] demons.jostle feet_woodie_ice
+[09:12:51]: [Leave Announcement] medicc.c
+[09:13:26]: [Leave Announcement] Trexa
+[09:13:34]: [Leave Announcement] demons.jostle
